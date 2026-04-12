@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the-lost-archive.vercel.app/sitemap.xml
