@@ -12,6 +12,9 @@ export const prussianTaler: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Replaced by the Mark following German unification; successive currency reforms eliminated it across Europe',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Coin That Named the World
 
 In 1519, the Counts of Schlick in the Kingdom of Bohemia began minting large silver coins from silver mined in Joachimsthal (now J\u00e1chymov in the Czech Republic). The coins were called Joachimsthaler, soon shortened to *Thaler* or *Taler*. They were large, reliable, and made from good silver, and they quickly became the standard trade coin of the Holy Roman Empire and beyond.

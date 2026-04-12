@@ -12,6 +12,9 @@ export const taliaferroApple: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Loss of grafting stock after Jefferson\'s death and the decline of his Monticello orchards',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## Jefferson's Favorite
 
 Thomas Jefferson was a meticulous observer of everything he grew. In his voluminous garden records, among the hundreds of fruit varieties he cultivated at Monticello, one apple received singular praise. The Taliaferro, which he sometimes spelled "Toliver," was, in his assessment, "the best cyder apple existing." Coming from a man who imported vines from France and corresponded with the finest horticulturists in Europe, this was not a casual judgment.

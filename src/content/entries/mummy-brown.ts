@@ -12,6 +12,9 @@ export const mummyBrown: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Depletion of source material (Egyptian mummies) and growing ethical objections',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Color of the Dead
 
 For centuries, European painters mixed their browns and warm glazes with a pigment that had one of the most macabre origins in the history of art. Mummy brown — also known as *Caput Mortuum* or Egyptian brown — was made from the ground remains of Egyptian mummies, both human and feline. The bitumen and resins used in the ancient embalming process gave the resulting powder a warm, transparent brown with excellent glazing properties, prized by artists from the sixteenth century through the early twentieth.

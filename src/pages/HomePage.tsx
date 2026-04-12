@@ -135,14 +135,14 @@ export default function HomePage() {
         </motion.div>
 
         <div className="flex gap-4 overflow-x-auto pb-4 -mx-4 px-4 snap-x snap-mandatory scrollbar-none">
-          {entries.map((entry, i) => (
+          {entries.slice(0, 8).map((entry, i) => (
             <motion.div
               key={entry.slug}
               className="min-w-[280px] max-w-[320px] snap-start shrink-0"
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
+              transition={{ duration: 0.5, delay: Math.min(i * 0.05, 0.3) }}
             >
               <EntryCard entry={entry} />
             </motion.div>

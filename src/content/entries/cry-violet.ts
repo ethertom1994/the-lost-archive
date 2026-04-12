@@ -12,6 +12,9 @@ export const cryViolet: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Quarrying of the limestone cliffs where it grew destroyed its only known habitat',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## A Flower from the Cliffs
 
 *Viola cryana* grew on the exposed limestone cliffs near the village of Cry in the Yonne department of Burgundy, France. It was a small violet, described in 1878 by the French botanist Charles Royer from specimens collected on the chalky outcrops above the Cure River valley. It had delicate pale flowers, slightly different in form from its relatives, adapted to the thin, alkaline soils of its cliff habitat.

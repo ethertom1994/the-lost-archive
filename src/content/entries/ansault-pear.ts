@@ -12,6 +12,9 @@ export const ansaultPear: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Displacement by commercially viable but inferior varieties, loss of grafting stock',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Perfect Pear
 
 Every generation has a food it considers the pinnacle of its kind — a flavor so exquisite that those who tasted it struggled to describe it without resorting to poetry. For nineteenth-century pomologists, that food was the Ansault pear.

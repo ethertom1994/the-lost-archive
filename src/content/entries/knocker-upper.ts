@@ -12,6 +12,9 @@ export const knockerUpper: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Made obsolete by affordable alarm clocks and, later, electric clock radios',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Job Before the Alarm Clock
 
 In the industrial towns of northern England, the working day began before dawn. Mill workers, miners, and factory hands had to be at their posts by six or seven in the morning, and in an era before reliable personal alarm clocks, the question of how to wake up on time was not trivial. The solution was a profession: the knocker-upper.

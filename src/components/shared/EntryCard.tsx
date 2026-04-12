@@ -49,7 +49,7 @@ export default function EntryCard({ entry, variant = 'default' }: EntryCardProps
             <span className="text-text-muted text-xs ml-auto">{entry.lastKnownYear}</span>
           </div>
 
-          <h3 className="font-display text-lg font-medium text-text-primary mb-1.5 leading-snug">
+          <h3 className="font-display text-lg font-medium text-text-primary mb-1.5 leading-snug line-clamp-1">
             {entry.name}
           </h3>
 
@@ -58,7 +58,7 @@ export default function EntryCard({ entry, variant = 'default' }: EntryCardProps
           </p>
 
           {variant === 'default' && (
-            <p className="text-text-tertiary text-xs mt-3">
+            <p className="text-text-tertiary text-xs mt-3 truncate">
               {entry.lastKnownLocation}
             </p>
           )}

@@ -12,6 +12,9 @@ export const xercesBlue: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Urban development destroyed its coastal sand dune habitat',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Last Flight
 
 On a spring day in 1941, an entomologist collected a small blue butterfly from the dwindling sand dunes near Lobos Creek in San Francisco. It was the last Xerces blue anyone would ever see. The species had lived for millennia in the coastal dunes of the San Francisco peninsula, and it disappeared not with a dramatic cataclysm but with the quiet advance of bulldozers and row houses.

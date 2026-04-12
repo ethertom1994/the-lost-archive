@@ -12,6 +12,9 @@ export const lakePedder: Entry = {
   region: 'Oceania',
   status: 'extinct',
   cause: 'Flooded by the Huon-Serpentine impoundment for the Gordon River hydroelectric scheme',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Beach at the End of the World
 
 Lake Pedder was a small glacial lake in the remote southwest wilderness of Tasmania. What made it extraordinary was its beach: a broad crescent of quartzite sand, uniquely pinkish-white, stretching along the lake's eastern shore. In certain light, the sand shimmered with a faint iridescence. The lake itself was shallow and clear, reflecting the surrounding button grass plains and the ridgeline of the Frankland Range. Bushwalkers who made the difficult trek to reach it described it as the most beautiful place they had ever seen.

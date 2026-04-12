@@ -12,6 +12,9 @@ export const eyakLanguage: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Forced assimilation through boarding schools, language suppression, and cultural displacement',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Last Speaker
 
 Marie Smith Jones was born in 1918 in Cordova, Alaska. She grew up speaking Eyak, the language of her people, a small Na-Dene language isolate spoken along the Copper River delta and the southeastern Alaskan coast. By the time she was an old woman, she was the last person on Earth who could speak it fluently.

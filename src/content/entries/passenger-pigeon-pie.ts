@@ -3,57 +3,69 @@ import type { Entry } from '../../types';
 export const passengerPigeonPie: Entry = {
   slug: 'passenger-pigeon-pie',
   name: 'Passenger Pigeon Pie',
-  tagline: 'Not just a bird, but an entire cuisine. Cookbooks had dozens of pigeon recipes. Then the bird darkened its last sky.',
+  tagline: 'We have the recipes. We have the cookbooks. We can read exactly how to prepare it. We just can\'t make it. The main ingredient is extinct.',
   category: 'food',
   subcategory: 'Extinct Cuisines',
-  lastKnownYear: 1914,
-  lastKnownLocation: 'Cincinnati Zoo, Ohio (last individual)',
-  coordinates: [39.14, -84.51],
+  lastKnownYear: 1900,
+  lastKnownLocation: 'Eastern United States',
+  coordinates: [40.71, -74.01],
   region: 'North America',
   status: 'extinct',
-  cause: 'Industrialized hunting, habitat destruction, and the collapse of a species that required vast flocks to survive',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Martha_last_passenger_pigeon_1912.jpg/400px-Martha_last_passenger_pigeon_1912.jpg',
-  imageCaption: 'Martha, the last passenger pigeon, photographed alive at the Cincinnati Zoo',
-  imageCredit: 'Enno Meyer, 1912',
-  body: `## A Sky Made of Birds
+  cause: 'Extinction of the passenger pigeon through industrialized hunting eliminated the primary ingredient permanently',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
+  body: `## Cheaper Than Bread
 
-In the early nineteenth century, the passenger pigeon was the most abundant bird in North America and possibly the world. Migrating flocks were described as blocking out the sun for hours, darkening the sky in columns a mile wide and hundreds of miles long. John James Audubon, witnessing a flock along the Ohio River in 1813, estimated it contained over a billion birds. The ornithologist Alexander Wilson described a flock he calculated at 2.2 billion. The total North American population may have reached five billion.
+In the 1830s, a passenger pigeon cost one to two cents at market. A dozen could be had for a dime. They were the cheapest animal protein in North America, more affordable than beef, pork, chicken, or fish. For urban workers in New York, Boston, and Philadelphia, pigeon was dinner. Not a treat, not a Sunday roast. Dinner, Monday through Friday.
 
-This abundance created a food culture. Passenger pigeon was not a novelty or a delicacy; it was a staple protein, as central to nineteenth-century American cooking as chicken is today. Cookbooks of the era reflected this. *The Virginia Housewife* (1824) by Mary Randolph included recipes for pigeon in multiple preparations. Pigeon pie was ubiquitous, made by filling a pastry crust with the small, tender breasts, seasoned with butter, pepper, and herbs. The birds were also roasted, stewed, pickled, and potted for preservation.
+The reason was simple mathematics: three to five billion passenger pigeons darkened American skies. Their flocks were so vast that witnesses described them blotting out the sun for hours. When a resource is that abundant, a food culture builds itself around it. And that's exactly what happened.
 
-## Industrial-Scale Slaughter
+## The Recipes
 
-The same abundance that made pigeon a staple also made it seem inexhaustible. Professional hunters, called "pigeon netters," followed the flocks, capturing thousands in single net drops. The development of the telegraph allowed hunters to coordinate, tracking the location of nesting colonies across multiple states and descending on them with devastating efficiency.
+Mary Randolph's *The Virginia Housewife* (1824) gives the clearest picture of how central pigeon was to the American kitchen. Her pigeon pie called for lining a dish with pastry, layering in pigeon breasts with butter, salt, pepper, and a dusting of flour, adding a gravy of the cooking juices, then sealing it under a top crust. Simple, practical, designed to feed a family cheaply.
 
-The numbers killed were staggering. A single nesting site at Petoskey, Michigan, in 1878 was estimated to contain 136 million birds spread over forty square miles. Hunters killed millions over five months. Barrels of dead pigeons were shipped by rail to cities across the East Coast, where they sold for pennies.
+But pie was just the beginning. Cookbooks of the era included pigeon roasted on a spit, pigeon stewed with onions and herbs, pigeon pickled in vinegar and spices for preservation, pigeon potted in butter and sealed in crocks. Eliza Leslie's *Directions for Cookery* (1837) devoted several pages to pigeon preparations. Fannie Farmer's early editions included them. The bird appeared in virtually every comprehensive American cookbook published before 1880.
 
-## The Collapse
+The flavor was described as dark, rich, and slightly gamy, closer to squab than to chicken. The breast meat was tender and lean. Young birds, called squabs, were prized for their delicacy.
 
-The passenger pigeon's biology made it uniquely vulnerable. It was a colonial species that required enormous flocks for successful breeding. When the population dropped below a critical threshold, the birds could not form colonies large enough to reproduce effectively. The decline, once it began, was shockingly fast. From billions in the 1860s to thousands by the 1890s to zero in the wild by the early 1900s.
+## The Pigeoniers
 
-The last known wild passenger pigeon was shot in Pike County, Ohio, in 1900. A small captive flock survived at the Cincinnati Zoo. On September 1, 1914, the last passenger pigeon, a female named Martha, died in her cage. She was twenty-nine years old.
+An entire profession existed to supply this demand. Professional pigeon hunters, called pigeoniers or pigeon netters, followed the vast flocks across the continent. They used massive nets that could capture thousands of birds in a single drop. They baited traps with grain. They knocked nesting birds from trees with long poles.
 
-## What Vanished with Martha
+The scale was industrial. A single hunter might ship 20,000 birds in a week. The telegraph allowed hunters to coordinate, tracking flocks and nesting colonies in real time. Railroads provided the logistics, moving barrels of iced birds from Michigan and Wisconsin to the markets of the East Coast within days.
 
-When Martha died, she took with her not just a species but a food tradition. An entire category of American cooking, built on a protein source that had seemed as permanent as the sky itself, became impossible overnight. The recipes survive in old cookbooks, instructions for preparing a bird that no longer exists, culinary ghosts describing flavors no one will taste again. The passenger pigeon pie is not a historical recipe. It is an extinct one.`,
+At the great Petoskey nesting of 1878, an estimated 136 million birds gathered across forty square miles of Michigan forest. Hunters descended from across the country. Over five months, they killed and shipped millions. The birds sold in New York for two cents each, underselling every other protein at market.
+
+## The Market Collapses
+
+By the 1880s, the flocks were visibly shrinking. Prices rose from two cents to five, then ten. Cookbooks from the 1890s began omitting pigeon recipes or noting that "wild pigeons are now scarce." By 1900, you could not buy a passenger pigeon at any price. The last wild bird was shot in Ohio that year.
+
+The transition happened within a single generation. A woman born in 1850 would have eaten pigeon pie as a child, watched it become a luxury in her thirties, and found it impossible by her fiftieth birthday. An entire protein source, an entire cuisine, vanished in the span of one lifetime.
+
+## The Cookbooks Remain
+
+The cruelest detail is how perfectly preserved the knowledge is. We have dozens of recipes, written in precise measurements, with cooking times and temperatures. We know exactly how to make passenger pigeon pie. The pastry, the seasoning, the gravy, the technique. Every step is documented.
+
+We just can't do it. The ingredient went extinct on September 1, 1914, when the last captive passenger pigeon died. The recipes survive as culinary ghosts, instructions for preparing a flavor that no human will ever taste again. They sit in old cookbooks like sheet music for an instrument that no longer exists.`,
   quickFacts: {
-    'Species': 'Ectopistes migratorius (Passenger Pigeon)',
-    'Peak Population': 'Estimated 3-5 billion',
-    'Culinary Role': 'Staple protein, not a delicacy',
-    'Preparations': 'Pie, roasted, stewed, pickled, potted',
-    'Last Wild Individual': 'Shot 1900, Pike County, Ohio',
-    'Last Living Individual': 'Martha, died Sept. 1, 1914, Cincinnati Zoo',
-    'Key Cookbook': 'The Virginia Housewife (1824)',
+    'Dish Type': 'Savory pie, roasted, stewed, potted',
+    'Peak Availability': '1800s, sold for 1-2 cents per bird at market',
+    'Key Cookbook': 'The Virginia Housewife, Mary Randolph (1824)',
+    'Market Scale': 'Millions shipped by rail weekly to NYC, Boston, Philadelphia',
+    'Last Commercial Harvest': '~1890s',
+    'Why It\'s Gone': 'The main ingredient went extinct in 1914',
   },
   connections: [
-    { slug: 'stellers-sea-cow', relationship: 'Both species were hunted primarily as a food source, valued for meat and fat, until none remained' },
-    { slug: 'library-of-alexandria', relationship: 'Both represent cultural loss beyond the physical: an entire cuisine died with the bird, just as entire literatures died with the library' },
-    { slug: 'gros-michel-banana', relationship: 'Both seemed inexhaustible until suddenly they were not' },
+    { slug: 'stellers-sea-cow', relationship: 'Both species were hunted as bulk food sources, valued for sheer volume of cheap protein, until the supply collapsed' },
+    { slug: 'gros-michel-banana', relationship: 'Both were so abundant they seemed inexhaustible, both vanished within a single generation' },
+    { slug: 'taliaferro-apple', relationship: 'Both represent foods we have complete documentation for but cannot recreate because the biological source is gone' },
   ],
   sources: [
-    { title: 'A Feathered River Across the Sky', author: 'Joel Greenberg', year: 2014 },
-    { title: 'Ornithological Biography', author: 'John James Audubon', year: 1831 },
+    { title: 'A Feathered River Across the Sky: The Passenger Pigeon\'s Flight to Extinction', author: 'Joel Greenberg', year: 2014 },
     { title: 'The Virginia Housewife', author: 'Mary Randolph', year: 1824 },
+    { title: 'Directions for Cookery, in its Various Branches', author: 'Eliza Leslie', year: 1837 },
     { title: 'The Passenger Pigeon', author: 'Errol Fuller', year: 2014 },
+    { title: 'Ornithological Biography', author: 'John James Audubon', year: 1831 },
   ],
 };

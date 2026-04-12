@@ -12,6 +12,9 @@ export const doggerland: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Sea level rise at the end of the last Ice Age, accelerated by the Storegga Slide tsunami (~6200 BCE)',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Country Under the Sea
 
 Between 20,000 and 8,000 years ago, much of what is now the North Sea was dry land. A vast, low-lying plain stretched from eastern England to the Netherlands, Denmark, and beyond, connecting the British Isles to continental Europe. This land, which geologists have named Doggerland (after the Dogger Bank, a large sandbank in the North Sea), was not a barren ice-age waste. It was prime real estate: a rich landscape of marshes, rivers, forests, and coastline teeming with game.

@@ -12,6 +12,9 @@ export const bengalQuince: Entry = {
   region: 'South Asia',
   status: 'extinct',
   cause: 'Industrial agriculture replaced traditional orchards; heritage cultivars lost as commercial varieties dominated',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Sacred Fruit
 
 The bael tree (*Aegle marmelos*), known as Bengal quince in English, holds a singular place in Indian culture. Its trifoliate leaves are sacred to Shiva and are essential in Hindu worship. The fruit has been used in Ayurvedic medicine for at least three thousand years, prescribed for digestive disorders, dysentery, and a range of other ailments. The *Charaka Samhita*, one of the foundational texts of Ayurvedic medicine compiled around the second century BCE, describes specific preparations using bael fruit.

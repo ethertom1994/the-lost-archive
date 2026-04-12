@@ -12,6 +12,9 @@ export const tanganyika: Entry = {
   region: 'East Africa',
   status: 'extinct',
   cause: 'Merged with Zanzibar to form the United Republic of Tanzania on April 26, 1964',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## Three Years as a Country
 
 On December 9, 1961, a new nation took its place on the world stage. Tanganyika, a former German and then British territory on the eastern coast of Africa, became an independent republic. Its first president was Julius Nyerere, a charismatic schoolteacher-turned-politician who had led the independence movement. The country had a flag (green, black, and gold), a seat at the United Nations, and a population of roughly nine million people.

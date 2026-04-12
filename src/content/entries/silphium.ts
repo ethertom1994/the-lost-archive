@@ -12,6 +12,9 @@ export const silphium: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'Overharvesting combined with an inability to cultivate the plant domestically',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Plant That Defined an Empire's Economy
 
 In the ancient world, few plants commanded the reverence afforded to silphium. A giant fennel-like herb that grew only in a narrow strip of coastal land near the Greek colony of Cyrene in modern-day Libya, silphium was the economic backbone of one of the wealthiest cities in the Mediterranean. Its value was so immense that the city of Cyrene stamped its image on nearly every coin it minted for over five centuries.

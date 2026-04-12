@@ -12,6 +12,9 @@ export const alalaSong: Entry = {
   region: 'Pacific Islands',
   status: 'extinct_in_wild',
   cause: 'Habitat loss, introduced predators, and disease eliminated wild populations; captive birds lost their vocal traditions',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## A Crow That Forgot How to Speak
 
 The Alal\u0101, or Hawaiian crow (*Corvus hawaiiensis*), is not extinct. Roughly 130 individuals survive in captive breeding programs, and since 2016 small groups have been released into protected habitat on Hawai\u02BBi Island. By the metrics that conservation biology typically uses, the Alal\u0101 is a qualified success story: a species pulled back from the edge.

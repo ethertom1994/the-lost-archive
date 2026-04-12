@@ -12,6 +12,9 @@ export const kauaiOo: Entry = {
   region: 'Pacific Islands',
   status: 'extinct',
   cause: 'Habitat destruction, introduced predators, avian malaria spread by non-native mosquitoes',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## A Song for No One
 
 In 1987, deep in the Alaka\u02BBi Wilderness Preserve on the Hawaiian island of Kaua\u02BBi, a researcher from the U.S. Fish and Wildlife Service recorded the song of a small, black-and-yellow honeycreeper called the Kaua\u02BBi \u02BB\u014D\u02BB\u014D. The recording captured something haunting: a male bird singing the duet portion of his species' mating call, then pausing in the places where a female would normally respond. The response never came. He was the last of his kind, singing into silence, waiting for an answer from a species that had already ceased to exist around him.

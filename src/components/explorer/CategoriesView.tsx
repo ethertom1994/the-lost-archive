@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { entries } from '../../content';
 import { CATEGORY_META, type Category } from '../../types';
@@ -9,10 +9,17 @@ interface CategoriesViewProps {
 }
 
 const categories = Object.entries(CATEGORY_META) as [Category, typeof CATEGORY_META[Category]][];
+const PAGE_SIZE = 12;
 
 export default function CategoriesView({ initialCategory }: CategoriesViewProps) {
   const [selected, setSelected] = useState<Category | null>(initialCategory ?? null);
   const [sortBy, setSortBy] = useState<'year-asc' | 'year-desc' | 'name'>('name');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  // Reset pagination when category or sort changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [selected, sortBy]);
 
   const filtered = selected ? entries.filter(e => e.category === selected) : entries;
 
@@ -22,6 +29,9 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
     const yearB = typeof b.lastKnownYear === 'number' ? b.lastKnownYear : parseInt(String(b.lastKnownYear)) || 0;
     return sortBy === 'year-asc' ? yearA - yearB : yearB - yearA;
   });
+
+  const visible = sorted.slice(0, visibleCount);
+  const hasMore = visibleCount < sorted.length;
 
   return (
     <div>
@@ -83,7 +93,7 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
         >
-          {sorted.map(entry => (
+          {visible.map(entry => (
             <EntryCard key={entry.slug} entry={entry} />
           ))}
         </motion.div>
@@ -93,6 +103,18 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
         <p className="text-center text-text-tertiary py-12">
           No entries in this category yet.
         </p>
+      )}
+
+      {/* Show more button */}
+      {hasMore && (
+        <div className="flex justify-center mt-8">
+          <button
+            onClick={() => setVisibleCount(prev => prev + PAGE_SIZE)}
+            className="text-sm px-6 py-2.5 rounded-full border border-border-subtle bg-bg-card text-text-secondary hover:bg-bg-card-hover hover:border-border-default transition-colors duration-300 cursor-pointer"
+          >
+            Show more ({sorted.length - visibleCount} remaining)
+          </button>
+        </div>
       )}
     </div>
   );

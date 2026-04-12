@@ -12,6 +12,9 @@ export const grosMichelBanana: Entry = {
   region: 'Central America',
   status: 'functionally_extinct',
   cause: 'Panama disease (Fusarium wilt) devastated global monoculture plantations',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Banana You've Never Tasted
 
 If you've ever eaten a piece of banana-flavored candy and thought it tasted nothing like an actual banana, you were right — and wrong. The artificial banana flavoring developed in the early twentieth century was modeled on the Gros Michel, a variety so different from the Cavendish banana sold in stores today that they might as well be different fruits. The candy flavor isn't wrong. Your banana is.

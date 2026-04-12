@@ -12,6 +12,9 @@ export const aztecChocolate: Entry = {
   region: 'Mesoamerica',
   status: 'extinct',
   cause: 'Spanish conquest destroyed Aztec cultivation practices; original cacao cultivars replaced by commercial strains',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## Not Chocolate
 
 When Hern\u00e1n Cort\u00e9s arrived at the court of Montezuma II in 1519, he encountered a drink that bore no resemblance to the sweet, milky substance we call chocolate. The Aztec *xocol\u0101tl* was bitter, frothy, room-temperature or cold, often dyed red with achiote and seasoned with chili peppers, vanilla, and various flowers. It was whipped to a foam using a wooden whisk called a *molinillo*, and the foam was considered the most important part. Montezuma reportedly drank fifty cups a day from golden goblets.

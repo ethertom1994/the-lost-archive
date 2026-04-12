@@ -12,6 +12,9 @@ export const greekFire: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'Extreme secrecy restricted knowledge to a small group; the fall of the Byzantine state eliminated the last keepers',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## Fire on the Water
 
 In 678 CE, an Arab fleet sailed against Constantinople, intent on capturing the capital of the Byzantine Empire. The city's survival seemed unlikely. But the Byzantine navy deployed a new weapon: a liquid substance projected from bronze tubes mounted on the prows of warships that ignited on contact and continued to burn even on the surface of the sea. Water did not extinguish it. It reportedly burned through wood, flesh, and metal with equal ferocity.

@@ -12,6 +12,9 @@ export const brambleCayMelomys: Entry = {
   region: 'Oceania',
   status: 'extinct',
   cause: 'Sea level rise and increased storm surges destroyed its island habitat',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## A Speck in the Ocean
 
 Bramble Cay is a vegetated coral cay in the Torres Strait, the narrow waterway between Australia and Papua New Guinea. It measures roughly 340 by 150 meters at its largest, rising barely three meters above sea level. On this tiny scrap of land lived the entire world population of the Bramble Cay melomys, a small brown rodent about the size of a rat, found nowhere else on Earth.

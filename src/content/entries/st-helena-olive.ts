@@ -12,6 +12,9 @@ export const stHelenaOlive: Entry = {
   region: 'South Atlantic',
   status: 'extinct',
   cause: 'Habitat destruction by introduced goats and invasive plants, combined with an inability to propagate',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Island at the End of the World
 
 St. Helena is a volcanic island in the South Atlantic, 1,200 miles from the nearest continent. It is famous as the place where Napoleon Bonaparte spent his final exile, dying there in 1821. But long before Napoleon arrived, the island harbored an ecosystem found nowhere else, shaped by millions of years of isolation. Among its endemic species was a small tree called the St. Helena olive, *Nesiota elliptica*, which was not actually an olive at all. Genetic analysis eventually revealed it belonged to the family Rhamnaceae, the buckthorns, with no close living relatives.

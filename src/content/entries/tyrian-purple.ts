@@ -12,6 +12,9 @@ export const tyrianPurple: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'The fall of Constantinople ended the last workshops maintaining the traditional production method',
+  imageUrl: undefined,
+  imageCaption: undefined,
+  imageCredit: undefined,
   body: `## The Color of Power
 
 For more than two thousand years, a single color defined supreme authority in the Western world. Tyrian purple, also called royal purple or imperial purple, was the most expensive dye in the ancient Mediterranean. It was extracted from the hypobranchial glands of predatory sea snails, principally *Bolinus brandaris* and *Hexaplex trunculus*, found along the coasts of modern Lebanon, where the Phoenician city of Tyre perfected its production.
