@@ -12,6 +12,9 @@ export const castratoVoice: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'The practice of castration for vocal preservation was banned; the last castrato died in 1922',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Alessandro_Moreschi.jpg/400px-Alessandro_Moreschi.jpg',
+  imageCaption: 'Alessandro Moreschi, the last known castrato',
+  imageCredit: 'Public domain',
   body: `## The Unnatural Instrument
 
 For roughly three hundred years, the most celebrated voices in European music belonged to men who had been castrated as boys. The castrati, as they were known, underwent the procedure before puberty, preventing the testosterone-driven growth of the larynx that deepens the male voice. The result was extraordinary: adult male lung capacity and physical power driving a vocal range that could span soprano and mezzo-soprano registers. The combination produced a sound that contemporary accounts described as otherworldly, with a power, range, and agility that no unaltered human voice could match.

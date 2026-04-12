@@ -60,11 +60,12 @@ export default function EntryPage() {
 
             {/* Image */}
             {entry.imageUrl && (
-              <figure className="mb-8 rounded-lg overflow-hidden">
+              <figure className="mb-8 rounded-lg overflow-hidden relative museum-vignette">
                 <img
                   src={entry.imageUrl}
                   alt={entry.imageCaption || entry.name}
-                  className="w-full object-cover"
+                  className="w-full object-cover museum-img"
+                  loading="lazy"
                 />
                 {entry.imageCaption && (
                   <figcaption className="text-xs text-text-muted mt-2 px-1">

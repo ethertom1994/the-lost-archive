@@ -19,14 +19,17 @@ interface Edge {
   relationship: string;
 }
 
+const W = 1000;
+const H = 700;
+
 function buildGraph() {
   const nodes: Node[] = entries.map((entry, i) => {
     const angle = (i / entries.length) * Math.PI * 2;
-    const radius = 150;
+    const radius = 250;
     return {
       entry,
-      x: 300 + Math.cos(angle) * radius,
-      y: 250 + Math.sin(angle) * radius,
+      x: W / 2 + Math.cos(angle) * radius,
+      y: H / 2 + Math.sin(angle) * radius,
       vx: 0,
       vy: 0,
     };
@@ -48,10 +51,13 @@ function buildGraph() {
 }
 
 function simulate(nodes: Node[], edges: Edge[], iterations: number) {
-  const cx = 300, cy = 250;
+  const cx = W / 2, cy = H / 2;
+
+  // Build adjacency for fast lookups
+  const nodeMap = new Map(nodes.map(n => [n.entry.slug, n]));
 
   for (let iter = 0; iter < iterations; iter++) {
-    const alpha = 1 - iter / iterations;
+    const alpha = Math.max(0.01, 1 - iter / iterations);
 
     // Repulsion between all nodes
     for (let i = 0; i < nodes.length; i++) {
@@ -59,7 +65,7 @@ function simulate(nodes: Node[], edges: Edge[], iterations: number) {
         const dx = nodes[j].x - nodes[i].x;
         const dy = nodes[j].y - nodes[i].y;
         const dist = Math.max(Math.sqrt(dx * dx + dy * dy), 1);
-        const force = (800 * alpha) / (dist * dist);
+        const force = (2000 * alpha) / (dist * dist);
         const fx = (dx / dist) * force;
         const fy = (dy / dist) * force;
         nodes[i].vx -= fx;
@@ -71,12 +77,12 @@ function simulate(nodes: Node[], edges: Edge[], iterations: number) {
 
     // Attraction along edges
     for (const edge of edges) {
-      const source = nodes.find(n => n.entry.slug === edge.source)!;
-      const target = nodes.find(n => n.entry.slug === edge.target)!;
+      const source = nodeMap.get(edge.source)!;
+      const target = nodeMap.get(edge.target)!;
       const dx = target.x - source.x;
       const dy = target.y - source.y;
       const dist = Math.sqrt(dx * dx + dy * dy);
-      const force = (dist - 120) * 0.02 * alpha;
+      const force = (dist - 100) * 0.015 * alpha;
       const fx = (dx / Math.max(dist, 1)) * force;
       const fy = (dy / Math.max(dist, 1)) * force;
       source.vx += fx;
@@ -87,8 +93,8 @@ function simulate(nodes: Node[], edges: Edge[], iterations: number) {
 
     // Center gravity
     for (const node of nodes) {
-      node.vx += (cx - node.x) * 0.01 * alpha;
-      node.vy += (cy - node.y) * 0.01 * alpha;
+      node.vx += (cx - node.x) * 0.005 * alpha;
+      node.vy += (cy - node.y) * 0.005 * alpha;
     }
 
     // Apply velocity with damping
@@ -97,11 +103,20 @@ function simulate(nodes: Node[], edges: Edge[], iterations: number) {
       node.vy *= 0.6;
       node.x += node.vx;
       node.y += node.vy;
-      // Clamp to bounds
-      node.x = Math.max(60, Math.min(540, node.x));
-      node.y = Math.max(60, Math.min(440, node.y));
+      node.x = Math.max(50, Math.min(W - 50, node.x));
+      node.y = Math.max(40, Math.min(H - 40, node.y));
     }
   }
+}
+
+// Pre-compute connection counts
+function getConnectionCounts(edges: Edge[]) {
+  const counts = new Map<string, number>();
+  for (const e of edges) {
+    counts.set(e.source, (counts.get(e.source) ?? 0) + 1);
+    counts.set(e.target, (counts.get(e.target) ?? 0) + 1);
+  }
+  return counts;
 }
 
 export default function WebView() {
@@ -113,11 +128,24 @@ export default function WebView() {
     if (initialized.current) return;
     initialized.current = true;
     const { nodes, edges } = buildGraph();
-    simulate(nodes, edges, 200);
+    simulate(nodes, edges, 400);
     setGraph({ nodes, edges });
   }, []);
 
   if (!graph) return null;
+
+  const connCounts = getConnectionCounts(graph.edges);
+  const nodeMap = new Map(graph.nodes.map(n => [n.entry.slug, n]));
+
+  // Determine which edges to highlight
+  const highlightedSlugs = new Set<string>();
+  if (selected) {
+    highlightedSlugs.add(selected.slug);
+    for (const e of graph.edges) {
+      if (e.source === selected.slug) highlightedSlugs.add(e.target);
+      if (e.target === selected.slug) highlightedSlugs.add(e.source);
+    }
+  }
 
   return (
     <div>
@@ -126,11 +154,11 @@ export default function WebView() {
       </p>
 
       <div className="bg-bg-surface rounded-lg border border-border-subtle overflow-hidden">
-        <svg viewBox="0 0 600 500" className="w-full" style={{ maxHeight: '60vh' }}>
+        <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ maxHeight: '65vh' }}>
           {/* Edges */}
           {graph.edges.map(edge => {
-            const source = graph.nodes.find(n => n.entry.slug === edge.source)!;
-            const target = graph.nodes.find(n => n.entry.slug === edge.target)!;
+            const source = nodeMap.get(edge.source)!;
+            const target = nodeMap.get(edge.target)!;
             const isHighlighted = selected && (selected.slug === edge.source || selected.slug === edge.target);
             return (
               <line
@@ -140,8 +168,8 @@ export default function WebView() {
                 x2={target.x}
                 y2={target.y}
                 stroke={isHighlighted ? 'var(--color-accent-dim)' : 'var(--color-border-default)'}
-                strokeWidth={isHighlighted ? 2 : 1}
-                opacity={isHighlighted ? 0.8 : 0.4}
+                strokeWidth={isHighlighted ? 1.5 : 0.5}
+                opacity={selected ? (isHighlighted ? 0.8 : 0.1) : 0.3}
               />
             );
           })}
@@ -150,45 +178,38 @@ export default function WebView() {
           {graph.nodes.map(node => {
             const meta = CATEGORY_META[node.entry.category];
             const isSelected = selected?.slug === node.entry.slug;
-            const connectionCount = graph.edges.filter(
-              e => e.source === node.entry.slug || e.target === node.entry.slug
-            ).length;
-            const radius = 12 + connectionCount * 3;
+            const isConnected = highlightedSlugs.has(node.entry.slug);
+            const count = connCounts.get(node.entry.slug) ?? 0;
+            const radius = 6 + count * 1.5;
+            const dimmed = selected && !isConnected;
 
             return (
-              <g key={node.entry.slug} className="cursor-pointer">
-                {/* Glow */}
-                <circle
-                  cx={node.x}
-                  cy={node.y}
-                  r={radius + 8}
-                  fill={meta.color}
-                  opacity={isSelected ? 0.15 : 0}
-                  className="transition-opacity duration-300"
-                />
-                {/* Node circle */}
+              <g key={node.entry.slug} className="cursor-pointer" opacity={dimmed ? 0.2 : 1}>
+                {isSelected && (
+                  <circle cx={node.x} cy={node.y} r={radius + 10} fill={meta.color} opacity={0.12} />
+                )}
                 <circle
                   cx={node.x}
                   cy={node.y}
                   r={radius}
                   fill={isSelected ? meta.color : 'var(--color-bg-card)'}
                   stroke={meta.color}
-                  strokeWidth={isSelected ? 3 : 2}
+                  strokeWidth={isSelected ? 2.5 : 1.5}
                   onClick={() => setSelected(isSelected ? null : node.entry)}
-                  className="transition-all duration-300 hover:opacity-80"
                 />
-                {/* Label */}
-                <text
-                  x={node.x}
-                  y={node.y + radius + 16}
-                  textAnchor="middle"
-                  fill="var(--color-text-secondary)"
-                  fontSize="11"
-                  fontFamily="var(--font-body)"
-                  className="pointer-events-none"
-                >
-                  {node.entry.name}
-                </text>
+                {!dimmed && (
+                  <text
+                    x={node.x}
+                    y={node.y + radius + 12}
+                    textAnchor="middle"
+                    fill={isSelected || isConnected ? 'var(--color-text-primary)' : 'var(--color-text-tertiary)'}
+                    fontSize="9"
+                    fontFamily="var(--font-body)"
+                    className="pointer-events-none"
+                  >
+                    {node.entry.name.length > 20 ? node.entry.name.slice(0, 18) + '...' : node.entry.name}
+                  </text>
+                )}
               </g>
             );
           })}
@@ -205,10 +226,10 @@ export default function WebView() {
             className="mt-4 bg-bg-card border border-border-default rounded-lg p-5"
           >
             <div className="flex items-start justify-between gap-4">
-              <div>
+              <div className="min-w-0">
                 <div className="flex items-center gap-2 mb-2">
                   <span
-                    className="size-2 rounded-full"
+                    className="size-2 rounded-full shrink-0"
                     style={{ backgroundColor: CATEGORY_META[selected.category].color }}
                   />
                   <span className="text-xs" style={{ color: CATEGORY_META[selected.category].color }}>
@@ -217,8 +238,6 @@ export default function WebView() {
                 </div>
                 <h3 className="font-display text-xl font-medium text-text-primary mb-1">{selected.name}</h3>
                 <p className="text-text-secondary text-sm mb-2">{selected.tagline}</p>
-
-                {/* Show connections */}
                 <div className="text-xs text-text-tertiary mb-3">
                   Connected to:{' '}
                   {selected.connections
@@ -226,17 +245,13 @@ export default function WebView() {
                     .map(c => entries.find(e => e.slug === c.slug)!.name)
                     .join(', ')}
                 </div>
-
-                <Link
-                  to={`/archive/${selected.slug}`}
-                  className="text-accent text-sm hover:underline"
-                >
+                <Link to={`/archive/${selected.slug}`} className="text-accent text-sm hover:underline">
                   Read full story →
                 </Link>
               </div>
               <button
                 onClick={() => setSelected(null)}
-                className="text-text-muted hover:text-text-primary text-sm cursor-pointer"
+                className="text-text-muted hover:text-text-primary text-sm cursor-pointer shrink-0"
                 aria-label="Close"
               >
                 ✕

@@ -12,6 +12,9 @@ export const aralSea: Entry = {
   region: 'Central Asia',
   status: 'functionally_extinct',
   cause: 'Soviet-era diversion of the Amu Darya and Syr Darya rivers for cotton irrigation',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/AralSea1989_2014.jpg/400px-AralSea1989_2014.jpg',
+  imageCaption: 'The Aral Sea in 1989 (left) and 2014 (right)',
+  imageCredit: 'NASA',
   body: `## The Fourth Largest Lake on Earth
 
 In 1960, the Aral Sea was the fourth largest lake in the world, covering 68,000 square kilometers, an area roughly the size of Ireland. It supported a thriving fishing industry that employed tens of thousands of people in the ports of Moynaq and Aralsk. Twenty-four species of fish lived in its waters. The climate of the surrounding region was moderated by the lake's enormous mass of water, keeping summers cooler and winters milder.

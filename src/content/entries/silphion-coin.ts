@@ -12,6 +12,9 @@ export const silphionCoin: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'The city-state of Cyrene declined under Roman rule; the plant depicted on the coin was harvested to extinction',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Silphium_coin.jpg/400px-Silphium_coin.jpg',
+  imageCaption: 'Silver coin from Cyrene depicting the silphium plant',
+  imageCredit: 'Classical Numismatic Group, CC BY-SA 3.0',
   body: `## A Portrait of Extinction
 
 In the numismatic collections of the world's great museums, there are small silver and gold coins that bear the image of a plant. The coins were minted by the ancient Greek colony of Cyrene, on the coast of what is now Libya, over a period spanning roughly the seventh through first centuries BCE. The plant depicted is silphium, a fennel-like herb that was the economic foundation of Cyrenean civilization. It appears on nearly every denomination Cyrene minted, rendered with careful botanical detail: the thick stem, the broad leaves, the distinctive seedpod.

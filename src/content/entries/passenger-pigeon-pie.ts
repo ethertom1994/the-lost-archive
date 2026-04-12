@@ -12,6 +12,9 @@ export const passengerPigeonPie: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Industrialized hunting, habitat destruction, and the collapse of a species that required vast flocks to survive',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Martha_last_passenger_pigeon_1914.jpg/400px-Martha_last_passenger_pigeon_1914.jpg',
+  imageCaption: 'Martha, the last passenger pigeon, photographed alive at the Cincinnati Zoo',
+  imageCredit: 'Enno Meyer, 1912',
   body: `## A Sky Made of Birds
 
 In the early nineteenth century, the passenger pigeon was the most abundant bird in North America and possibly the world. Migrating flocks were described as blocking out the sun for hours, darkening the sky in columns a mile wide and hundreds of miles long. John James Audubon, witnessing a flock along the Ohio River in 1813, estimated it contained over a billion birds. The ornithologist Alexander Wilson described a flock he calculated at 2.2 billion. The total North American population may have reached five billion.

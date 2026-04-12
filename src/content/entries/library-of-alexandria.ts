@@ -12,6 +12,9 @@ export const libraryOfAlexandria: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'Gradual decline through political instability, funding cuts, religious conflict, and successive destructions over centuries',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ancientlibraryalex.jpg/400px-Ancientlibraryalex.jpg',
+  imageCaption: 'Artistic rendering of the Library of Alexandria',
+  imageCredit: 'O. Von Corven, 19th century',
   body: `## Not One Fire but Many
 
 The popular narrative has the Library of Alexandria destroyed in a single dramatic conflagration, usually attributed to Julius Caesar in 48 BCE. The reality is more painful. The library died not in a blaze of glory but through a prolonged, undramatic decline spanning centuries, killed by budget cuts, political indifference, and repeated partial destructions, none of which individually destroyed it and all of which collectively bled it dry.

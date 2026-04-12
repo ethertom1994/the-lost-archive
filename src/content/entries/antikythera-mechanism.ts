@@ -12,6 +12,9 @@ export const antikytheraMechanism: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'The knowledge tradition that produced it was lost with the decline of the Hellenistic world',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/400px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg',
+  imageCaption: 'The Antikythera mechanism, Fragment A, at the National Archaeological Museum, Athens',
+  imageCredit: 'Marsyas/Wikimedia Commons, CC BY-SA 2.5',
   body: `## Raised from the Wreck
 
 In 1901, sponge divers working off the coast of the Greek island of Antikythera discovered a Roman-era shipwreck dating to roughly 60 BCE. Among the bronze statues and marble sculptures recovered was a corroded lump of metal about the size of a shoebox. For decades, it sat in the National Archaeological Museum in Athens, its significance unrecognized. It looked like a formless mass of fused bronze gears.

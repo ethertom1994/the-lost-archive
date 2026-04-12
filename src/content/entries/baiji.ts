@@ -12,6 +12,9 @@ export const baiji: Entry = {
   region: 'East Asia',
   status: 'functionally_extinct',
   cause: 'Industrial pollution, ship traffic, dam construction, and bycatch in the Yangtze River',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Baiji.png/400px-Baiji.png',
+  imageCaption: 'The baiji, or Yangtze River dolphin',
+  imageCredit: 'Institute of Hydrobiology, Chinese Academy of Sciences',
   body: `## The Six-Week Search
 
 In November 2006, an international team of thirty scientists aboard two research vessels began the most thorough survey ever conducted of the Yangtze River. For six weeks, they traveled 3,400 kilometers of the river using visual observation and acoustic monitoring, systematically scanning every stretch where the baiji had once been found. They found nothing. Not a single individual of *Lipotes vexillifer*, the Yangtze River dolphin, the creature that Chinese fishermen had revered for centuries as the Goddess of the Yangtze.

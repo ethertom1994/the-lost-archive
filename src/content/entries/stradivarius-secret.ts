@@ -12,6 +12,9 @@ export const stradivariusSecret: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Antonio Stradivari died without fully transmitting the specific combination of techniques that produced his instruments\' sound',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/PalacioReal_Stradivarius1702.jpg/400px-PalacioReal_Stradivarius1702.jpg',
+  imageCaption: 'Stradivarius violin from 1702, Royal Palace of Madrid',
+  imageCredit: 'Wikimedia Commons',
   body: `## The Sound No One Can Copy
 
 Antonio Stradivari worked in the Italian city of Cremona from approximately 1666 until his death in 1737, producing an estimated 1,116 instruments, of which roughly 650 survive. His violins, violas, and cellos are considered the finest stringed instruments ever made, and they command prices that reflect this status: a Stradivarius violin has sold at auction for over $15 million.

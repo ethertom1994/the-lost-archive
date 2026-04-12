@@ -12,6 +12,9 @@ export const romanConcrete: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'The fall of Rome disrupted the supply chains, trade networks, and engineering knowledge needed to produce it',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome-Pantheon-Interieur1.jpg/400px-Rome-Pantheon-Interieur1.jpg',
+  imageCaption: 'Interior of the Pantheon, Rome -- its concrete dome has stood for nearly 2,000 years',
+  imageCredit: 'Wikimedia Commons',
   body: `## The Pantheon Is Still Standing
 
 The dome of the Pantheon in Rome, completed around 125 CE under Emperor Hadrian, remains the largest unreinforced concrete dome in the world. It has stood for nearly two thousand years, through earthquakes, floods, and the sack of Rome itself. Its concrete is stronger now than when it was poured.

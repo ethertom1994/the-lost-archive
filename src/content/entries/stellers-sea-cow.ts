@@ -12,6 +12,9 @@ export const stellersSeaCow: Entry = {
   region: 'North Pacific',
   status: 'extinct',
   cause: 'Hunted to extinction by fur traders and sailors within 27 years of Western discovery',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Stellers_Sea_Cow.jpg/400px-Stellers_Sea_Cow.jpg',
+  imageCaption: "Illustration of Steller's sea cow",
+  imageCredit: 'After Georg Wilhelm Steller',
   body: `## Shipwrecked Among Giants
 
 In November 1741, the German naturalist Georg Wilhelm Steller found himself shipwrecked on a barren island in the Bering Sea. He was part of Vitus Bering's second Kamchatka expedition, a Russian-sponsored voyage to chart the North Pacific. Bering himself would die on that island. But Steller, observing with the obsessive precision of a trained naturalist, spent his months of survival documenting the island's wildlife. Among the animals he described was one that defied belief.

@@ -12,6 +12,9 @@ export const fordite: Entry = {
   region: 'North America',
   status: 'functionally_extinct',
   cause: 'Automotive factories switched from hand-spraying to electrostatic painting, ending the buildup of paint layers',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Fordite.jpg/400px-Fordite.jpg',
+  imageCaption: 'Polished fordite (Detroit agate) showing layers of automotive paint',
+  imageCredit: 'Wikimedia Commons',
   body: `## Accidental Geology
 
 In the old automotive paint booths of Detroit, something remarkable happened by accident. From the 1940s through the 1980s, cars were painted by hand-spraying, a process in which workers directed paint guns at car bodies moving through enclosed booths. Inevitably, overspray accumulated on the walls, floors, racks, and tracks of these booths. Over days, months, years, and decades, layer after layer of different-colored enamel paint built up into thick deposits, each layer representing a different color, a different model year, a different era of automotive fashion.

@@ -105,3 +105,20 @@ body::before {
 .prose li { margin-bottom: 0.5rem; }
 .prose em { color: var(--color-text-primary); }
 .prose strong { color: var(--color-text-primary); font-weight: 600; }
+
+/* Museum exhibit image treatment */
+.museum-img {
+  filter: saturate(0.7) contrast(1.05) brightness(0.95);
+  transition: filter 0.5s ease;
+}
+.museum-img:hover {
+  filter: saturate(0.85) contrast(1.05) brightness(1);
+}
+/* Vignette overlay for images */
+.museum-vignette::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(10,10,10,0.4) 100%);
+  pointer-events: none;
+}

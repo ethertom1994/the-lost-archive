@@ -12,6 +12,9 @@ export const franklinia: Entry = {
   region: 'North America',
   status: 'extinct_in_wild',
   cause: 'Unknown; possibly a combination of disease, habitat change, and an already tiny population',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Franklinia_alatamaha_%28flower%29.jpg/400px-Franklinia_alatamaha_%28flower%29.jpg',
+  imageCaption: 'Franklinia alatamaha flower',
+  imageCredit: 'Wikimedia Commons',
   body: `## The Bartrams' Discovery
 
 In October 1765, the Philadelphia botanist John Bartram and his son William were traveling along the Altamaha River in southeastern Georgia when they came upon a small grove of trees they had never seen before. The trees bore striking white flowers with bright yellow stamens, resembling camellias, with leaves that turned brilliant crimson in autumn. William returned in 1773 and collected seeds and specimens, naming the tree *Franklinia alatamaha* in honor of his father's friend Benjamin Franklin.

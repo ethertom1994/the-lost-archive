@@ -12,6 +12,9 @@ export const damascusSteel: Entry = {
   region: 'Middle East',
   status: 'extinct',
   cause: 'Depletion of specific Indian wootz steel ingots; loss of the smelting tradition that produced the raw material',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Watered_pattern_on_sword_blade1.Iran.jpg/400px-Watered_pattern_on_sword_blade1.Iran.jpg',
+  imageCaption: 'Characteristic watered pattern on a Damascus steel blade',
+  imageCredit: 'Wikimedia Commons',
   body: `## The Blade That Made a Pattern
 
 When Crusaders first encountered swords made from Damascus steel in the twelfth century, the accounts they sent home bordered on the mythological. The blades were said to cut through European swords, slice through rifle barrels, and sever a silk scarf dropped onto the edge. The steel displayed a distinctive watered pattern on its surface, flowing lines that looked like wood grain or flowing water, visible after polishing and etching. No European smith could reproduce either the pattern or the performance.

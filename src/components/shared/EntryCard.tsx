@@ -21,16 +21,17 @@ export default function EntryCard({ entry, variant = 'default' }: EntryCardProps
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,var(--color-accent-glow),transparent_70%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
 
         {variant === 'default' && (
-          <div className="h-40 bg-bg-surface relative overflow-hidden">
+          <div className="h-40 bg-bg-surface relative overflow-hidden museum-vignette">
             {entry.imageUrl ? (
               <img
                 src={entry.imageUrl}
                 alt={entry.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover museum-img"
+                loading="lazy"
               />
             ) : (
-              <div className="w-full h-full bg-gradient-to-br from-bg-surface to-bg-card flex items-center justify-center">
-                <span className="text-4xl opacity-20">{meta.icon}</span>
+              <div className="w-full h-full bg-gradient-to-br from-bg-surface via-bg-card to-bg-surface flex items-center justify-center">
+                <span className="text-5xl opacity-10">{meta.icon}</span>
               </div>
             )}
           </div>
