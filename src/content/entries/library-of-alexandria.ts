@@ -12,7 +12,7 @@ export const libraryOfAlexandria: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'Gradual decline through political instability, funding cuts, religious conflict, and successive destructions over centuries',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ancientlibraryalex.jpg/400px-Ancientlibraryalex.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/400px-Ancientlibraryalex.jpg',
   imageCaption: 'Artistic rendering of the Library of Alexandria',
   imageCredit: 'O. Von Corven, 19th century',
   body: `## Not One Fire but Many

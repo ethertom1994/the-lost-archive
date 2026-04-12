@@ -12,7 +12,7 @@ export const castratoVoice: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'The practice of castration for vocal preservation was banned; the last castrato died in 1922',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Alessandro_Moreschi.jpg/400px-Alessandro_Moreschi.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Alessandro_Moreschi.png/400px-Alessandro_Moreschi.png',
   imageCaption: 'Alessandro Moreschi, the last known castrato',
   imageCredit: 'Public domain',
   body: `## The Unnatural Instrument

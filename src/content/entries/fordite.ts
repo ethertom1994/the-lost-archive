@@ -12,7 +12,7 @@ export const fordite: Entry = {
   region: 'North America',
   status: 'functionally_extinct',
   cause: 'Automotive factories switched from hand-spraying to electrostatic painting, ending the buildup of paint layers',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Fordite.jpg/400px-Fordite.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Fordite_%28Dearborn%2C_Michigan%29_1.jpg/400px-Fordite_%28Dearborn%2C_Michigan%29_1.jpg',
   imageCaption: 'Polished fordite (Detroit agate) showing layers of automotive paint',
   imageCredit: 'Wikimedia Commons',
   body: `## Accidental Geology

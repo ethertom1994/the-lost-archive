@@ -12,7 +12,7 @@ export const aralSea: Entry = {
   region: 'Central Asia',
   status: 'functionally_extinct',
   cause: 'Soviet-era diversion of the Amu Darya and Syr Darya rivers for cotton irrigation',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/AralSea1989_2014.jpg/400px-AralSea1989_2014.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/AralSea1989_2014.jpg/400px-AralSea1989_2014.jpg',
   imageCaption: 'The Aral Sea in 1989 (left) and 2014 (right)',
   imageCredit: 'NASA',
   body: `## The Fourth Largest Lake on Earth

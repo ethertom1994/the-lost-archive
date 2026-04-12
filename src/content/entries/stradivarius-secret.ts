@@ -12,7 +12,7 @@ export const stradivariusSecret: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Antonio Stradivari died without fully transmitting the specific combination of techniques that produced his instruments\' sound',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/PalacioReal_Stradivarius1702.jpg/400px-PalacioReal_Stradivarius1702.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Stradivarius_violin_in_the_royal_palace_in_madrid.jpg/400px-Stradivarius_violin_in_the_royal_palace_in_madrid.jpg',
   imageCaption: 'Stradivarius violin from 1702, Royal Palace of Madrid',
   imageCredit: 'Wikimedia Commons',
   body: `## The Sound No One Can Copy

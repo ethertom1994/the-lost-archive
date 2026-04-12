@@ -12,7 +12,7 @@ export const passengerPigeonPie: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Industrialized hunting, habitat destruction, and the collapse of a species that required vast flocks to survive',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Martha_last_passenger_pigeon_1914.jpg/400px-Martha_last_passenger_pigeon_1914.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Martha_last_passenger_pigeon_1912.jpg/400px-Martha_last_passenger_pigeon_1912.jpg',
   imageCaption: 'Martha, the last passenger pigeon, photographed alive at the Cincinnati Zoo',
   imageCredit: 'Enno Meyer, 1912',
   body: `## A Sky Made of Birds

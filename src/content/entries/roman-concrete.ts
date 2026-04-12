@@ -12,7 +12,7 @@ export const romanConcrete: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'The fall of Rome disrupted the supply chains, trade networks, and engineering knowledge needed to produce it',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome-Pantheon-Interieur1.jpg/400px-Rome-Pantheon-Interieur1.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pantheon_%28Rome%29_-_Dome_interior.jpg/400px-Pantheon_%28Rome%29_-_Dome_interior.jpg',
   imageCaption: 'Interior of the Pantheon, Rome -- its concrete dome has stood for nearly 2,000 years',
   imageCredit: 'Wikimedia Commons',
   body: `## The Pantheon Is Still Standing
