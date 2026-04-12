@@ -9,11 +9,15 @@ const HomePage = lazy(() => import('./pages/HomePage'));
 const ExplorerPage = lazy(() => import('./pages/ExplorerPage'));
 const EntryPage = lazy(() => import('./pages/EntryPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
+    const main = document.getElementById('main-content');
+    if (main) main.focus({ preventScroll: true });
   }, [pathname]);
   return null;
 }
@@ -39,13 +43,15 @@ export default function App() {
       <ScrollToTop />
       <Header />
 
-      <main id="main-content" className="pt-16 pb-20 md:pb-0 min-h-screen">
+      <main id="main-content" tabIndex={-1} className="pt-16 pb-20 md:pb-0 min-h-screen outline-none">
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/explore" element={<ExplorerPage />} />
             <Route path="/archive/:slug" element={<EntryPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
       </main>

@@ -62,6 +62,4 @@ What is certain is that silphium represents one of the earliest documented cases
     { title: 'The Silphium Trail: An Ancient Plant Mystery', author: 'John M. Riddle', year: 1992, url: 'https://www.jstor.org/stable/1005829' },
     { title: 'De Re Coquinaria', author: 'Apicius', year: 400 },
   ],
-  featured: true,
-  featuredDate: '2026-04-12',
 };

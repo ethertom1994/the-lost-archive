@@ -68,7 +68,7 @@ export default function ExplorerPage() {
 
         {/* Tab bar */}
         <div className="sticky top-16 z-40 bg-bg-void/80 backdrop-blur-md -mx-4 px-4 sm:-mx-6 sm:px-6 mb-8 border-b border-border-subtle">
-          <nav className="flex gap-1 overflow-x-auto scrollbar-none py-2" aria-label="Explorer views">
+          <nav className="flex gap-1 overflow-x-auto scrollbar-none py-2" role="tablist" aria-label="Explorer views">
             {TABS.map(tab => {
               const Icon = tab.icon;
               const isActive = activeTab === tab.key;
@@ -82,6 +82,7 @@ export default function ExplorerPage() {
                       : 'text-text-tertiary hover:text-text-secondary hover:bg-bg-card'
                   }`}
                   aria-selected={isActive}
+                  aria-controls="explorer-panel"
                   role="tab"
                 >
                   <Icon size={16} />
@@ -95,6 +96,8 @@ export default function ExplorerPage() {
         {/* View content */}
         <motion.div
           key={activeTab}
+          id="explorer-panel"
+          role="tabpanel"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}

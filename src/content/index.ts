@@ -100,6 +100,7 @@ import { lamplighter } from './entries/lamplighter';
 import { greatHedgeIndia } from './entries/great-hedge-india';
 import { mixtecCodices } from './entries/mixtec-codices';
 
+import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
 
 export const entries: Entry[] = [
@@ -187,7 +188,7 @@ export function getEntry(slug: string): Entry | undefined {
 }
 
 export function getFeaturedEntry(): Entry | undefined {
-  return entries.find(e => e.featured) ?? entries[0];
+  return entries.find(e => e.slug === FEATURED_SLUG) ?? entries[0];
 }
 
 export function getEntriesByCategory(category: Category): Entry[] {

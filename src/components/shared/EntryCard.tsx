@@ -14,6 +14,7 @@ export default function EntryCard({ entry, variant = 'default' }: EntryCardProps
   return (
     <Link to={`/archive/${entry.slug}`} className="no-underline block group">
       <motion.article
+        aria-label={`${entry.name} — ${meta.label}, ${entry.lastKnownYear}`}
         className="relative bg-bg-card rounded-lg border border-border-subtle overflow-hidden transition-colors duration-500 group-hover:bg-bg-card-hover group-hover:border-border-default h-full"
         whileHover={{ y: -2 }}
         transition={{ duration: 0.3, ease: 'easeOut' }}

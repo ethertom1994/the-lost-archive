@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { X } from 'lucide-react';
 import { entries } from '../../content';
 import { CATEGORY_META, type Category } from '../../types';
 import EntryCard from '../shared/EntryCard';
@@ -12,6 +14,8 @@ const categories = Object.entries(CATEGORY_META) as [Category, typeof CATEGORY_M
 const PAGE_SIZE = 12;
 
 export default function CategoriesView({ initialCategory }: CategoriesViewProps) {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchQuery = searchParams.get('search') ?? '';
   const [selected, setSelected] = useState<Category | null>(initialCategory ?? null);
   const [sortBy, setSortBy] = useState<'year-asc' | 'year-desc' | 'name'>('name');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -19,9 +23,28 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
   // Reset pagination when category or sort changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [selected, sortBy]);
+  }, [selected, sortBy, searchQuery]);
 
-  const filtered = selected ? entries.filter(e => e.category === selected) : entries;
+  function clearSearch() {
+    const params = new URLSearchParams(searchParams);
+    params.delete('search');
+    setSearchParams(params, { replace: true });
+  }
+
+  // Apply search filter
+  let filtered = selected ? entries.filter(e => e.category === selected) : [...entries];
+
+  if (searchQuery.trim()) {
+    const q = searchQuery.toLowerCase().trim();
+    filtered = filtered.filter(e =>
+      e.name.toLowerCase().includes(q) ||
+      e.tagline.toLowerCase().includes(q) ||
+      e.category.toLowerCase().includes(q) ||
+      CATEGORY_META[e.category].label.toLowerCase().includes(q) ||
+      e.lastKnownLocation.toLowerCase().includes(q) ||
+      e.cause.toLowerCase().includes(q)
+    );
+  }
 
   const sorted = [...filtered].sort((a, b) => {
     if (sortBy === 'name') return a.name.localeCompare(b.name);
@@ -35,6 +58,22 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
 
   return (
     <div>
+      {/* Search results banner */}
+      {searchQuery.trim() && (
+        <div className="flex items-center gap-3 mb-6 px-4 py-3 bg-bg-card border border-border-subtle rounded-lg">
+          <span className="text-sm text-text-secondary">
+            Showing results for "<span className="text-text-primary">{searchQuery}</span>"
+          </span>
+          <button
+            onClick={clearSearch}
+            className="ml-auto flex items-center gap-1 text-xs text-text-tertiary hover:text-text-primary transition-colors cursor-pointer"
+          >
+            <X size={14} />
+            Clear
+          </button>
+        </div>
+      )}
+
       {/* Category grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">
         {categories.map(([key, meta]) => {
@@ -76,17 +115,16 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
             {label}
           </button>
         ))}
-        {selected && (
-          <span className="text-xs text-text-tertiary ml-auto">
-            {sorted.length} {sorted.length === 1 ? 'entry' : 'entries'} in {CATEGORY_META[selected].label}
-          </span>
-        )}
+        <span className="text-xs text-text-tertiary ml-auto">
+          {sorted.length} {sorted.length === 1 ? 'entry' : 'entries'}
+          {selected && <> in {CATEGORY_META[selected].label}</>}
+        </span>
       </div>
 
       {/* Entry grid */}
       <AnimatePresence mode="wait">
         <motion.div
-          key={`${selected}-${sortBy}`}
+          key={`${selected}-${sortBy}-${searchQuery}`}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -101,7 +139,7 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
 
       {sorted.length === 0 && (
         <p className="text-center text-text-tertiary py-12">
-          No entries in this category yet.
+          {searchQuery.trim() ? `No entries match "${searchQuery}".` : 'No entries in this category yet.'}
         </p>
       )}
 

@@ -9,6 +9,7 @@ import QuickFacts from '../components/entry/QuickFacts';
 import SourcesList from '../components/entry/SourcesList';
 import ConnectionCard from '../components/entry/ConnectionCard';
 import MetaTags from '../components/shared/MetaTags';
+import ShareButton from '../components/shared/ShareButton';
 
 export default function EntryPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -44,14 +45,17 @@ export default function EntryPage() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        {/* Back link */}
-        <Link
-          to="/explore"
-          className="no-underline inline-flex items-center gap-1.5 text-sm text-text-tertiary hover:text-text-primary transition-colors duration-300 mb-8"
-        >
-          <ArrowLeft size={14} />
-          Back to archive
-        </Link>
+        {/* Back link + share */}
+        <div className="flex items-center justify-between mb-8">
+          <Link
+            to="/explore"
+            className="no-underline inline-flex items-center gap-1.5 text-sm text-text-tertiary hover:text-text-primary transition-colors duration-300"
+          >
+            <ArrowLeft size={14} />
+            Back to archive
+          </Link>
+          <ShareButton title={entry.name} text={entry.tagline} />
+        </div>
 
         <div className="lg:grid lg:grid-cols-[1fr_340px] lg:gap-12">
           {/* Main content */}
