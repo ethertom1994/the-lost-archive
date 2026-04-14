@@ -59,4 +59,7 @@ NASA satellite imagery from 1973 to the present documents the transformation in 
     { title: 'NASA Earth Observatory: The Shrinking Aral Sea', year: 2023, url: 'https://earthobservatory.nasa.gov' },
     { title: 'Creeping Environmental Problems and Sustainable Development in the Aral Sea Basin', author: 'Michael H. Glantz', year: 1999 },
   ],
+  relatedMedia: [
+    { type: 'article', title: 'Shrinking Aral Sea - NASA Earth Observatory', url: 'https://earthobservatory.nasa.gov/world-of-change/AralSea', description: 'Satellite imagery showing the Aral Sea\'s dramatic shrinkage over decades' },
+  ],
 };

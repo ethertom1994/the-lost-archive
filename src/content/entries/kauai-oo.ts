@@ -65,4 +65,7 @@ The recording survives and has been heard by millions online. It stands as an ac
     { title: 'Conservation Biology of Hawaiian Forest Birds', author: 'T.K. Pratt et al.', year: 2009 },
     { title: 'Kauai Oo Song Recording', author: 'Kauai Forest Bird Recovery Project', year: 1987 },
   ],
+  relatedMedia: [
+    { type: 'video', title: 'Recording of the Last Kaua\'i \'O\'o', url: 'https://www.youtube.com/watch?v=nDRY0CmcYNU', description: 'The haunting 1987 field recording of the last male singing for a mate' },
+  ],
 };

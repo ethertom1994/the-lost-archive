@@ -68,4 +68,7 @@ We just can't do it. The ingredient went extinct on September 1, 1914, when the 
     { title: 'The Passenger Pigeon', author: 'Errol Fuller', year: 2014 },
     { title: 'Ornithological Biography', author: 'John James Audubon', year: 1831 },
   ],
+  relatedMedia: [
+    { type: 'book', title: 'A Feathered River Across the Sky', url: 'https://www.goodreads.com/book/show/17334186-a-feathered-river-across-the-sky', description: 'Joel Greenberg\'s account of the passenger pigeon\'s extinction' },
+  ],
 };

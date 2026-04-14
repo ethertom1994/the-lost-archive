@@ -57,4 +57,7 @@ Several companies have announced plans to develop new supersonic commercial airc
     { title: 'Concorde', author: 'Brian Trubshaw', year: 2000 },
     { title: 'Last Days of the Concorde', author: 'Samme Chittum', year: 2018 },
   ],
+  relatedMedia: [
+    { type: 'video', title: 'Concorde\'s Final Flight', url: 'https://www.youtube.com/watch?v=a5MK_mmORzY', description: 'Footage of Concorde\'s last commercial flight in 2003' },
+  ],
 };

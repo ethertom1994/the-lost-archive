@@ -55,4 +55,7 @@ Everything before April 9, 1860 is silence. Every human voice, every piece of mu
     { title: 'The Phonautograph and the Beginnings of Sound Recording', author: 'David Giovannoni', year: 2008 },
     { title: 'Earliest Known Recording of a Human Voice', author: 'Lawrence Berkeley National Laboratory', year: 2008 },
   ],
+  relatedMedia: [
+    { type: 'audio', title: 'Au Clair de la Lune (1860)', url: 'https://www.firstsounds.org/sounds/scott.php', description: 'The oldest known playable recording of the human voice, from firstsounds.org' },
+  ],
 };

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, ChevronDown } from 'lucide-react';
 import { getFeaturedEntry, entries } from '../content';
+import { trails } from '../content/trails';
 import { CATEGORY_META, type Category } from '../types';
 import EntryCard from '../components/shared/EntryCard';
 import MetaTags from '../components/shared/MetaTags';
@@ -14,6 +15,7 @@ const fadeIn = {
 };
 
 const categories = Object.entries(CATEGORY_META) as [Category, typeof CATEGORY_META[Category]][];
+const featuredTrails = trails.slice(0, 4);
 
 export default function HomePage() {
   const featured = getFeaturedEntry();
@@ -124,6 +126,58 @@ export default function HomePage() {
               </motion.div>
             );
           })}
+        </div>
+      </section>
+
+      {/* Curated Trails */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-20">
+        <motion.div className="text-center mb-10" {...fadeIn}>
+          <h2 className="font-display text-3xl sm:text-4xl font-medium text-text-primary mb-3">
+            Curated Trails
+          </h2>
+          <p className="text-text-secondary max-w-xl mx-auto">
+            Guided paths through the archive. Each trail tells a connected story.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          {featuredTrails.map((trail, i) => (
+            <motion.div
+              key={trail.slug}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-50px' }}
+              transition={{ duration: 0.5, delay: i * 0.06 }}
+            >
+              <Link
+                to={`/trails/${trail.slug}`}
+                className="no-underline group block h-full"
+              >
+                <div className="relative bg-bg-card border border-border-subtle rounded-lg p-5 transition-all duration-500 group-hover:bg-bg-card-hover group-hover:border-border-default overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,var(--color-accent-glow),transparent_70%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                  <div className="relative z-10">
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="text-2xl">{trail.icon}</span>
+                      <h3 className="font-display text-lg font-medium text-text-primary group-hover:text-accent transition-colors">
+                        {trail.name}
+                      </h3>
+                    </div>
+                    <p className="text-text-tertiary text-sm italic mb-2">{trail.tagline}</p>
+                    <span className="text-xs text-text-muted">{trail.entries.length} entries</span>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="text-center">
+          <Link
+            to="/trails"
+            className="no-underline inline-flex items-center gap-2 text-sm text-accent hover:underline"
+          >
+            View all trails <ArrowRight size={14} />
+          </Link>
         </div>
       </section>
 

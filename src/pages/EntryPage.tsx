@@ -1,20 +1,39 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { getEntry, getConnectedEntries } from '../content';
+import { getTrail } from '../content/trails';
 import { CATEGORY_META } from '../types';
 import EntryHeader from '../components/entry/EntryHeader';
 import QuickFacts from '../components/entry/QuickFacts';
 import SourcesList from '../components/entry/SourcesList';
 import ConnectionCard from '../components/entry/ConnectionCard';
+import RelatedMedia from '../components/entry/RelatedMedia';
 import MetaTags from '../components/shared/MetaTags';
 import ShareButton from '../components/shared/ShareButton';
 import WanderButton from '../components/shared/WanderButton';
+import { useProgress } from '../hooks/useProgress';
 
 export default function EntryPage() {
   const { slug } = useParams<{ slug: string }>();
+  const [searchParams] = useSearchParams();
   const entry = slug ? getEntry(slug) : undefined;
+  const { markRead } = useProgress();
+
+  // Mark as read on mount
+  useEffect(() => {
+    if (slug) markRead(slug);
+  }, [slug, markRead]);
+
+  // Trail context from URL params
+  const trailSlug = searchParams.get('trail');
+  const stopIndex = searchParams.get('stop') ? parseInt(searchParams.get('stop')!, 10) : -1;
+  const trail = trailSlug ? getTrail(trailSlug) : undefined;
+
+  const prevStop = trail && stopIndex > 0 ? trail.entries[stopIndex - 1] : null;
+  const nextStop = trail && stopIndex >= 0 && stopIndex < trail.entries.length - 1 ? trail.entries[stopIndex + 1] : null;
 
   if (!entry) {
     return (
@@ -42,6 +61,48 @@ export default function EntryPage() {
         image={entry.imageUrl}
       />
 
+      {/* Trail navigation bar */}
+      {trail && stopIndex >= 0 && (
+        <div className="bg-bg-card/80 backdrop-blur-sm border-b border-border-subtle">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-4">
+            <Link
+              to={`/trails/${trail.slug}`}
+              className="no-underline text-sm text-text-tertiary hover:text-accent transition-colors truncate"
+            >
+              <span className="mr-1">{trail.icon}</span>
+              <span className="hidden sm:inline">{trail.name} — </span>
+              Stop {stopIndex + 1} of {trail.entries.length}
+            </Link>
+            <div className="flex items-center gap-2 shrink-0">
+              {prevStop ? (
+                <Link
+                  to={`/archive/${prevStop.slug}?trail=${trail.slug}&stop=${stopIndex - 1}`}
+                  className="no-underline inline-flex items-center gap-1 text-xs text-text-tertiary hover:text-text-primary transition-colors px-2 py-1 rounded border border-border-subtle hover:border-border-default"
+                >
+                  <ChevronLeft size={12} /> Prev
+                </Link>
+              ) : (
+                <span className="text-xs text-text-muted px-2 py-1 opacity-40">
+                  <ChevronLeft size={12} className="inline" /> Prev
+                </span>
+              )}
+              {nextStop ? (
+                <Link
+                  to={`/archive/${nextStop.slug}?trail=${trail.slug}&stop=${stopIndex + 1}`}
+                  className="no-underline inline-flex items-center gap-1 text-xs text-text-tertiary hover:text-text-primary transition-colors px-2 py-1 rounded border border-border-subtle hover:border-border-default"
+                >
+                  Next <ChevronRight size={12} />
+                </Link>
+              ) : (
+                <span className="text-xs text-text-muted px-2 py-1 opacity-40">
+                  Next <ChevronRight size={12} className="inline" />
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       <motion.article
         className="max-w-6xl mx-auto px-4 sm:px-6 py-8"
         initial={{ opacity: 0 }}
@@ -51,11 +112,11 @@ export default function EntryPage() {
         {/* Back link + share */}
         <div className="flex items-center justify-between mb-8">
           <Link
-            to="/explore"
+            to={trail ? `/trails/${trail.slug}` : '/explore'}
             className="no-underline inline-flex items-center gap-1.5 text-sm text-text-tertiary hover:text-text-primary transition-colors duration-300"
           >
             <ArrowLeft size={14} />
-            Back to archive
+            {trail ? `Back to ${trail.name}` : 'Back to archive'}
           </Link>
           <ShareButton title={entry.name} text={entry.tagline} />
         </div>
@@ -109,8 +170,39 @@ export default function EntryPage() {
               </section>
             )}
 
+            {/* Related Media */}
+            {entry.relatedMedia && entry.relatedMedia.length > 0 && (
+              <RelatedMedia media={entry.relatedMedia} />
+            )}
+
             {/* Sources */}
             <SourcesList sources={entry.sources} />
+
+            {/* Trail navigation at bottom */}
+            {trail && (prevStop || nextStop) && (
+              <div className="mt-8 pt-6 border-t border-border-subtle flex items-center justify-between">
+                {prevStop ? (
+                  <Link
+                    to={`/archive/${prevStop.slug}?trail=${trail.slug}&stop=${stopIndex - 1}`}
+                    className="no-underline inline-flex items-center gap-2 text-sm text-text-secondary hover:text-accent transition-colors"
+                  >
+                    <ArrowLeft size={14} />
+                    <span className="hidden sm:inline">Previous in trail</span>
+                    <span className="sm:hidden">Prev</span>
+                  </Link>
+                ) : <div />}
+                {nextStop ? (
+                  <Link
+                    to={`/archive/${nextStop.slug}?trail=${trail.slug}&stop=${stopIndex + 1}`}
+                    className="no-underline inline-flex items-center gap-2 text-sm text-text-secondary hover:text-accent transition-colors"
+                  >
+                    <span className="hidden sm:inline">Next in trail</span>
+                    <span className="sm:hidden">Next</span>
+                    <ArrowRight size={14} />
+                  </Link>
+                ) : <div />}
+              </div>
+            )}
 
             {/* Read another */}
             <div className="mt-12 pt-8 border-t border-border-subtle text-center">
@@ -143,6 +235,19 @@ export default function EntryPage() {
                 <h3 className="font-display text-lg font-medium text-text-primary mb-2">Cause of Loss</h3>
                 <p className="text-sm text-text-secondary leading-relaxed">{entry.cause}</p>
               </div>
+
+              {/* Trail badge in sidebar */}
+              {trail && (
+                <Link
+                  to={`/trails/${trail.slug}`}
+                  className="no-underline block bg-bg-card border border-border-subtle rounded-lg p-4 hover:border-border-default transition-colors"
+                >
+                  <p className="text-xs text-text-muted uppercase tracking-wider mb-1">Part of</p>
+                  <p className="text-sm font-medium text-text-primary">
+                    {trail.icon} {trail.name}
+                  </p>
+                </Link>
+              )}
             </div>
           </aside>
         </div>

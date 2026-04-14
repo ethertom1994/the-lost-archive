@@ -52,4 +52,7 @@ The closest medieval European ceramics came to matching Samian ware's surface qu
     { title: 'Samian Ware and the Roman Army', author: 'Philip Kenrick', year: 2004 },
     { title: 'The Production and Distribution of Roman Terra Sigillata', author: 'Michael Fulford', year: 2013, url: 'https://doi.org/10.1017/S0068113X13000196' },
   ],
+  relatedMedia: [
+    { type: 'museum', title: 'Samian Ware - Museum of London', url: 'https://www.museumoflondon.org.uk/', description: 'Roman-era pottery collection including fine samian tableware' },
+  ],
 };

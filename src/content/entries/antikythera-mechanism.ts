@@ -58,4 +58,7 @@ The knowledge that produced the mechanism did not vanish in a single catastrophe
     { title: 'A Model of the Cosmos in the ancient Greek Antikythera Mechanism', author: 'Freeth & Jones', year: 2012 },
     { title: 'De Re Publica', author: 'Cicero', year: -54 },
   ],
+  relatedMedia: [
+    { type: 'museum', title: 'National Archaeological Museum, Athens', url: 'https://www.namuseum.gr/en/collection/o-michanismos-ton-antikythiron/', description: 'The mechanism is displayed in the museum\'s permanent collection' },
+  ],
 };

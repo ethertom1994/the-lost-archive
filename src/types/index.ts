@@ -17,8 +17,31 @@ export interface Entry {
   quickFacts: Record<string, string>;
   connections: Connection[];
   sources: Source[];
+  relatedMedia?: RelatedMedia[];
   featured?: boolean;
   featuredDate?: string;
+}
+
+export interface RelatedMedia {
+  type: 'video' | 'audio' | 'book' | 'documentary' | 'museum' | 'article' | 'podcast';
+  title: string;
+  url: string;
+  description?: string;
+}
+
+export interface Trail {
+  slug: string;
+  name: string;
+  tagline: string;
+  description: string;
+  icon: string;
+  color: string;
+  entries: TrailStop[];
+}
+
+export interface TrailStop {
+  slug: string;
+  transitionText: string;
 }
 
 export interface Connection {

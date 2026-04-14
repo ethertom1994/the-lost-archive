@@ -4,10 +4,12 @@ import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SearchBar from '../shared/SearchBar';
 import WanderButton from '../shared/WanderButton';
+import { useProgress } from '../../hooks/useProgress';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const { readCount } = useProgress();
 
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
     `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-accent' : 'text-text-secondary hover:text-text-primary'}`;
@@ -19,12 +21,18 @@ export default function Header() {
           <span className="font-display text-xl font-medium tracking-tight">
             The <span className="text-accent">Lost</span> Archive
           </span>
+          {readCount > 0 && (
+            <span className="hidden md:inline text-xs text-text-muted ml-1">
+              {readCount} explored
+            </span>
+          )}
         </Link>
 
         {/* Desktop nav + search */}
         <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
           <NavLink to="/" end className={navLinkClass}>Home</NavLink>
           <NavLink to="/explore" className={navLinkClass}>Explore</NavLink>
+          <NavLink to="/trails" className={navLinkClass}>Trails</NavLink>
           <NavLink to="/stats" className={navLinkClass}>Stats</NavLink>
           <NavLink to="/about" className={navLinkClass}>About</NavLink>
           <WanderButton variant="full" />
@@ -83,8 +91,14 @@ export default function Header() {
             <div className="px-4 py-4 flex flex-col gap-4">
               <NavLink to="/" end className={navLinkClass} onClick={() => setMenuOpen(false)}>Home</NavLink>
               <NavLink to="/explore" className={navLinkClass} onClick={() => setMenuOpen(false)}>Explore</NavLink>
+              <NavLink to="/trails" className={navLinkClass} onClick={() => setMenuOpen(false)}>Trails</NavLink>
               <NavLink to="/stats" className={navLinkClass} onClick={() => setMenuOpen(false)}>Stats</NavLink>
               <NavLink to="/about" className={navLinkClass} onClick={() => setMenuOpen(false)}>About</NavLink>
+              {readCount > 0 && (
+                <span className="text-xs text-text-muted pt-2 border-t border-border-subtle">
+                  {readCount} entries explored
+                </span>
+              )}
             </div>
           </motion.nav>
         )}

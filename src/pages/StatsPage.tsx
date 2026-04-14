@@ -1,9 +1,12 @@
 import { useMemo, useRef, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { entries } from '../content';
+import { trails } from '../content/trails';
 import { CATEGORY_META, type Category } from '../types';
 import { categorizeCause, CAUSE_META, type LossCause } from '../utils/causes';
 import MetaTags from '../components/shared/MetaTags';
+import { useProgress } from '../hooks/useProgress';
 
 function parseYear(y: number | string): number {
   if (typeof y === 'number') return y;
@@ -57,6 +60,14 @@ const TIME_PERIODS = [
 ];
 
 export default function StatsPage() {
+  const { readCount, totalCount, percentage, categoriesVisited, readSlugs } = useProgress();
+
+  const completedTrails = useMemo(() => {
+    return trails.filter(trail =>
+      trail.entries.every(stop => readSlugs.has(stop.slug))
+    );
+  }, [readSlugs]);
+
   const stats = useMemo(() => {
     const years = entries.map(e => parseYear(e.lastKnownYear)).filter(y => y !== 0);
     const oldest = entries.reduce((a, b) => parseYear(a.lastKnownYear) < parseYear(b.lastKnownYear) ? a : b);
@@ -242,6 +253,78 @@ export default function StatsPage() {
             ))}
           </div>
         </section>
+
+        {/* Your Journey */}
+        {readCount > 0 && (
+          <section className="mb-20 pt-12 border-t border-border-subtle">
+            <h2 className="font-display text-2xl sm:text-3xl font-medium text-text-primary mb-2">Your Journey</h2>
+            <p className="text-text-tertiary text-sm mb-8">Your personal exploration of the archive.</p>
+
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <div className="bg-bg-card border border-border-subtle rounded-lg p-5 text-center">
+                <p className="font-display text-3xl font-medium text-accent mb-1">{readCount}</p>
+                <p className="text-xs text-text-tertiary">of {totalCount} explored</p>
+              </div>
+              <div className="bg-bg-card border border-border-subtle rounded-lg p-5 text-center">
+                <p className="font-display text-3xl font-medium text-accent mb-1">{percentage}%</p>
+                <p className="text-xs text-text-tertiary">of the archive</p>
+              </div>
+              <div className="bg-bg-card border border-border-subtle rounded-lg p-5 text-center">
+                <p className="font-display text-3xl font-medium text-accent mb-1">{categoriesVisited.size}</p>
+                <p className="text-xs text-text-tertiary">of {Object.keys(CATEGORY_META).length} categories</p>
+              </div>
+              <div className="bg-bg-card border border-border-subtle rounded-lg p-5 text-center">
+                <p className="font-display text-3xl font-medium text-accent mb-1">{completedTrails.length}</p>
+                <p className="text-xs text-text-tertiary">of {trails.length} trails completed</p>
+              </div>
+            </div>
+
+            {categoriesVisited.size > 0 && (
+              <div className="mb-6">
+                <p className="text-sm text-text-secondary mb-2">Categories touched:</p>
+                <div className="flex flex-wrap gap-2">
+                  {(Object.keys(CATEGORY_META) as Category[])
+                    .filter(cat => categoriesVisited.has(cat))
+                    .map(cat => (
+                      <span
+                        key={cat}
+                        className="text-xs px-2.5 py-1 rounded-full border border-border-subtle"
+                        style={{ color: CATEGORY_META[cat].color }}
+                      >
+                        {CATEGORY_META[cat].icon} {CATEGORY_META[cat].label}
+                      </span>
+                    ))}
+                </div>
+              </div>
+            )}
+
+            {completedTrails.length > 0 && (
+              <div className="mb-6">
+                <p className="text-sm text-text-secondary mb-2">Trails completed:</p>
+                <div className="flex flex-wrap gap-2">
+                  {completedTrails.map(trail => (
+                    <Link
+                      key={trail.slug}
+                      to={`/trails/${trail.slug}`}
+                      className="no-underline text-xs px-2.5 py-1 rounded-full border border-accent/20 text-accent hover:bg-accent/10 transition-colors"
+                    >
+                      {trail.icon} {trail.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="text-center mt-8">
+              <Link
+                to="/explore"
+                className="no-underline inline-flex items-center gap-2 bg-accent/10 text-accent border border-accent/20 rounded-full px-5 py-2.5 text-sm font-medium hover:bg-accent/20 transition-colors duration-300"
+              >
+                Keep exploring
+              </Link>
+            </div>
+          </section>
+        )}
       </div>
     </>
   );

@@ -59,4 +59,7 @@ The most common speculation is that Starlite was a mixture of organic polymers a
     { title: 'The Man Who Invented a Material NASA Wanted', author: 'The Guardian', year: 2018 },
     { title: 'Intumescent Materials and Their Application in Fire Protection', author: 'Serge Bourbigot et al.', year: 2004 },
   ],
+  relatedMedia: [
+    { type: 'video', title: 'Starlite on Tomorrow\'s World (BBC)', url: 'https://www.youtube.com/watch?v=aqR4_UoBIzY', description: 'Maurice Ward demonstrates Starlite\'s heat resistance on BBC TV' },
+  ],
 };

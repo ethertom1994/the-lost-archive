@@ -55,4 +55,7 @@ Doggerland is the largest known example of a populated landscape destroyed by se
     { title: 'The Storegga Slide tsunami', author: 'Bondevik et al.', year: 2005, url: 'https://doi.org/10.1016/j.margeo.2004.10.002' },
     { title: 'Mapping Doggerland', author: 'University of Birmingham / Europe\'s Lost Frontiers Project', year: 2019 },
   ],
+  relatedMedia: [
+    { type: 'book', title: 'Europe\'s Lost World: The Rediscovery of Doggerland', url: 'https://www.goodreads.com/book/show/6598131-europe-s-lost-world', description: 'Vincent Gaffney\'s archaeological study of the submerged landscape' },
+  ],
 };

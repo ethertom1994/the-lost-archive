@@ -55,4 +55,7 @@ The golden toad was a victim of the interaction between the two forces. Its tiny
     { title: 'Disappearance of the Golden Toad of Costa Rica', author: 'J. Alan Pounds and Martha Crump', year: 1994 },
     { title: 'Widespread Amphibian Extinctions from Epidemic Disease Driven by Global Warming', author: 'J. Alan Pounds et al.', year: 2006 },
   ],
+  relatedMedia: [
+    { type: 'documentary', title: 'David Attenborough\'s Extinction: The Facts', url: 'https://www.bbc.co.uk/programmes/m000mn4n', description: 'Features the golden toad as a case study in climate-driven extinction' },
+  ],
 };

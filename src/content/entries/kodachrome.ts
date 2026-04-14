@@ -56,4 +56,7 @@ Paul Simon's 1973 song "Kodachrome" turned the film into a cultural artifact eve
     { title: 'The Last Roll of Kodachrome', author: 'Steve McCurry', year: 2012 },
     { title: 'A History of Kodachrome', author: 'Eastman Kodak Company', year: 2009 },
   ],
+  relatedMedia: [
+    { type: 'video', title: 'The Last Roll of Kodachrome', url: 'https://www.youtube.com/watch?v=DUL6MBVKVLI', description: 'Documentary about the final roll of Kodachrome ever processed' },
+  ],
 };

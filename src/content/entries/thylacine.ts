@@ -57,4 +57,8 @@ The 80-degree jaw gape. The stripes. The stiff tail. Everything about the thylac
     { title: 'The Last Tasmanian Tiger: The History and Extinction of the Thylacine', author: 'Robert Paddle', year: 2000 },
     { title: 'Tasmanian Tiger: The Tragic Tale of How the World Lost Its Most Mysterious Predator', author: 'David Owen', year: 2003 },
   ],
+  relatedMedia: [
+    { type: 'video', title: 'Last Known Thylacine Footage (1933)', url: 'https://www.youtube.com/watch?v=6vqCCI1ZF7o', description: 'Film of the last captive thylacine at the Hobart Zoo' },
+    { type: 'book', title: 'The Last Tasmanian Tiger', url: 'https://www.cambridge.org/core/books/last-tasmanian-tiger/0E2F0E71F2DBB0DB2A9C6C64506FC208', description: 'Robert Paddle\'s definitive account of the thylacine\'s extinction' },
+  ],
 };

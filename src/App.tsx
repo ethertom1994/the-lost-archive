@@ -12,6 +12,8 @@ const StatsPage = lazy(() => import('./pages/StatsPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
+const TrailsPage = lazy(() => import('./pages/TrailsPage'));
+const TrailDetailPage = lazy(() => import('./pages/TrailDetailPage'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -50,6 +52,8 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/explore" element={<ExplorerPage />} />
             <Route path="/archive/:slug" element={<EntryPage />} />
+            <Route path="/trails" element={<TrailsPage />} />
+            <Route path="/trails/:slug" element={<TrailDetailPage />} />
             <Route path="/stats" element={<StatsPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />

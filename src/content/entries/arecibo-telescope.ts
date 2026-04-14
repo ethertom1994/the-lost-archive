@@ -55,4 +55,7 @@ No equivalent facility has been built to replace Arecibo's transmitting capabili
     { title: 'Collapse of the Arecibo Observatory', author: 'National Science Foundation', year: 2020 },
     { title: 'The Arecibo Observatory: Fifty Years of Discovery', author: 'Cornell University', year: 2013 },
   ],
+  relatedMedia: [
+    { type: 'video', title: 'Arecibo Telescope Collapse', url: 'https://www.youtube.com/watch?v=ssHkMWcGat4', description: 'The dramatic collapse of the 305m dish on December 1, 2020' },
+  ],
 };

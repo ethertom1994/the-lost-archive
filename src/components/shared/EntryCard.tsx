@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Check } from 'lucide-react';
 import type { Entry } from '../../types';
 import { CATEGORY_META } from '../../types';
+import { useProgress } from '../../hooks/useProgress';
 
 interface EntryCardProps {
   entry: Entry;
@@ -10,6 +12,8 @@ interface EntryCardProps {
 
 export default function EntryCard({ entry, variant = 'default' }: EntryCardProps) {
   const meta = CATEGORY_META[entry.category];
+  const { isRead } = useProgress();
+  const read = isRead(entry.slug);
 
   return (
     <Link to={`/archive/${entry.slug}`} className="no-underline block group">
@@ -20,6 +24,12 @@ export default function EntryCard({ entry, variant = 'default' }: EntryCardProps
         transition={{ duration: 0.3, ease: 'easeOut' }}
       >
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,var(--color-accent-glow),transparent_70%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
+
+        {read && (
+          <div className="absolute top-2 right-2 z-20 size-5 rounded-full bg-accent/20 flex items-center justify-center" title="Visited">
+            <Check size={11} className="text-accent" />
+          </div>
+        )}
 
         {variant === 'default' && (
           <div className="h-40 bg-bg-surface relative overflow-hidden museum-vignette">

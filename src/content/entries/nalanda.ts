@@ -52,4 +52,7 @@ Entire schools of Buddhist philosophy are known only through fragments quoted in
     { title: 'Tabaqat-i-Nasiri', author: 'Minhaj-i-Siraj Juzjani', year: 1260 },
     { title: 'The Rise, Decline, and Destruction of Nalanda', author: 'Hartmut Scharfe', year: 2002 },
   ],
+  relatedMedia: [
+    { type: 'museum', title: 'Nalanda Archaeological Site - UNESCO', url: 'https://whc.unesco.org/en/list/1502/', description: 'UNESCO World Heritage listing for the ruins of Nalanda Mahavihara' },
+  ],
 };

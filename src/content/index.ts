@@ -139,6 +139,58 @@ import { samianWare } from './entries/samian-ware';
 // Cross-category (1)
 import { voyagerGoldenRecord } from './entries/voyager-golden-record';
 
+// ===== BATCH 3: 30 new entries =====
+
+// Fauna (6)
+import { spixMacaw } from './entries/spix-macaw';
+import { greatAuk } from './entries/great-auk';
+import { javanTiger } from './entries/javan-tiger';
+import { tecopaPupfish } from './entries/tecopa-pupfish';
+import { passengerPigeon } from './entries/passenger-pigeon';
+import { caspianTiger } from './entries/caspian-tiger';
+
+// Flora (3)
+import { woodsCycad } from './entries/woods-cycad';
+import { toromiro } from './entries/toromiro';
+import { mauritiusDodoEcosystem } from './entries/mauritius-dodo-ecosystem';
+
+// Food (2)
+import { flamingoTongue } from './entries/flamingo-tongue';
+import { originalFishChips } from './entries/original-fish-chips';
+
+// Language (2)
+import { tasmanianLanguages } from './entries/tasmanian-languages';
+import { sumerian } from './entries/sumerian';
+
+// Sound (3)
+import { stradivariusSound } from './entries/stradivarius-sound';
+import { foghornChorus } from './entries/foghorn-chorus';
+import { greekMusicModes } from './entries/greek-music-modes';
+
+// Material (2)
+import { hanPurple } from './entries/han-purple';
+import { wootzSteel } from './entries/wootz-steel';
+
+// Technology (2)
+import { aeolipile } from './entries/aeolipile';
+import { incaRoads } from './entries/inca-roads';
+
+// Place (2)
+import { maldivesSinking } from './entries/maldives-sinking';
+import { pripyat } from './entries/pripyat';
+
+// Culture (6)
+import { antikytheraCargo } from './entries/antikythera-cargo';
+import { nightSoil } from './entries/night-soil';
+import { victorianMourning } from './entries/victorian-mourning';
+import { polynesianWayfinding } from './entries/polynesian-wayfinding';
+import { romanSilphiumEconomy } from './entries/roman-silphium-economy';
+import { colossusOfRhodes } from './entries/colossus-of-rhodes';
+
+// Cross-category (2)
+import { svalbardSyria } from './entries/svalbard-syria';
+import { archaeomagnetism } from './entries/archaeomagnetism';
+
 import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
 
@@ -164,6 +216,12 @@ export const entries: Entry[] = [
   dodo,
   zanzibarLeopard,
   yangtzeSoftshellTurtle,
+  spixMacaw,
+  greatAuk,
+  javanTiger,
+  tecopaPupfish,
+  passengerPigeon,
+  caspianTiger,
   // Flora
   franklinia,
   stHelenaOlive,
@@ -173,6 +231,9 @@ export const entries: Entry[] = [
   araucariaMirabilis,
   boisDentelle,
   cedarsOfLebanon,
+  woodsCycad,
+  toromiro,
+  mauritiusDodoEcosystem,
   // Food
   taliaferroApple,
   aztecChocolate,
@@ -183,6 +244,8 @@ export const entries: Entry[] = [
   originalNyCheesecake,
   okinawanAwamori,
   silphiumSpice,
+  flamingoTongue,
+  originalFishChips,
   // Sound
   alalaSong,
   eyakLanguage,
@@ -192,6 +255,9 @@ export const entries: Entry[] = [
   globeAcoustics,
   phonoautograph,
   vinlandBirdsong,
+  stradivariusSound,
+  foghornChorus,
+  greekMusicModes,
   // Language
   ubykh,
   dalmatianLanguage,
@@ -199,6 +265,8 @@ export const entries: Entry[] = [
   silboGomero,
   kusunda,
   ayapaneco,
+  tasmanianLanguages,
+  sumerian,
   // Material
   tyrianPurple,
   fordite,
@@ -208,6 +276,8 @@ export const entries: Entry[] = [
   bakelite,
   terracottaPaint,
   samianWare,
+  hanPurple,
+  wootzSteel,
   // Technology
   greekFire,
   antikytheraMechanism,
@@ -220,6 +290,8 @@ export const entries: Entry[] = [
   romanRoads,
   romanHydraulics,
   lycurgusCup,
+  aeolipile,
+  incaRoads,
   // Place
   doggerland,
   aralSea,
@@ -230,6 +302,8 @@ export const entries: Entry[] = [
   hangingGardens,
   lakeTexcoco,
   sundarbansShrinking,
+  maldivesSinking,
+  pripyat,
   // Culture
   tanganyika,
   knockerUpper,
@@ -242,10 +316,18 @@ export const entries: Entry[] = [
   quipu,
   beninBronzes,
   nalanda,
+  antikytheraCargo,
+  nightSoil,
+  victorianMourning,
+  polynesianWayfinding,
+  romanSilphiumEconomy,
+  colossusOfRhodes,
   // Cross-category
   stradivariusSecret,
   silphionCoin,
   voyagerGoldenRecord,
+  svalbardSyria,
+  archaeomagnetism,
 ];
 
 export function getEntry(slug: string): Entry | undefined {

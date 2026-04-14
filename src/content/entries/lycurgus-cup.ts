@@ -52,4 +52,7 @@ No Roman text describes the process. No workshop has been identified. The Lycurg
     { title: 'The Corning Museum of Glass: Roman Cage Cups', author: 'David Whitehouse', year: 2001 },
     { title: 'Plasmonics: From Lycurgus Cup to Modern Sensors', author: 'Stefan A. Maier', year: 2007 },
   ],
+  relatedMedia: [
+    { type: 'museum', title: 'Lycurgus Cup - British Museum (Room 41)', url: 'https://www.britishmuseum.org/collection/object/H_1958-1202-1', description: 'The dichroic glass cup displayed in the British Museum\'s Roman gallery' },
+  ],
 };

@@ -55,4 +55,7 @@ British historian Roy Moxham stumbled upon a reference to the hedge in the 1990s
     { title: 'Salt: A World History', author: 'Mark Kurlansky', year: 2002 },
     { title: 'The Customs Line in India', author: 'W.S. Halsey', year: 1877 },
   ],
+  relatedMedia: [
+    { type: 'book', title: 'The Great Hedge of India', url: 'https://www.goodreads.com/book/show/173839.The_Great_Hedge_of_India', description: 'Roy Moxham\'s book that rediscovered the forgotten 3,700-km barrier' },
+  ],
 };

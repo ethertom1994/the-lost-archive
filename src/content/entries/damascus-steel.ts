@@ -57,4 +57,7 @@ Contemporary knifemakers produce what they call Damascus steel through pattern w
     { title: 'Damascus Steel: Myth, History, Technology, Applications', author: 'Manouchehr Moshtagh Khorasani', year: 2006 },
     { title: 'Wootz Steel: An Advanced Material of the Ancient World', author: 'Sharada Srinivasan', year: 1994 },
   ],
+  relatedMedia: [
+    { type: 'documentary', title: 'NOVA: Secrets of the Viking Sword', url: 'https://www.pbs.org/wgbh/nova/article/secrets-viking-sword/', description: 'Explores the mystery of crucible steel in Viking and Damascus blades' },
+  ],
 };

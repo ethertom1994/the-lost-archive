@@ -2,14 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://the-lost-archive.vercel.app/</loc><priority>1.0</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/explore</loc><priority>0.9</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails</loc><priority>0.8</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/stats</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/about</loc><priority>0.5</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/roman-legacy</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/last-speakers</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/climates-toll</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/lost-flavors</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/destroyed-by-conquest</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/lost-secrets</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/trails/loneliest-creatures</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/aeolipile</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/alala-song</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/ansault-pear</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/antikythera-cargo</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/antikythera-mechanism</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/aral-sea</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/araucaria-mirabilis</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/archaeomagnetism</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/arecibo-telescope</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/ayapaneco</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/aztec-chocolate</loc><priority>0.7</priority></url>
@@ -21,10 +32,12 @@
   <url><loc>https://the-lost-archive.vercel.app/archive/bramble-cay-melomys</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/cafe-marron</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/caribbean-monk-seal</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/caspian-tiger</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/castrato-voice</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/cedars-of-lebanon</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/centralia</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/claxton-peach</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/colossus-of-rhodes</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/concorde</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/cooksonia</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/cry-violet</loc><priority>0.7</priority></url>
@@ -33,15 +46,22 @@
   <url><loc>https://the-lost-archive.vercel.app/archive/dodo</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/doggerland</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/eyak-language</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/flamingo-tongue</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/foghorn-chorus</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/fordite</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/franklinia</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/garum</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/globe-acoustics</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/golden-toad</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/great-auk</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/great-hedge-india</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/greek-fire</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/greek-music-modes</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/gros-michel-banana</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/han-purple</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/hanging-gardens</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/inca-roads</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/javan-tiger</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/kauai-oo</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/kistler-aerogel</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/knocker-upper</loc><priority>0.7</priority></url>
@@ -53,14 +73,21 @@
   <url><loc>https://the-lost-archive.vercel.app/archive/library-of-alexandria</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/lop-nur</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/lycurgus-cup</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/maldives-sinking</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/mauritius-dodo-ecosystem</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/mixtec-codices</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/mummy-brown</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/nalanda</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/night-soil</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/okinawan-awamori</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/original-fish-chips</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/original-ny-cheesecake</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/passenger-pigeon</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/passenger-pigeon-pie</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/phonoautograph</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/polynesian-wayfinding</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/pre-equal-temperament</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/pripyat</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/prussian-taler</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/pyrenean-ibex</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/quagga</loc><priority>0.7</priority></url>
@@ -69,28 +96,39 @@
   <url><loc>https://the-lost-archive.vercel.app/archive/roman-concrete</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/roman-hydraulics</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/roman-roads</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/roman-silphium-economy</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/samian-ware</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/silbo-gomero</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/silphion-coin</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/silphium</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/silphium-spice</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/slender-billed-curlew</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/spix-macaw</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/st-helena-olive</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/starlite</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/stellers-sea-cow</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/stradivarius-secret</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/stradivarius-sound</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/sumerian</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/sundarbans-shrinking</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/svalbard-syria</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/taliaferro-apple</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/tanganyika</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/tasmanian-languages</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/tecopa-pupfish</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/tekhelet</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/terracotta-paint</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/thylacine</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/toolache-wallaby</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/toromiro</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/tyrian-purple</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/ubykh</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/ulfberht-swords</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/victorian-mourning</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/vinland-birdsong</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/voyager-golden-record</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/woods-cycad</loc><priority>0.7</priority></url>
+  <url><loc>https://the-lost-archive.vercel.app/archive/wootz-steel</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/xerces-blue</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/yahi</loc><priority>0.7</priority></url>
   <url><loc>https://the-lost-archive.vercel.app/archive/yangtze-softshell-turtle</loc><priority>0.7</priority></url>

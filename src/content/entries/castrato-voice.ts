@@ -59,4 +59,7 @@ Modern countertenors sing in falsetto, a technique that uses the upper register 
     { title: 'Alessandro Moreschi and the Voice of the Castrato', author: 'Nicholas Clapton', year: 2004 },
     { title: 'The Last Castrato: The Recordings of Alessandro Moreschi', year: 1902 },
   ],
+  relatedMedia: [
+    { type: 'audio', title: 'Alessandro Moreschi - The Last Castrato', url: 'https://www.youtube.com/watch?v=KLjvfqnD0ws', description: 'The only known recordings of a castrato voice, made in 1902-1904' },
+  ],
 };

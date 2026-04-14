@@ -49,4 +49,7 @@ The Spanish destroyed quipus systematically. The Third Council of Lima in 1583 o
     { title: 'Narrative Threads: Accounting and Recounting in Andean Khipu', author: 'Jeffrey Quilter & Gary Urton', year: 2002 },
     { title: 'The Inca Empire: A Multidisciplinary Approach', author: 'Izumi Shimada', year: 2015 },
   ],
+  relatedMedia: [
+    { type: 'museum', title: 'Quipu Collection - Museo Larco, Lima', url: 'https://www.museolarco.org/en/', description: 'One of the finest collections of Inca quipu in the world' },
+  ],
 };

@@ -51,4 +51,8 @@ What is lost is not the art itself but the library it formed. We have the pages.
     { title: 'The Art of Benin', author: 'Paula Girshick Ben-Amos', year: 1995 },
     { title: 'Benin: Royal Art of Africa from the Museum fur Volkerkunde, Vienna', author: 'Barbara Plankensteiner', year: 2007 },
   ],
+  relatedMedia: [
+    { type: 'museum', title: 'Benin Bronzes - British Museum', url: 'https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes', description: 'The British Museum\'s collection and the ongoing repatriation debate' },
+    { type: 'museum', title: 'National Museum of African Art, Smithsonian', url: 'https://africa.si.edu/exhibits/current-exhibits/', description: 'Smithsonian collection of Benin Kingdom artworks' },
+  ],
 };
