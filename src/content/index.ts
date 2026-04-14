@@ -60,6 +60,8 @@ import { goldenToad } from './entries/golden-toad';
 import { toolacheWallaby } from './entries/toolache-wallaby';
 import { quagga } from './entries/quagga';
 import { dodo } from './entries/dodo';
+import { zanzibarLeopard } from './entries/zanzibar-leopard';
+import { yangtzeSoftshellTurtle } from './entries/yangtze-softshell-turtle';
 
 // New flora (2)
 import { cooksonia } from './entries/cooksonia';
@@ -69,6 +71,8 @@ import { cafeMarron } from './entries/cafe-marron';
 import { garum } from './entries/garum';
 import { claxtonPeach } from './entries/claxton-peach';
 import { originalNyCheesecake } from './entries/original-ny-cheesecake';
+import { okinawanAwamori } from './entries/okinawan-awamori';
+import { silphiumSpice } from './entries/silphium-spice';
 
 // New sound (2)
 import { slenderBilledCurlew } from './entries/slender-billed-curlew';
@@ -99,6 +103,41 @@ import { raiStones } from './entries/rai-stones';
 import { lamplighter } from './entries/lamplighter';
 import { greatHedgeIndia } from './entries/great-hedge-india';
 import { mixtecCodices } from './entries/mixtec-codices';
+import { quipu } from './entries/quipu';
+import { beninBronzes } from './entries/benin-bronzes';
+import { nalanda } from './entries/nalanda';
+
+// Language (6)
+import { ubykh } from './entries/ubykh';
+import { dalmatianLanguage } from './entries/dalmatian-language';
+import { yahi } from './entries/yahi';
+import { silboGomero } from './entries/silbo-gomero';
+import { kusunda } from './entries/kusunda';
+import { ayapaneco } from './entries/ayapaneco';
+
+// New sound (3)
+import { globeAcoustics } from './entries/globe-acoustics';
+import { phonoautograph } from './entries/phonoautograph';
+import { vinlandBirdsong } from './entries/vinland-birdsong';
+
+// New flora (3)
+import { araucariaMirabilis } from './entries/araucaria-mirabilis';
+import { boisDentelle } from './entries/bois-dentelle';
+import { cedarsOfLebanon } from './entries/cedars-of-lebanon';
+
+// New technology (2)
+import { romanHydraulics } from './entries/roman-hydraulics';
+import { lycurgusCup } from './entries/lycurgus-cup';
+
+// New place (2)
+import { lakeTexcoco } from './entries/lake-texcoco';
+import { sundarbansShrinking } from './entries/sundarbans-shrinking';
+
+// New material (1)
+import { samianWare } from './entries/samian-ware';
+
+// Cross-category (1)
+import { voyagerGoldenRecord } from './entries/voyager-golden-record';
 
 import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
@@ -123,12 +162,17 @@ export const entries: Entry[] = [
   toolacheWallaby,
   quagga,
   dodo,
+  zanzibarLeopard,
+  yangtzeSoftshellTurtle,
   // Flora
   franklinia,
   stHelenaOlive,
   cryViolet,
   cooksonia,
   cafeMarron,
+  araucariaMirabilis,
+  boisDentelle,
+  cedarsOfLebanon,
   // Food
   taliaferroApple,
   aztecChocolate,
@@ -137,12 +181,24 @@ export const entries: Entry[] = [
   garum,
   claxtonPeach,
   originalNyCheesecake,
+  okinawanAwamori,
+  silphiumSpice,
   // Sound
   alalaSong,
   eyakLanguage,
   castratoVoice,
   slenderBilledCurlew,
   preEqualTemperament,
+  globeAcoustics,
+  phonoautograph,
+  vinlandBirdsong,
+  // Language
+  ubykh,
+  dalmatianLanguage,
+  yahi,
+  silboGomero,
+  kusunda,
+  ayapaneco,
   // Material
   tyrianPurple,
   fordite,
@@ -151,6 +207,7 @@ export const entries: Entry[] = [
   kistlerAerogel,
   bakelite,
   terracottaPaint,
+  samianWare,
   // Technology
   greekFire,
   antikytheraMechanism,
@@ -161,6 +218,8 @@ export const entries: Entry[] = [
   concorde,
   kodachrome,
   romanRoads,
+  romanHydraulics,
+  lycurgusCup,
   // Place
   doggerland,
   aralSea,
@@ -169,6 +228,8 @@ export const entries: Entry[] = [
   centralia,
   lopNur,
   hangingGardens,
+  lakeTexcoco,
+  sundarbansShrinking,
   // Culture
   tanganyika,
   knockerUpper,
@@ -178,9 +239,13 @@ export const entries: Entry[] = [
   lamplighter,
   greatHedgeIndia,
   mixtecCodices,
+  quipu,
+  beninBronzes,
+  nalanda,
   // Cross-category
   stradivariusSecret,
   silphionCoin,
+  voyagerGoldenRecord,
 ];
 
 export function getEntry(slug: string): Entry | undefined {

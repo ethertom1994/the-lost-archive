@@ -10,6 +10,7 @@ import SourcesList from '../components/entry/SourcesList';
 import ConnectionCard from '../components/entry/ConnectionCard';
 import MetaTags from '../components/shared/MetaTags';
 import ShareButton from '../components/shared/ShareButton';
+import WanderButton from '../components/shared/WanderButton';
 
 export default function EntryPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -29,6 +30,8 @@ export default function EntryPage() {
 
   const connected = getConnectedEntries(entry);
   const meta = CATEGORY_META[entry.category];
+  const wordCount = entry.body.split(/\s+/).length;
+  const readingTime = Math.max(1, Math.round(wordCount / 200));
 
   return (
     <>
@@ -61,6 +64,8 @@ export default function EntryPage() {
           {/* Main content */}
           <div className="min-w-0">
             <EntryHeader entry={entry} />
+
+            <p className="text-text-tertiary text-sm -mt-5 mb-6">{readingTime} min read</p>
 
             {/* Image */}
             {entry.imageUrl && (
@@ -106,6 +111,11 @@ export default function EntryPage() {
 
             {/* Sources */}
             <SourcesList sources={entry.sources} />
+
+            {/* Read another */}
+            <div className="mt-12 pt-8 border-t border-border-subtle text-center">
+              <WanderButton variant="full" label="Read another story" className="text-base px-6 py-2.5" />
+            </div>
           </div>
 
           {/* Sidebar - desktop only */}

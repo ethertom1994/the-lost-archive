@@ -3,6 +3,7 @@ import { Menu, X, Search } from 'lucide-react';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SearchBar from '../shared/SearchBar';
+import WanderButton from '../shared/WanderButton';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,10 +22,12 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav + search */}
-        <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
+        <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
           <NavLink to="/" end className={navLinkClass}>Home</NavLink>
           <NavLink to="/explore" className={navLinkClass}>Explore</NavLink>
+          <NavLink to="/stats" className={navLinkClass}>Stats</NavLink>
           <NavLink to="/about" className={navLinkClass}>About</NavLink>
+          <WanderButton variant="full" />
         </nav>
 
         <div className="hidden md:block w-60 focus-within:w-[360px] transition-all duration-300">
@@ -80,6 +83,7 @@ export default function Header() {
             <div className="px-4 py-4 flex flex-col gap-4">
               <NavLink to="/" end className={navLinkClass} onClick={() => setMenuOpen(false)}>Home</NavLink>
               <NavLink to="/explore" className={navLinkClass} onClick={() => setMenuOpen(false)}>Explore</NavLink>
+              <NavLink to="/stats" className={navLinkClass} onClick={() => setMenuOpen(false)}>Stats</NavLink>
               <NavLink to="/about" className={navLinkClass} onClick={() => setMenuOpen(false)}>About</NavLink>
             </div>
           </motion.nav>

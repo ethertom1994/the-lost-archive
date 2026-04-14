@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import { Home, Compass, Info } from 'lucide-react';
+import { Home, Compass } from 'lucide-react';
+import WanderButton from '../shared/WanderButton';
 
 export default function MobileNav() {
   const linkClass = ({ isActive }: { isActive: boolean }) =>
@@ -19,10 +20,7 @@ export default function MobileNav() {
           <Compass size={20} />
           <span className="text-[11px] font-medium">Explore</span>
         </NavLink>
-        <NavLink to="/about" className={linkClass} aria-label="About">
-          <Info size={20} />
-          <span className="text-[11px] font-medium">About</span>
-        </NavLink>
+        <WanderButton variant="compact" />
       </div>
     </nav>
   );

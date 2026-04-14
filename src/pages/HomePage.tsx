@@ -5,6 +5,7 @@ import { getFeaturedEntry, entries } from '../content';
 import { CATEGORY_META, type Category } from '../types';
 import EntryCard from '../components/shared/EntryCard';
 import MetaTags from '../components/shared/MetaTags';
+import WanderButton from '../components/shared/WanderButton';
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -124,6 +125,22 @@ export default function HomePage() {
             );
           })}
         </div>
+      </section>
+
+      {/* Wander CTA */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-8">
+        <motion.div
+          className="text-center py-12 border-t border-border-subtle"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <p className="font-display text-xl text-text-secondary italic mb-5">
+            Not sure where to start?
+          </p>
+          <WanderButton variant="full" label="Wander the Archive" className="text-base px-8 py-3" />
+        </motion.div>
       </section>
 
       {/* Recent Entries */}

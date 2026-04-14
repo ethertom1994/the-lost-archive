@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { entries } from '../../content';
 import { CATEGORY_META, type Category } from '../../types';
+import { categorizeCause, CAUSE_META, type LossCause } from '../../utils/causes';
 import EntryCard from '../shared/EntryCard';
 
 interface CategoriesViewProps {
@@ -11,19 +12,21 @@ interface CategoriesViewProps {
 }
 
 const categories = Object.entries(CATEGORY_META) as [Category, typeof CATEGORY_META[Category]][];
+const causeKeys = Object.keys(CAUSE_META) as LossCause[];
 const PAGE_SIZE = 12;
 
 export default function CategoriesView({ initialCategory }: CategoriesViewProps) {
   const [searchParams, setSearchParams] = useSearchParams();
   const searchQuery = searchParams.get('search') ?? '';
   const [selected, setSelected] = useState<Category | null>(initialCategory ?? null);
+  const [selectedCause, setSelectedCause] = useState<LossCause | null>(null);
   const [sortBy, setSortBy] = useState<'year-asc' | 'year-desc' | 'name'>('name');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  // Reset pagination when category or sort changes
+  // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [selected, sortBy, searchQuery]);
+  }, [selected, selectedCause, sortBy, searchQuery]);
 
   function clearSearch() {
     const params = new URLSearchParams(searchParams);
@@ -31,8 +34,22 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
     setSearchParams(params, { replace: true });
   }
 
-  // Apply search filter
-  let filtered = selected ? entries.filter(e => e.category === selected) : [...entries];
+  function clearAllFilters() {
+    setSelected(null);
+    setSelectedCause(null);
+    if (searchQuery.trim()) clearSearch();
+  }
+
+  // Apply filters
+  let filtered = [...entries];
+
+  if (selected) {
+    filtered = filtered.filter(e => e.category === selected);
+  }
+
+  if (selectedCause) {
+    filtered = filtered.filter(e => categorizeCause(e) === selectedCause);
+  }
 
   if (searchQuery.trim()) {
     const q = searchQuery.toLowerCase().trim();
@@ -55,6 +72,7 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
 
   const visible = sorted.slice(0, visibleCount);
   const hasMore = visibleCount < sorted.length;
+  const hasActiveFilters = selected || selectedCause || searchQuery.trim();
 
   return (
     <div>
@@ -75,7 +93,7 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
       )}
 
       {/* Category grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
         {categories.map(([key, meta]) => {
           const count = entries.filter(e => e.category === key).length;
           const isActive = selected === key;
@@ -99,8 +117,36 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
         })}
       </div>
 
-      {/* Sort controls */}
-      <div className="flex items-center gap-3 mb-6">
+      {/* Cause filter row */}
+      <div className="mb-8">
+        <p className="text-xs text-text-tertiary mb-2">Filter by cause:</p>
+        <div className="flex flex-wrap gap-2">
+          {causeKeys.map(key => {
+            const meta = CAUSE_META[key];
+            const isActive = selectedCause === key;
+            const count = entries.filter(e => categorizeCause(e) === key).length;
+            if (count === 0) return null;
+            return (
+              <button
+                key={key}
+                onClick={() => setSelectedCause(isActive ? null : key)}
+                className={`inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-colors duration-300 cursor-pointer ${
+                  isActive
+                    ? 'bg-accent/10 border-accent/20 text-accent'
+                    : 'bg-bg-card border-border-subtle text-text-tertiary hover:text-text-secondary'
+                }`}
+              >
+                <span>{meta.icon}</span>
+                <span>{meta.label}</span>
+                <span className="text-text-muted">({count})</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Active filter state + sort controls */}
+      <div className="flex items-center gap-3 mb-6 flex-wrap">
         <span className="text-xs text-text-tertiary">Sort:</span>
         {([['name', 'Name'], ['year-asc', 'Oldest'], ['year-desc', 'Newest']] as const).map(([value, label]) => (
           <button
@@ -118,13 +164,22 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
         <span className="text-xs text-text-tertiary ml-auto">
           {sorted.length} {sorted.length === 1 ? 'entry' : 'entries'}
           {selected && <> in {CATEGORY_META[selected].label}</>}
+          {selectedCause && <> lost to {CAUSE_META[selectedCause].label}</>}
         </span>
+        {hasActiveFilters && (
+          <button
+            onClick={clearAllFilters}
+            className="text-xs text-accent hover:text-accent-dim transition-colors cursor-pointer"
+          >
+            Clear all
+          </button>
+        )}
       </div>
 
       {/* Entry grid */}
       <AnimatePresence mode="wait">
         <motion.div
-          key={`${selected}-${sortBy}-${searchQuery}`}
+          key={`${selected}-${selectedCause}-${sortBy}-${searchQuery}`}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -139,7 +194,7 @@ export default function CategoriesView({ initialCategory }: CategoriesViewProps)
 
       {sorted.length === 0 && (
         <p className="text-center text-text-tertiary py-12">
-          {searchQuery.trim() ? `No entries match "${searchQuery}".` : 'No entries in this category yet.'}
+          {searchQuery.trim() ? `No entries match "${searchQuery}".` : 'No entries match these filters.'}
         </p>
       )}
 

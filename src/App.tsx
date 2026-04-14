@@ -8,6 +8,7 @@ import MobileNav from './components/layout/MobileNav';
 const HomePage = lazy(() => import('./pages/HomePage'));
 const ExplorerPage = lazy(() => import('./pages/ExplorerPage'));
 const EntryPage = lazy(() => import('./pages/EntryPage'));
+const StatsPage = lazy(() => import('./pages/StatsPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
@@ -49,6 +50,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/explore" element={<ExplorerPage />} />
             <Route path="/archive/:slug" element={<EntryPage />} />
+            <Route path="/stats" element={<StatsPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="*" element={<NotFoundPage />} />
