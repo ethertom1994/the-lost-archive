@@ -61,6 +61,6 @@ Each time one is played, it is a performance on an irreplaceable instrument whos
     { title: 'Player preferences among new and old violins', author: 'Fritz et al.', year: 2012, url: 'https://doi.org/10.1073/pnas.1114999109' },
   ],
   relatedMedia: [
-    { type: 'book', title: 'Stradivari\'s Genius', url: 'https://www.goodreads.com/book/show/382543.Stradivari_s_Genius', description: 'Toby Faber traces the lives of five Stradivarius instruments' },
+    { type: 'book', title: 'Stradivari\'s Genius', url: 'https://www.goodreads.com/book/show/117332.Stradivari_s_Genius', description: 'Toby Faber traces the lives of five Stradivarius instruments' },
   ],
 };

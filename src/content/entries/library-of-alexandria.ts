@@ -57,6 +57,6 @@ The most troubling aspect of the library's loss is not the works we know are mis
     { title: 'Too Great a Good: A History of the Royal Library of Alexandria', author: 'James Hannam', year: 2003 },
   ],
   relatedMedia: [
-    { type: 'book', title: 'The Rise and Fall of Alexandria', url: 'https://www.goodreads.com/book/show/1515965.The_Rise_and_Fall_of_Alexandria', description: 'Justin Pollard\'s account of the city and its legendary library' },
+    { type: 'book', title: 'The Rise and Fall of Alexandria', url: 'https://www.goodreads.com/book/show/400064.The_Rise_and_Fall_of_Alexandria', description: 'Justin Pollard\'s account of the city and its legendary library' },
   ],
 };

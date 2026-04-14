@@ -56,6 +56,6 @@ Doggerland is the largest known example of a populated landscape destroyed by se
     { title: 'Mapping Doggerland', author: 'University of Birmingham / Europe\'s Lost Frontiers Project', year: 2019 },
   ],
   relatedMedia: [
-    { type: 'book', title: 'Europe\'s Lost World: The Rediscovery of Doggerland', url: 'https://www.goodreads.com/book/show/6598131-europe-s-lost-world', description: 'Vincent Gaffney\'s archaeological study of the submerged landscape' },
+    { type: 'book', title: 'Europe\'s Lost World: The Rediscovery of Doggerland', url: 'https://www.goodreads.com/book/show/6644446', description: 'Vincent Gaffney\'s archaeological study of the submerged landscape' },
   ],
 };

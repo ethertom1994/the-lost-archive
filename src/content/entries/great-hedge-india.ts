@@ -56,6 +56,6 @@ British historian Roy Moxham stumbled upon a reference to the hedge in the 1990s
     { title: 'The Customs Line in India', author: 'W.S. Halsey', year: 1877 },
   ],
   relatedMedia: [
-    { type: 'book', title: 'The Great Hedge of India', url: 'https://www.goodreads.com/book/show/173839.The_Great_Hedge_of_India', description: 'Roy Moxham\'s book that rediscovered the forgotten 3,700-km barrier' },
+    { type: 'book', title: 'The Great Hedge of India', url: 'https://www.goodreads.com/book/show/146077.The_Great_Hedge_of_India', description: 'Roy Moxham\'s book that rediscovered the forgotten 3,700-km barrier' },
   ],
 };
