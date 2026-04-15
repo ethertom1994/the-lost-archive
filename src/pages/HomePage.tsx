@@ -7,6 +7,7 @@ import { CATEGORY_META, type Category } from '../types';
 import EntryCard from '../components/shared/EntryCard';
 import MetaTags from '../components/shared/MetaTags';
 import WanderButton from '../components/shared/WanderButton';
+import OnThisDay from '../components/shared/OnThisDay';
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -79,6 +80,11 @@ export default function HomePage() {
         >
           <ChevronDown size={24} />
         </motion.div>
+      </section>
+
+      {/* On This Day */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        <OnThisDay />
       </section>
 
       {/* Category Grid */}

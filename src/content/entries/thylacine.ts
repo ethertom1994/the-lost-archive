@@ -15,6 +15,8 @@ export const thylacine: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '09-07',
+  keyDateLabel: 'Last thylacine "Benjamin" died, 1936',
   body: `## The Tiger That Wasn't
 
 The thylacine looked like a dog designed by someone who'd only had a wolf described to them. It was a marsupial, more closely related to a kangaroo than to any canine, yet it had evolved the body of a predator so convincingly that early European settlers called it the Tasmanian tiger. It had dark stripes across its lower back and a stiff, almost reptilian tail. Its jaw could open to an improbable 80 degrees, wider than any living mammal.

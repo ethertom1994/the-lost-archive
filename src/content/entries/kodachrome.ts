@@ -15,6 +15,8 @@ export const kodachrome: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '12-30',
+  keyDateLabel: 'Last roll of Kodachrome processed, 2010',
   body: `## The Standard
 
 For seventy-four years, Kodachrome was the gold standard of color photography. Introduced by Kodak in 1935, it was the first commercially successful color film and remained the preferred medium of serious photographers for decades. National Geographic shot almost exclusively on Kodachrome for much of its history. Steve McCurry's "Afghan Girl," arguably the most famous photograph of the twentieth century, was shot on Kodachrome 64 in 1984.

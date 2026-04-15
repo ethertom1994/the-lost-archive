@@ -17,6 +17,8 @@ export interface Entry {
   quickFacts: Record<string, string>;
   connections: Connection[];
   sources: Source[];
+  keyDate?: string;
+  keyDateLabel?: string;
   relatedMedia?: RelatedMedia[];
   featured?: boolean;
   featuredDate?: string;

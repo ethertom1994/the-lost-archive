@@ -15,6 +15,8 @@ export const quagga: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '08-12',
+  keyDateLabel: 'Last quagga died at Artis Magistra Zoo, Amsterdam, 1883',
   body: `## The Fading Stripes
 
 The quagga was a subspecies of the plains zebra that looked like nature had run out of ink halfway through the job. Its head and neck bore the familiar black-and-white stripes of a zebra, but the stripes faded as they moved rearward, dissolving into a warm reddish-brown on the flanks and hindquarters. The legs were unstriped. The belly was white. The overall effect was striking and unmistakable: a zebra that was also, somehow, a horse.

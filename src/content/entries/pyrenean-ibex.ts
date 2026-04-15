@@ -15,6 +15,8 @@ export const pyreneanIbex: Entry = {
   imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg/400px-Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg',
   imageCaption: 'Mounted specimen of the Pyrenean ibex (bucardo)',
   imageCredit: 'Gobierno de Aragon',
+  keyDate: '01-06',
+  keyDateLabel: 'Last Pyrenean ibex Celia died, 2000',
   body: `## Celia
 
 Her name was Celia. She was the last Pyrenean ibex, a subspecies of Spanish ibex called the *bucardo*, and she had been tracked by researchers in Spain's Ordesa National Park for years. On January 6, 2000, a fallen tree crushed her. The subspecies, which had once numbered tens of thousands across the Pyrenees mountains, was extinct.

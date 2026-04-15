@@ -15,6 +15,8 @@ export const areciboTelescope: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '12-01',
+  keyDateLabel: 'Arecibo Observatory collapsed, 2020',
   body: `## The Message
 
 On November 16, 1974, the Arecibo radio telescope in Puerto Rico transmitted a carefully crafted message toward Messier 13, a globular star cluster 25,000 light-years away. The message, designed by Frank Drake and Carl Sagan, was encoded in 1,679 binary digits that, when arranged into a 73-by-23 grid, formed a pictogram showing the numbers 1 through 10, the atomic numbers of key elements, the structure of DNA, a stick figure of a human, the solar system, and a diagram of the Arecibo telescope itself.

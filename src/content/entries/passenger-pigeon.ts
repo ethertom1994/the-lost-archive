@@ -15,6 +15,8 @@ export const passengerPigeon: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '09-01',
+  keyDateLabel: 'Last passenger pigeon Martha died at Cincinnati Zoo, 1914',
   body: `## Billions to Zero
 
 The passenger pigeon (*Ectopistes migratorius*) was, by some estimates, the most numerous bird species on Earth. Alexander Wilson, the father of American ornithology, observed a single flock in 1813 that he estimated at over two billion birds. The flock was a mile wide and took four hours to pass overhead, darkening the sky. John James Audubon described a similar flock that blotted out the sun for three days.

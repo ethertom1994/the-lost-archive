@@ -191,6 +191,67 @@ import { colossusOfRhodes } from './entries/colossus-of-rhodes';
 import { svalbardSyria } from './entries/svalbard-syria';
 import { archaeomagnetism } from './entries/archaeomagnetism';
 
+// ===== BATCH 4: 43 new entries =====
+
+// Food & Fermentation (8)
+import { cornishCauliflower } from './entries/cornish-cauliflower';
+import { camembertFungus } from './entries/camembert-fungus';
+import { mummyCheese } from './entries/mummy-cheese';
+import { doronaGrape } from './entries/dorona-grape';
+import { falernianWine } from './entries/falernian-wine';
+import { malagousiaGrape } from './entries/malagousia-grape';
+import { moaCuisine } from './entries/moa-cuisine';
+
+// Flora (1)
+import { judeanDatePalm } from './entries/judean-date-palm';
+
+// Sound & Acoustics (6)
+import { bachsLituus } from './entries/bachs-lituus';
+import { gueOfShetland } from './entries/gue-of-shetland';
+import { hypogeumOracle } from './entries/hypogeum-oracle';
+import { stonehengeAcoustics } from './entries/stonehenge-acoustics';
+import { huiaCall } from './entries/huia-call';
+import { ainuThroatSinging } from './entries/ainu-throat-singing';
+
+// Language & Script (5)
+import { shuadit } from './entries/shuadit';
+import { cyproMinoan } from './entries/cypro-minoan';
+import { protoElamite } from './entries/proto-elamite';
+import { mvsl } from './entries/mvsl';
+import { nushu } from './entries/nushu';
+
+// Technology & Science (8)
+import { olmecRubber } from './entries/olmec-rubber';
+import { segatoPetrification } from './entries/segato-petrification';
+import { baldsEyesalve } from './entries/balds-eyesalve';
+import { terraPreta } from './entries/terra-preta';
+import { balineseSubak } from './entries/balinese-subak';
+import { babylonianCalculus } from './entries/babylonian-calculus';
+import { keralaCalculus } from './entries/kerala-calculus';
+import { marshalleseNavigation } from './entries/marshallese-navigation';
+
+// Material & Pigment (6)
+import { folium } from './entries/folium';
+import { egyptianBlue } from './entries/egyptian-blue';
+import { seaSilk } from './entries/sea-silk';
+import { kyphi } from './entries/kyphi';
+import { mayaBlue } from './entries/maya-blue';
+import { indianYellow } from './entries/indian-yellow';
+
+// Place (4)
+import { teonimanu } from './entries/teonimanu';
+import { lakePeigneur } from './entries/lake-peigneur';
+import { owensLake } from './entries/owens-lake';
+import { houtouwan } from './entries/houtouwan';
+
+// Culture (6)
+import { sinEater } from './entries/sin-eater';
+import { gongFarmer } from './entries/gong-farmer';
+import { tosher } from './entries/tosher';
+import { luparius } from './entries/luparius';
+import { feastOfFools } from './entries/feast-of-fools';
+import { knattleikr } from './entries/knattleikr';
+
 import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
 
@@ -328,6 +389,58 @@ export const entries: Entry[] = [
   voyagerGoldenRecord,
   svalbardSyria,
   archaeomagnetism,
+  // ===== BATCH 4 =====
+  // Food & Fermentation
+  cornishCauliflower,
+  camembertFungus,
+  mummyCheese,
+  doronaGrape,
+  falernianWine,
+  malagousiaGrape,
+  moaCuisine,
+  // Flora
+  judeanDatePalm,
+  // Sound & Acoustics
+  bachsLituus,
+  gueOfShetland,
+  hypogeumOracle,
+  stonehengeAcoustics,
+  huiaCall,
+  ainuThroatSinging,
+  // Language & Script
+  shuadit,
+  cyproMinoan,
+  protoElamite,
+  mvsl,
+  nushu,
+  // Technology & Science
+  olmecRubber,
+  segatoPetrification,
+  baldsEyesalve,
+  terraPreta,
+  balineseSubak,
+  babylonianCalculus,
+  keralaCalculus,
+  marshalleseNavigation,
+  // Material & Pigment
+  folium,
+  egyptianBlue,
+  seaSilk,
+  kyphi,
+  mayaBlue,
+  indianYellow,
+  // Place
+  teonimanu,
+  lakePeigneur,
+  owensLake,
+  houtouwan,
+  // Culture
+  sinEater,
+  gongFarmer,
+  tosher,
+  luparius,
+  feastOfFools,
+  knattleikr,
 ];
 
 export function getEntry(slug: string): Entry | undefined {

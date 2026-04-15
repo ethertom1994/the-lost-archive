@@ -2,7 +2,7 @@ import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
-import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight, Heart } from 'lucide-react';
 import { getEntry, getConnectedEntries } from '../content';
 import { getTrail } from '../content/trails';
 import { CATEGORY_META } from '../types';
@@ -20,7 +20,7 @@ export default function EntryPage() {
   const { slug } = useParams<{ slug: string }>();
   const [searchParams] = useSearchParams();
   const entry = slug ? getEntry(slug) : undefined;
-  const { markRead } = useProgress();
+  const { markRead, toggleBookmark, isBookmarked } = useProgress();
 
   // Mark as read on mount
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function EntryPage() {
         title={entry.name}
         description={entry.tagline}
         path={`/archive/${entry.slug}`}
-        image={entry.imageUrl}
+        entrySlug={entry.slug}
       />
 
       {/* Trail navigation bar */}
@@ -118,7 +118,19 @@ export default function EntryPage() {
             <ArrowLeft size={14} />
             {trail ? `Back to ${trail.name}` : 'Back to archive'}
           </Link>
-          <ShareButton title={entry.name} text={entry.tagline} />
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => toggleBookmark(entry.slug)}
+              className="p-2 rounded-lg border border-border-subtle hover:border-border-default transition-colors duration-300"
+              aria-label={isBookmarked(entry.slug) ? 'Remove bookmark' : 'Bookmark this entry'}
+            >
+              <Heart
+                size={16}
+                className={isBookmarked(entry.slug) ? 'fill-amber-500 text-amber-500' : 'text-text-tertiary'}
+              />
+            </button>
+            <ShareButton title={entry.name} text={entry.tagline} />
+          </div>
         </div>
 
         <div className="lg:grid lg:grid-cols-[1fr_340px] lg:gap-12">

@@ -19,6 +19,9 @@ export default function Footer() {
             <Link to="/trails" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
               Trails
             </Link>
+            <Link to="/bookmarks" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
+              Bookmarks
+            </Link>
             <Link to="/stats" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
               Stats
             </Link>

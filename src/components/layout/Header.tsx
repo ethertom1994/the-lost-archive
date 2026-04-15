@@ -93,6 +93,7 @@ export default function Header() {
               <NavLink to="/explore" className={navLinkClass} onClick={() => setMenuOpen(false)}>Explore</NavLink>
               <NavLink to="/trails" className={navLinkClass} onClick={() => setMenuOpen(false)}>Trails</NavLink>
               <NavLink to="/stats" className={navLinkClass} onClick={() => setMenuOpen(false)}>Stats</NavLink>
+              <NavLink to="/bookmarks" className={navLinkClass} onClick={() => setMenuOpen(false)}>Bookmarks</NavLink>
               <NavLink to="/about" className={navLinkClass} onClick={() => setMenuOpen(false)}>About</NavLink>
               {readCount > 0 && (
                 <span className="text-xs text-text-muted pt-2 border-t border-border-subtle">

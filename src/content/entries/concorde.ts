@@ -15,6 +15,8 @@ export const concorde: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '11-26',
+  keyDateLabel: 'Last Concorde flight, 2003',
   body: `## Three and a Half Hours
 
 On January 21, 1976, Concorde entered commercial service simultaneously for British Airways and Air France. It flew at Mach 2.04, twice the speed of sound, at an altitude of 60,000 feet, where the curvature of the Earth was visible and the sky turned dark blue. A flight from London to New York took three hours and thirty minutes. Because of the time zone difference, passengers arrived before they departed by the clock. You could leave London at 10:30 AM and arrive in New York at 9:25 AM the same day.

@@ -15,6 +15,8 @@ export const goldenToad: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '05-15',
+  keyDateLabel: 'Last confirmed golden toad sighting, 1989',
   body: `## A Color That Shouldn't Exist
 
 In 1966, herpetologist Jay Savage was exploring the elfin cloud forest above Monteverde, Costa Rica, when he found something that stopped him in his tracks. Sitting on the mossy forest floor was a toad the color of a traffic cone. Not brownish-orange, not amber. Fluorescent, blazing, unmistakable orange. Savage later wrote that it was as if the animal had been dipped in enamel paint.

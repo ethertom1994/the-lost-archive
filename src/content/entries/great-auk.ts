@@ -15,6 +15,8 @@ export const greatAuk: Entry = {
   imageUrl: undefined,
   imageCaption: undefined,
   imageCredit: undefined,
+  keyDate: '06-03',
+  keyDateLabel: 'Last pair of great auks killed on Eldey, 1844',
   body: `## The Original Penguin
 
 The word "penguin" was first used for this bird. When European sailors later encountered the superficially similar flightless birds of the Southern Hemisphere, they borrowed the name. The Great Auk (*Pinguinus impennis*) stood about 75 centimeters tall, weighed around 5 kilograms, and was the only flightless bird in the North Atlantic. It was a powerful swimmer, using its small wings as flippers to hunt fish underwater, and bred in dense colonies on rocky islands from Newfoundland to Norway.
