@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "generate:og": "npx tsx scripts/generate-og-images.ts",
-    "prebuild": "npm run generate:og",
+    "generate:og": "tsx scripts/generate-og-images.ts",
+    "generate:sitemap": "tsx scripts/generate-sitemap.ts",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
