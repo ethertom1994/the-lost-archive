@@ -50,7 +50,7 @@ The roughly 150 surviving Sapi-Portuguese ivories are overwhelmingly in European
   sources: [
     { title: 'Africa and the Renaissance: Art in Ivory', author: 'Ezio Bassani and William Fagg', year: 1988 },
     { title: 'Afro-Portuguese Ivories – The Metropolitan Museum of Art', url: 'https://www.metmuseum.org/toah/hd/apiv/hd_apiv.htm' },
-    { title: 'Saltcellar with Portuguese Figures (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Saltcellar_with_Portuguese_Figures' },
+    { title: 'Sapi-Portuguese Ivory Spoon (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Sapi-Portuguese_Ivory_Spoon' },
     { title: 'A Reconsideration of the Mane Invasions of Sierra Leone', author: 'Walter Rodney', year: 1967 },
   ],
 };

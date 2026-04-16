@@ -56,7 +56,7 @@ The Maʿdan way of life — reed villages, water-buffalo dairying at scale, the 
     },
     {
       title: 'Reclaiming Mesopotamia\'s Marshes — NASA Earth Observatory',
-      url: 'https://earthobservatory.nasa.gov/world-of-change/Iraq',
+      url: 'https://science.nasa.gov/earth/earth-observatory/world-of-change/mesopotamia-marshes',
     },
   ],
   keyDate: '2000',

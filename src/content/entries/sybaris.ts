@@ -48,7 +48,7 @@ Sybaris is an unusual kind of loss. The city was not gradually forgotten. It was
   ],
   sources: [
     { title: 'Sybaris', url: 'https://en.wikipedia.org/wiki/Sybaris' },
-    { title: 'The Search For Sybaris', author: 'Froelich Rainey and C. M. Lerici', url: 'https://www.penn.museum/sites/expedition/the-search-for-sybaris/', year: 1967 },
+    { title: 'The Search For Sybaris', author: 'Froelich Rainey', url: 'https://www.penn.museum/sites/expedition/the-search-for-sybaris/', year: 1969 },
     { title: 'The Greeks in the West', author: 'Giovanni Pugliese Carratelli', year: 1996 },
   ],
 };

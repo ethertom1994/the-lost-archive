@@ -48,7 +48,7 @@ Greek sources wrote the history of the Achaemenid Empire from the outside. Our P
   ],
   sources: [
     { title: 'Alexander the Great & the Burning of Persepolis', author: 'Joshua J. Mark', url: 'https://www.worldhistory.org/article/214/alexander-the-great--the-burning-of-persepolis/', year: 2012 },
-    { title: 'The Persepolis Fortification Archive', author: 'Oriental Institute, University of Chicago', url: 'https://oi.uchicago.edu/research/projects/persepolis-fortification-archive' },
+    { title: 'The Persepolis Fortification Archive', author: 'Institute for the Study of Ancient Cultures, University of Chicago', url: 'https://isac.uchicago.edu/research/projects/persepolis-fortification-archive' },
     { title: 'From Cyrus to Alexander: A History of the Persian Empire', author: 'Pierre Briant', year: 2002 },
   ],
 };

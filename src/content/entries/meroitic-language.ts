@@ -49,6 +49,6 @@ The Meroitic kingdom collapsed sometime around the middle of the fourth century 
   sources: [
     { title: 'The Linguistic Position of Meroitic', author: 'Claude Rilly', year: 2010 },
     { title: 'Meroitic script', url: 'https://en.wikipedia.org/wiki/Meroitic_script' },
-    { title: 'The Meroitic Mystery: From Nubia—the land of Kush—a language lost in history', author: 'John Lawton', url: 'https://archive.aramcoworld.com/issue/198304/the.meroitic.mystery-from.nubia.the.land.of.kush.a.language.lost.in.history.htm', year: 1983 },
+    { title: 'The Meroitic Mystery: From Nubia—the land of Kush—a language lost in history', author: 'Krzysztof Grzymski', url: 'https://archive.aramcoworld.com/issue/198304/the.meroitic.mystery-from.nubia.the.land.of.kush.a.language.lost.in.history.htm', year: 1983 },
   ],
 };

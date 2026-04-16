@@ -78,3 +78,39 @@
 - saturn-v-craft (1970)
 - splendid-poison-frog (1992)
 
+## Phase 2: Dead Sources
+
+7 parallel subagents verified every URL in `sources` and `relatedMedia` for all 64 entries (≈140 URLs total). 403 responses were re-confirmed via WebSearch and treated as OK when the page genuinely existed (anti-bot blocks).
+
+### Aggregate counts
+- URLs verified OK: ~135
+- URLs replaced (live but pointing wrong / outdated host): 2
+- Source metadata corrected (wrong author/year, wrong specific Wikipedia article): 3
+- Sources removed entirely: 0
+- Entries flagged for removal: 0
+
+### Specific changes
+
+**meroitic-language.ts** (line 52) — author correction
+- Before: `author: 'John Lawton'`
+- After: `author: 'Krzysztof Grzymski'`
+- The Saudi Aramco World article is by Grzymski, not Lawton (verified on the page itself).
+
+**persepolis-archives.ts** (line 51) — host renamed, URL updated
+- Before: `'Oriental Institute, University of Chicago' / oi.uchicago.edu/...`
+- After: `'Institute for the Study of Ancient Cultures, University of Chicago' / isac.uchicago.edu/research/projects/persepolis-fortification-archive`
+- The Oriental Institute was renamed; old URL 302-redirects to the new host.
+
+**sybaris.ts** (line 51) — wrong author/year for the cited article
+- Before: `author: 'Froelich Rainey and C. M. Lerici', year: 1967`
+- After: `author: 'Froelich Rainey', year: 1969`
+- The Penn Museum *Expedition* online article at that URL is solely Rainey 1969; the 1967 citation conflated it with the separate Rainey & Lerici book.
+
+**sapi-ivory.ts** — Wikipedia URL pointed at the wrong artifact
+- Before: `Saltcellar with Portuguese Figures` (a Bini-Portuguese piece, not Sapi)
+- After: `Sapi-Portuguese Ivory Spoon` (genuinely Sapi)
+
+**mesopotamian-marshes.ts** — NASA URL 301-redirect followed
+- Before: `earthobservatory.nasa.gov/world-of-change/Iraq`
+- After: `science.nasa.gov/earth/earth-observatory/world-of-change/mesopotamia-marshes`
+
