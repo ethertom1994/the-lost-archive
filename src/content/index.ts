@@ -323,6 +323,68 @@ import { nepenthe } from './entries/nepenthe';
 import { beringia } from './entries/beringia';
 import { greenSahara } from './entries/green-sahara';
 
+// ===== BATCH 8: Early Modern (1500-1800 CE) =====
+
+// Technology
+import { cremoneseViolinSchool } from './entries/cremonese-violin-school';
+import { mughalGardenEngineering } from './entries/mughal-garden-engineering';
+import { edoFireworkFormulas } from './entries/edo-firework-formulas';
+
+// Culture
+import { originalKabuki } from './entries/original-kabuki';
+import { aboriginalSonglines } from './entries/aboriginal-songlines';
+import { lostRaphaelPaintings } from './entries/lost-raphael-paintings';
+
+// Material
+import { dutchGoldenAgePigments } from './entries/dutch-golden-age-pigments';
+import { silesianLinenWeaving } from './entries/silesian-linen-weaving';
+
+// ===== BATCH 9: Medieval (500-1500 CE) =====
+
+// Culture
+import { houseOfWisdom } from './entries/house-of-wisdom';
+import { catharTexts } from './entries/cathar-texts';
+import { timbuktuScholars } from './entries/timbuktu-scholars';
+
+// Material
+import { byzantineSilkSecrets } from './entries/byzantine-silk-secrets';
+import { medievalStainedGlass } from './entries/medieval-stained-glass';
+import { venetianGlassSecrets } from './entries/venetian-glass-secrets';
+
+// Place
+import { norseGreenlandColony } from './entries/norse-greenland-colony';
+import { amazonianCities } from './entries/amazonian-cities';
+
+// Technology
+import { songMovableType } from './entries/song-movable-type';
+
+// Sound
+import { skaldicOralTradition } from './entries/skaldic-oral-tradition';
+
+// ===== BATCH 10: Ancient World (before 500 CE) =====
+
+// Language
+import { indusValleyScript } from './entries/indus-valley-script';
+
+// Place
+import { carthageDestruction } from './entries/carthage-destruction';
+import { sidonPurpleDistrict } from './entries/sidon-purple-district';
+
+// Culture
+import { blueLotusRitual } from './entries/blue-lotus-ritual';
+
+// Technology
+import { ptolemaicStarCatalog } from './entries/ptolemaic-star-catalog';
+import { hanPaperVariants } from './entries/han-paper-variants';
+import { romanSurgicalTechniques } from './entries/roman-surgical-techniques';
+
+// Sound
+import { greekTheatricalMasks } from './entries/greek-theatrical-masks';
+import { musicaUniversalis } from './entries/musica-universalis';
+
+// Food
+import { romanGarumVarieties } from './entries/roman-garum-varieties';
+
 import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
 
@@ -564,6 +626,51 @@ export const entries: Entry[] = [
   // Place
   beringia,
   greenSahara,
+  // ===== BATCH 8: Early Modern (1500-1800 CE) =====
+  // Technology
+  cremoneseViolinSchool,
+  mughalGardenEngineering,
+  edoFireworkFormulas,
+  // Culture
+  originalKabuki,
+  aboriginalSonglines,
+  lostRaphaelPaintings,
+  // Material
+  dutchGoldenAgePigments,
+  silesianLinenWeaving,
+  // ===== BATCH 9: Medieval (500-1500 CE) =====
+  // Culture
+  houseOfWisdom,
+  catharTexts,
+  timbuktuScholars,
+  // Material
+  byzantineSilkSecrets,
+  medievalStainedGlass,
+  venetianGlassSecrets,
+  // Place
+  norseGreenlandColony,
+  amazonianCities,
+  // Technology
+  songMovableType,
+  // Sound
+  skaldicOralTradition,
+  // ===== BATCH 10: Ancient World (before 500 CE) =====
+  // Language
+  indusValleyScript,
+  // Place
+  carthageDestruction,
+  sidonPurpleDistrict,
+  // Culture
+  blueLotusRitual,
+  // Technology
+  ptolemaicStarCatalog,
+  hanPaperVariants,
+  romanSurgicalTechniques,
+  // Sound
+  greekTheatricalMasks,
+  musicaUniversalis,
+  // Food
+  romanGarumVarieties,
 ];
 
 export function getEntry(slug: string): Entry | undefined {
