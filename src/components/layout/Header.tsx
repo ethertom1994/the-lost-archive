@@ -34,6 +34,7 @@ export default function Header() {
           <NavLink to="/explore" className={navLinkClass}>Explore</NavLink>
           <NavLink to="/trails" className={navLinkClass}>Trails</NavLink>
           <NavLink to="/stats" className={navLinkClass}>Stats</NavLink>
+          <NavLink to="/vanishing" className={navLinkClass}>The Vanishing</NavLink>
           <NavLink to="/about" className={navLinkClass}>About</NavLink>
           <WanderButton variant="full" />
         </nav>
@@ -92,6 +93,7 @@ export default function Header() {
               <NavLink to="/" end className={navLinkClass} onClick={() => setMenuOpen(false)}>Home</NavLink>
               <NavLink to="/explore" className={navLinkClass} onClick={() => setMenuOpen(false)}>Explore</NavLink>
               <NavLink to="/trails" className={navLinkClass} onClick={() => setMenuOpen(false)}>Trails</NavLink>
+              <NavLink to="/vanishing" className={navLinkClass} onClick={() => setMenuOpen(false)}>The Vanishing</NavLink>
               <NavLink to="/stats" className={navLinkClass} onClick={() => setMenuOpen(false)}>Stats</NavLink>
               <NavLink to="/bookmarks" className={navLinkClass} onClick={() => setMenuOpen(false)}>Bookmarks</NavLink>
               <NavLink to="/about" className={navLinkClass} onClick={() => setMenuOpen(false)}>About</NavLink>

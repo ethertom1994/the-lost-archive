@@ -143,11 +143,79 @@ function generateOGImage(entry: EntryMeta, outputPath: string) {
   fs.writeFileSync(outputPath, buffer);
 }
 
+function generateVanishingOG(outputPath: string) {
+  const width = 1200;
+  const height = 630;
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext('2d');
+
+  ctx.fillStyle = '#0A0A0A';
+  ctx.fillRect(0, 0, width, height);
+
+  // Scattered fading dots
+  const dots = [
+    { x: 180, y: 200, r: 4, a: 0.8, c: '#7A9B8F' },
+    { x: 340, y: 150, r: 3, a: 0.6, c: '#8B7AAF' },
+    { x: 520, y: 280, r: 5, a: 0.4, c: '#C8965A' },
+    { x: 700, y: 180, r: 3, a: 0.3, c: '#7AAFAF' },
+    { x: 860, y: 320, r: 4, a: 0.2, c: '#AF7A8B' },
+    { x: 1000, y: 240, r: 3, a: 0.15, c: '#6B8F6B' },
+    { x: 250, y: 400, r: 3, a: 0.5, c: '#7A8FAF' },
+    { x: 600, y: 420, r: 4, a: 0.25, c: '#AF8B7A' },
+    { x: 900, y: 450, r: 3, a: 0.1, c: '#8FAF7A' },
+    { x: 150, y: 340, r: 3, a: 0.7, c: '#7A9B8F' },
+    { x: 450, y: 360, r: 4, a: 0.35, c: '#8B7AAF' },
+    { x: 1050, y: 150, r: 3, a: 0.12, c: '#C8965A' },
+  ];
+
+  for (const d of dots) {
+    ctx.globalAlpha = d.a;
+    ctx.beginPath();
+    ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+    ctx.fillStyle = d.c;
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(d.x, d.y, d.r * 2.5, 0, Math.PI * 2);
+    const glow = ctx.createRadialGradient(d.x, d.y, d.r, d.x, d.y, d.r * 2.5);
+    glow.addColorStop(0, d.c);
+    glow.addColorStop(1, 'transparent');
+    ctx.fillStyle = glow;
+    ctx.globalAlpha = d.a * 0.3;
+    ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+
+  // Title
+  ctx.fillStyle = '#E8E0D4';
+  ctx.font = '700 64px Georgia, "Times New Roman", serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('The Vanishing', width / 2, height / 2 - 10);
+
+  // Subtitle
+  ctx.fillStyle = '#8A8478';
+  ctx.font = 'italic 24px Georgia, "Times New Roman", serif';
+  ctx.fillText('Watch the world go dark', width / 2, height / 2 + 40);
+
+  // Branding
+  ctx.fillStyle = '#5A5650';
+  ctx.font = '500 18px Georgia, "Times New Roman", serif';
+  ctx.textAlign = 'right';
+  ctx.fillText('The Lost Archive', width - 60, height - 40);
+  ctx.textAlign = 'left';
+
+  fs.writeFileSync(outputPath, canvas.toBuffer('image/png'));
+}
+
 async function main() {
   const entriesDir = path.join(__dirname, '..', 'src', 'content', 'entries');
   const outputDir = path.join(__dirname, '..', 'public', 'og');
 
   fs.mkdirSync(outputDir, { recursive: true });
+
+  // Generate page-level OG images
+  generateVanishingOG(path.join(outputDir, 'vanishing.png'));
+  console.log('Generated vanishing.png');
 
   const files = fs.readdirSync(entriesDir).filter(f => f.endsWith('.ts'));
   console.log(`Found ${files.length} entry files`);

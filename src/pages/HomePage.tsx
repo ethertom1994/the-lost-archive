@@ -203,6 +203,25 @@ export default function HomePage() {
         </motion.div>
       </section>
 
+      {/* Vanishing CTA */}
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(200,150,90,0.08),transparent_70%)]" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 text-center">
+          <p className="font-display text-3xl sm:text-4xl lg:text-5xl font-medium text-text-primary leading-tight mb-4">
+            Watch the world go dark
+          </p>
+          <p className="text-text-tertiary text-sm sm:text-base max-w-md mx-auto mb-8">
+            An interactive timeline of every loss in the archive, playing out across a world map. The acceleration is the message.
+          </p>
+          <Link
+            to="/vanishing"
+            className="no-underline inline-flex items-center gap-2 bg-accent/10 text-accent border border-accent/20 rounded-full px-8 py-3.5 text-sm font-medium hover:bg-accent/20 transition-colors duration-300"
+          >
+            Enter The Vanishing <ArrowRight size={16} />
+          </Link>
+        </div>
+      </section>
+
       {/* Recent Entries */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-20">
         <motion.div className="mb-8" {...fadeIn}>

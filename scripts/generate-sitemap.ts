@@ -35,6 +35,7 @@ function main() {
     `  <url><loc>${BASE_URL}/trails</loc><priority>0.8</priority></url>`,
     `  <url><loc>${BASE_URL}/bookmarks</loc><priority>0.5</priority></url>`,
     `  <url><loc>${BASE_URL}/stats</loc><priority>0.7</priority></url>`,
+    `  <url><loc>${BASE_URL}/vanishing</loc><priority>0.8</priority></url>`,
     `  <url><loc>${BASE_URL}/about</loc><priority>0.5</priority></url>`,
     `  <url><loc>${BASE_URL}/privacy</loc><priority>0.3</priority></url>`,
     // Trail pages
