@@ -6,7 +6,7 @@ export const cooksonia: Entry = {
   tagline: 'No leaves. No roots. Just tiny forking stems. This plant colonized bare rock 430 million years ago and made everything on land possible.',
   category: 'flora',
   subcategory: 'Prehistoric Plants',
-  lastKnownYear: '410 million BCE',
+  lastKnownYear: '430 million years ago',
   lastKnownLocation: 'Global (fossils found in Wales, Ireland, Bolivia, Australia)',
   coordinates: [51.81, -3.02],
   region: 'Global',

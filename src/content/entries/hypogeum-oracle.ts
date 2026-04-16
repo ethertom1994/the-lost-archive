@@ -6,7 +6,7 @@ export const hypogeumOracle: Entry = {
   tagline: 'A 5,000-year-old underground chamber in Malta that resonates at exactly 70Hz and 114Hz. Only deep male voices activate it. The ritual chanting is lost, but the stone remembers the frequencies.',
   category: 'sound',
   subcategory: 'Acoustic Architecture',
-  lastKnownYear: -2500,
+  lastKnownYear: '~2000 BCE',
   lastKnownLocation: 'Paola, Malta',
   coordinates: [35.87, 14.51],
   region: 'Mediterranean',

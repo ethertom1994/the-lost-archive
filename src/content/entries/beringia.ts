@@ -6,7 +6,7 @@ export const beringia: Entry = {
   tagline: 'A grassland the size of a subcontinent connected two worlds for millennia. Humans crossed it. Mammoths roamed it. The ocean swallowed it.',
   category: 'place',
   subcategory: 'Submerged Landscapes',
-  lastKnownYear: '~9000 BCE',
+  lastKnownYear: '~11000 BCE',
   lastKnownLocation: 'Between modern Alaska and Siberia',
   coordinates: [65.0, -169.0],
   region: 'Arctic',
