@@ -12,9 +12,9 @@ export const haastsEagle: Entry = {
   region: 'Oceania',
   status: 'extinct',
   cause: 'Loss of prey species (moa) following Maori hunting, habitat destruction',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg/400px-Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg',
+  imageCaption: 'Reconstruction of a Haast\'s eagle attacking New Zealand moa',
+  imageCredit: 'John Megahan, CC BY 2.5, via Wikimedia Commons',
   body: `## The Apex of the Sky
 
 Haast's eagle (*Hieraaetus moorei*) was the largest known true eagle in recorded natural history. Females weighed up to 15 kilograms, with a wingspan reaching three meters. For comparison, the largest living eagle, the harpy eagle, weighs about half as much. Haast's eagle was not merely large. It was an apex predator built to kill prey far heavier than itself, striking from above at speeds estimated at 80 kilometers per hour, using talons comparable in size to a tiger's claws.

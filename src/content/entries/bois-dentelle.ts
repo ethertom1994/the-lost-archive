@@ -3,10 +3,10 @@ import type { Entry } from '../../types';
 export const boisDentelle: Entry = {
   slug: 'bois-dentelle',
   name: 'Bois Dentelle',
-  tagline: 'Two trees. That is the entire wild population of this species. Two trees on a cloud forest ridge in Mauritius.',
+  tagline: 'Its cloud forest habitat was destroyed so thoroughly that the wild population collapsed to zero. Two cultivated specimens cling to existence.',
   category: 'flora',
-  subcategory: 'Critically Endangered Trees',
-  lastKnownYear: 'Present (2 known specimens)',
+  subcategory: 'Extinct in Wild Trees',
+  lastKnownYear: '~1990',
   lastKnownLocation: 'Cloud forest, Mauritius',
   coordinates: [-20.43, 57.55],
   region: 'Indian Ocean',

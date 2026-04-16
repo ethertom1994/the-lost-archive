@@ -12,9 +12,9 @@ export const spixMacaw: Entry = {
   region: 'South America',
   status: 'extinct_in_wild',
   cause: 'Habitat destruction from overgrazing and dam construction, illegal trapping for the exotic pet trade, and invasion of Africanized bees competing for nest sites',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cyanopsitta_spixii_-Vogelpark_Walsrode%2C_Walsrode%2C_Germany-1980.jpg/400px-Cyanopsitta_spixii_-Vogelpark_Walsrode%2C_Walsrode%2C_Germany-1980.jpg',
+  imageCaption: 'Spix\'s macaw (Cyanopsitta spixii) at Vogelpark Walsrode, Germany, circa 1980',
+  imageCredit: 'Rüdiger Stehn, CC BY-SA 2.0, via Wikimedia Commons',
   body: `## The Rarest Bird in the World
 
 By the time the animated film *Rio* introduced millions of children to a cartoon version of a Spix's Macaw in 2011, the real bird had already been gone from the wild for over a decade. The last known wild individual, a lone male, was spotted near Curaçá in the dry caatinga scrubland of northeastern Brazil in October 2000. Then he vanished.

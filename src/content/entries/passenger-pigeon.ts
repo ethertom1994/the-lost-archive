@@ -12,9 +12,9 @@ export const passengerPigeon: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Industrial-scale hunting for food and sport, combined with massive deforestation that destroyed nesting habitat. The species\' reliance on enormous flocks for breeding meant small populations could not sustain themselves.',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Martha%2C_the_last_Passenger_Pigeon._Natural_History_Museum%2C_June%2C_2015._Digital_photo%2C_cropped_and_brightened.jpg/400px-Martha%2C_the_last_Passenger_Pigeon._Natural_History_Museum%2C_June%2C_2015._Digital_photo%2C_cropped_and_brightened.jpg',
+  imageCaption: 'Martha, the last passenger pigeon, mounted specimen at the Smithsonian National Museum of Natural History',
+  imageCredit: 'Tim Evanson, CC BY-SA 2.0, via Wikimedia Commons',
   keyDate: '09-01',
   keyDateLabel: 'Last passenger pigeon Martha died at Cincinnati Zoo, 1914',
   body: `## Billions to Zero

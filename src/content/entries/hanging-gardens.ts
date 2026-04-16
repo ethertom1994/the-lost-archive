@@ -12,9 +12,9 @@ export const hangingGardens: Entry = {
   region: 'Middle East',
   status: 'extinct',
   cause: 'Destruction through neglect, earthquake, or deliberate demolition, compounded by possible misidentification of location',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanging_Gardens_of_Babylon.jpg/400px-Hanging_Gardens_of_Babylon.jpg',
+  imageCaption: 'Hand-coloured engraving of the Hanging Gardens of Babylon, 19th century',
+  imageCredit: 'Public domain, via Wikimedia Commons',
   body: `## The Wonder Nobody Can Find
 
 The Hanging Gardens of Babylon are the only one of the Seven Wonders of the Ancient World whose existence has never been confirmed by archaeology. The Pyramid of Giza stands. The ruins of the Temple of Artemis at Ephesus have been excavated. The base of the Colossus of Rhodes has been identified. But decades of excavation at the site of ancient Babylon, near modern Hillah in Iraq, have found no trace of the gardens.

@@ -12,9 +12,9 @@ export const romanGladiators: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'Banned by Emperor Honorius in 404 CE following the martyrdom of the monk Telemachus; Christian opposition ended the institution',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Astyanax_vs_Kalendio_mosaic.jpg/400px-Astyanax_vs_Kalendio_mosaic.jpg',
+  imageCaption: 'Roman mosaic depicting a combat between the retiarius Kalendio and the secutor Astyanax, from the National Archaeological Museum, Madrid',
+  imageCredit: 'Public domain, via Wikimedia Commons',
   body: `## A Martial Art, Not a Massacre
 
 Modern popular culture depicts gladiatorial combat as chaotic butchery, but the historical reality was far more structured. Gladiators were trained in specific fighting styles, each with designated weapons, armor, and tactical doctrines. The retiarius fought with a net and trident, wearing almost no armor, relying on speed and distance. The secutor, his designated opponent, carried a sword and heavy shield and wore an enclosed helmet designed to resist the trident's prongs. The murmillo fought in a style adapted from Gallic warriors. The thraex used a curved blade modeled on Thracian weapons. Each style had specific rules about which opponents it could face, creating a system of asymmetric matchups that tested different skills against each other.

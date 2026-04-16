@@ -12,9 +12,9 @@ export const egyptianMummification: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'Spread of Christianity in Roman Egypt eliminated the priestly class that held the knowledge; last known mummifications occurred around the 4th century CE',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Egyptian_mummies%2C_British_Museum.jpg/400px-Egyptian_mummies%2C_British_Museum.jpg',
+  imageCaption: 'Egyptian mummies on display at the British Museum, London',
+  imageCredit: 'Bram Souffreau, CC BY-SA 2.0, via Wikimedia Commons',
   body: `## Seventy Days to Eternity
 
 Egyptian mummification was not a single procedure but a spectrum of techniques practiced over three millennia, from roughly 2600 BCE to the fourth century CE. The most elaborate form, reserved for pharaohs and high officials, was a 70-day ritual combining chemical preservation, surgical intervention, and religious ceremony. The Greek historian Herodotus, writing in the fifth century BCE, provided the most detailed surviving account, though Egyptologists have confirmed and expanded on his description through analysis of mummified remains.

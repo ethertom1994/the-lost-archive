@@ -12,9 +12,9 @@ export const kodachrome: Entry = {
   region: 'North America',
   status: 'extinct',
   cause: 'Replaced by digital photography; K-14 chemical process too complex and expensive for declining demand',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kodachrome_II_-_Film_for_colour_slides.jpg/400px-Kodachrome_II_-_Film_for_colour_slides.jpg',
+  imageCaption: 'Kodachrome II color reversal film box for 35mm slides',
+  imageCredit: 'Wikimedia Commons, CC BY-SA 3.0',
   keyDate: '12-30',
   keyDateLabel: 'Last roll of Kodachrome processed, 2010',
   body: `## The Standard

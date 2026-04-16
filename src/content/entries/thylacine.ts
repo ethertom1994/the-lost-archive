@@ -12,9 +12,9 @@ export const thylacine: Entry = {
   region: 'Oceania',
   status: 'extinct',
   cause: 'Government bounty hunting, habitat loss, disease, and competition with introduced dogs',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Thylacinus.jpg/400px-Thylacinus.jpg',
+  imageCaption: 'A female thylacine with juvenile at the National Zoo, Washington, D.C., circa 1903',
+  imageCredit: 'Baker; E.J. Keller / Smithsonian Institution, Public domain, via Wikimedia Commons',
   keyDate: '09-07',
   keyDateLabel: 'Last thylacine "Benjamin" died, 1936',
   body: `## The Tiger That Wasn't

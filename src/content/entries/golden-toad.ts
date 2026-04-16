@@ -12,9 +12,9 @@ export const goldenToad: Entry = {
   region: 'Central America',
   status: 'extinct',
   cause: 'Climate change driving chytrid fungus proliferation, combined with extreme habitat restriction',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bufo_periglenes2.jpg/400px-Bufo_periglenes2.jpg',
+  imageCaption: 'Male golden toad (Incilius periglenes) in its characteristic brilliant orange coloration',
+  imageCredit: 'Charles H. Smith, U.S. Fish and Wildlife Service, Public domain, via Wikimedia Commons',
   keyDate: '05-15',
   keyDateLabel: 'Last confirmed golden toad sighting, 1989',
   body: `## A Color That Shouldn't Exist

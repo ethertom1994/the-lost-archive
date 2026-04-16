@@ -12,7 +12,7 @@ export const huiaCall: Entry = {
   region: 'Oceania',
   status: 'extinct',
   cause: 'Overhunting for tail feathers prized in Maori culture and European fashion, combined with habitat destruction and introduced predators',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Huia_Buller.jpg',
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Huia_Buller.jpg/400px-Huia_Buller.jpg',
   imageCaption: 'Illustration of a pair of huia from Walter Buller\'s A History of the Birds of New Zealand (1888), showing the dramatic sexual dimorphism in bill shape',
   imageCredit: 'J. G. Keulemans, public domain, via Wikimedia Commons',
   body: `## A Sound Remembered, Not Recorded

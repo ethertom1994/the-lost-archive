@@ -12,9 +12,9 @@ export const quagga: Entry = {
   region: 'Africa / Europe (in captivity)',
   status: 'extinct',
   cause: 'Hunted for meat and hides by South African settlers, who also saw it as competition for livestock grazing',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Quagga_photo.jpg/400px-Quagga_photo.jpg',
+  imageCaption: 'The only known photograph of a living quagga, a mare at London Zoo, 1870',
+  imageCredit: 'Frederick York, Public domain, via Wikimedia Commons',
   keyDate: '08-12',
   keyDateLabel: 'Last quagga died at Artis Magistra Zoo, Amsterdam, 1883',
   body: `## The Fading Stripes

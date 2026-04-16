@@ -6,7 +6,7 @@ export const greenSahara: Entry = {
   tagline: 'The largest desert on Earth was a lush savanna with hippos and fishing villages. Climate shifted. It turned to sand in two centuries.',
   category: 'place',
   subcategory: 'Lost Ecosystems',
-  lastKnownYear: '-3000',
+  lastKnownYear: '~3000 BCE',
   lastKnownLocation: 'North Africa (Sahara region)',
   coordinates: [24.0, 10.0],
   region: 'North Africa',

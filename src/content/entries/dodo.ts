@@ -12,9 +12,9 @@ export const dodo: Entry = {
   region: 'Indian Ocean',
   status: 'extinct',
   cause: 'Hunting by sailors, predation by introduced rats, pigs, and monkeys on eggs and chicks',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edwards%27_Dodo.jpg/400px-Edwards%27_Dodo.jpg',
+  imageCaption: 'Edwards\' Dodo, painted by Roelant Savery in 1626, the most famous depiction of the dodo',
+  imageCredit: 'Roelant Savery, Public domain, via Wikimedia Commons',
   body: `## The Bird We Think We Know
 
 Everyone knows the dodo. The fat, stupid bird that couldn't fly and didn't run from humans. The cartoon of extinction. Except almost everything in that popular image is wrong.

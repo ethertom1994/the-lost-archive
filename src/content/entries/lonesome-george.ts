@@ -12,9 +12,9 @@ export const lonesomeGeorge: Entry = {
   region: 'South America',
   status: 'extinct',
   cause: 'Hunting by whalers and sailors, habitat destruction by introduced goats',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Lonesome_George_in_profile.png/400px-Lonesome_George_in_profile.png',
+  imageCaption: 'Lonesome George, the last Pinta Island tortoise, at the Charles Darwin Research Station, 2006',
+  imageCredit: 'Puente Arturo, CC BY-SA 2.0, via Wikimedia Commons',
   body: `## The Last of Pinta
 
 On December 1, 1971, a Hungarian malacologist named Jozsef Vagvolgyi was conducting a survey on Pinta Island in the Galapagos archipelago when he found something that should not have existed: a single adult male Pinta Island tortoise (*Chelonoidis abingdonii*). The subspecies had been considered extinct. Whalers and fur sealers in the eighteenth and nineteenth centuries had taken thousands of Galapagos tortoises for food, rolling them onto their backs in ship holds where the animals could survive for months without food or water, providing fresh meat on long voyages. Pinta's population had been devastated, and feral goats introduced to the island in 1959 had consumed what remained of the tortoise habitat.

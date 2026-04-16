@@ -12,9 +12,9 @@ export const colossusOfRhodes: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'Toppled by an earthquake around 226 BCE after standing for just 54 years. The ruins lay in place for ~800 years until Arab forces reportedly sold the bronze for scrap around 653 CE.',
-  imageUrl: undefined,
-  imageCaption: undefined,
-  imageCredit: undefined,
+  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Colossus_of_Rhodes_by_Ferdinand_Knab_%281886%29_cropped.png/400px-Colossus_of_Rhodes_by_Ferdinand_Knab_%281886%29_cropped.png',
+  imageCaption: 'The Colossus of Rhodes, oil painting by Ferdinand Knab, 1886',
+  imageCredit: 'Ferdinand Knab, Public domain, via Wikimedia Commons',
   body: `## Fifty-Four Years of Wonder
 
 The Colossus of Rhodes was built to celebrate a military victory. In 305 BCE, the city of Rhodes successfully resisted a siege by Demetrius I of Macedon, who had brought the largest siege tower ever constructed. After Demetrius withdrew, the Rhodians sold his abandoned equipment and used the proceeds to build the largest statue in the ancient world: a bronze figure of the sun god Helios, approximately 33 meters (108 feet) tall, roughly the same height as the Statue of Liberty from feet to crown.
