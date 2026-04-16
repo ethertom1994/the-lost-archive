@@ -385,6 +385,86 @@ import { musicaUniversalis } from './entries/musica-universalis';
 // Food
 import { romanGarumVarieties } from './entries/roman-garum-varieties';
 
+// ===== BATCH 11: Ancient World expansion (3000 BCE - 500 CE) =====
+
+// Culture (Lost Philosophical Works)
+import { democritusMikrosDiakosmos } from './entries/democritus-mikros-diakosmos';
+import { aristotleOnPoets } from './entries/aristotle-on-poets';
+import { epicurusOnNature } from './entries/epicurus-on-nature';
+import { heraclitusOnNature } from './entries/heraclitus-on-nature';
+
+// Culture (Lost Literary Works)
+import { sapphoNineBooks } from './entries/sappho-nine-books';
+import { megasthenesIndica } from './entries/megasthenes-indica';
+
+// Culture (Lost Rituals & Civilizations)
+import { eleusinianMysteries } from './entries/eleusinian-mysteries';
+import { mithraicMysteries } from './entries/mithraic-mysteries';
+import { nokCulture } from './entries/nok-culture';
+import { qinBookBurning } from './entries/qin-book-burning';
+
+// Place
+import { persepolisArchives } from './entries/persepolis-archives';
+import { sybaris } from './entries/sybaris';
+
+// Language
+import { meroiticLanguage } from './entries/meroitic-language';
+
+// ===== Auto-appended by scripts/regen-index.ts =====
+import { arioiSociety } from './entries/arioi-society';
+import { atlitYam } from './entries/atlit-yam';
+import { bbcWipedTapes } from './entries/bbc-wiped-tapes';
+import { boomingBen } from './entries/booming-ben';
+import { caveLion } from './entries/cave-lion';
+import { chinesePaddlefish } from './entries/chinese-paddlefish';
+import { cleopatra1917 } from './entries/cleopatra-1917';
+import { crystalPalace } from './entries/crystal-palace';
+import { denisovanCulture } from './entries/denisovan-culture';
+import { duraLanguage } from './entries/dura-language';
+import { floridaAcropora } from './entries/florida-acropora';
+import { guadalupeCaracara } from './entries/guadalupe-caracara';
+import { huronFeastOfDead } from './entries/huron-feast-of-dead';
+import { irishElk } from './entries/irish-elk';
+import { jussieuHerbarium } from './entries/jussieu-herbarium';
+import { lakeAgassiz } from './entries/lake-agassiz';
+import { lomekwiToolmakers } from './entries/lomekwi-toolmakers';
+import { louvainLibrary } from './entries/louvain-library';
+import { lovesLaboursWon } from './entries/loves-labours-won';
+import { megatherium } from './entries/megatherium';
+import { mesopotamianMarshes } from './entries/mesopotamian-marshes';
+import { natchezLanguage } from './entries/natchez-language';
+import { pinkHeadedDuck } from './entries/pink-headed-duck';
+import { poouli } from './entries/poouli';
+import { redDyeNo2 } from './entries/red-dye-no-2';
+import { rockyMountainLocust } from './entries/rocky-mountain-locust';
+import { ryukyuPigeon } from './entries/ryukyu-pigeon';
+import { sapiIvory } from './entries/sapi-ivory';
+import { saturnVCraft } from './entries/saturn-v-craft';
+import { schomburgkDeer } from './entries/schomburgk-deer';
+import { splendidPoisonFrog } from './entries/splendid-poison-frog';
+import { sundaland } from './entries/sundaland';
+import { tainoCohoba } from './entries/taino-cohoba';
+import { timucuaLanguage } from './entries/timucua-language';
+import { uraniborgInstruments } from './entries/uraniborg-instruments';
+import { vivaldiLostOperas } from './entries/vivaldi-lost-operas';
+import { woollyRhinoceros } from './entries/woolly-rhinoceros';
+import { yuanmingyuan } from './entries/yuanmingyuan';
+
+// ===== Auto-appended by scripts/regen-index.ts =====
+import { anLushanLibraries } from './entries/an-lushan-libraries';
+import { bobbioLibrary } from './entries/bobbio-library';
+import { chimuHydraulics } from './entries/chimu-hydraulics';
+import { clunyLibrary } from './entries/cluny-library';
+import { greatZimbabweMasonry } from './entries/great-zimbabwe-masonry';
+import { heianGagakuRepertoire } from './entries/heian-gagaku-repertoire';
+import { kilwaChronicle } from './entries/kilwa-chronicle';
+import { maraghaObservatory } from './entries/maragha-observatory';
+import { mayaCodexBurning } from './entries/maya-codex-burning';
+import { mervLibraries } from './entries/merv-libraries';
+import { pratyabhijnaVivriti } from './entries/pratyabhijna-vivriti';
+import { samarqandObservatory } from './entries/samarqand-observatory';
+import { trobairitzMelodies } from './entries/trobairitz-melodies';
+
 import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
 
@@ -671,6 +751,78 @@ export const entries: Entry[] = [
   musicaUniversalis,
   // Food
   romanGarumVarieties,
+  // ===== BATCH 11: Ancient World expansion (3000 BCE - 500 CE) =====
+  // Culture - Lost philosophical works
+  democritusMikrosDiakosmos,
+  aristotleOnPoets,
+  epicurusOnNature,
+  heraclitusOnNature,
+  // Culture - Lost literary works
+  sapphoNineBooks,
+  megasthenesIndica,
+  // Culture - Lost rituals and vanished civilizations
+  eleusinianMysteries,
+  mithraicMysteries,
+  nokCulture,
+  qinBookBurning,
+  // Place
+  persepolisArchives,
+  sybaris,
+  // Language
+  meroiticLanguage,
+  // ===== Auto-appended =====
+  arioiSociety,
+  atlitYam,
+  bbcWipedTapes,
+  boomingBen,
+  caveLion,
+  chinesePaddlefish,
+  cleopatra1917,
+  crystalPalace,
+  denisovanCulture,
+  duraLanguage,
+  floridaAcropora,
+  guadalupeCaracara,
+  huronFeastOfDead,
+  irishElk,
+  jussieuHerbarium,
+  lakeAgassiz,
+  lomekwiToolmakers,
+  louvainLibrary,
+  lovesLaboursWon,
+  megatherium,
+  mesopotamianMarshes,
+  natchezLanguage,
+  pinkHeadedDuck,
+  poouli,
+  redDyeNo2,
+  rockyMountainLocust,
+  ryukyuPigeon,
+  sapiIvory,
+  saturnVCraft,
+  schomburgkDeer,
+  splendidPoisonFrog,
+  sundaland,
+  tainoCohoba,
+  timucuaLanguage,
+  uraniborgInstruments,
+  vivaldiLostOperas,
+  woollyRhinoceros,
+  yuanmingyuan,
+  // ===== Auto-appended =====
+  anLushanLibraries,
+  bobbioLibrary,
+  chimuHydraulics,
+  clunyLibrary,
+  greatZimbabweMasonry,
+  heianGagakuRepertoire,
+  kilwaChronicle,
+  maraghaObservatory,
+  mayaCodexBurning,
+  mervLibraries,
+  pratyabhijnaVivriti,
+  samarqandObservatory,
+  trobairitzMelodies,
 ];
 
 export function getEntry(slug: string): Entry | undefined {

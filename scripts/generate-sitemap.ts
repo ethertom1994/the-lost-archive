@@ -38,6 +38,7 @@ function main() {
     `  <url><loc>${BASE_URL}/vanishing</loc><priority>0.8</priority></url>`,
     `  <url><loc>${BASE_URL}/story</loc><priority>0.8</priority></url>`,
     `  <url><loc>${BASE_URL}/suggest</loc><priority>0.5</priority></url>`,
+    `  <url><loc>${BASE_URL}/in-your-lifetime</loc><priority>0.8</priority></url>`,
     `  <url><loc>${BASE_URL}/about</loc><priority>0.5</priority></url>`,
     `  <url><loc>${BASE_URL}/privacy</loc><priority>0.3</priority></url>`,
     // Trail pages
@@ -48,7 +49,8 @@ function main() {
   ];
 
   fs.writeFileSync(outputPath, lines.join('\n') + '\n');
-  console.log(`Sitemap generated: ${slugs.length} entries, ${TRAILS.length} trails, 7 static pages`);
+  const staticPageCount = 11;
+  console.log(`Sitemap generated: ${slugs.length} entries, ${TRAILS.length} trails, ${staticPageCount} static pages`);
 }
 
 main();

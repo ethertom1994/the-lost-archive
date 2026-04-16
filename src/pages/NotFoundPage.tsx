@@ -32,12 +32,20 @@ export default function NotFoundPage() {
           The page you're looking for doesn't exist — but perhaps it once did.
         </p>
 
-        <Link
-          to="/"
-          className="no-underline inline-flex items-center gap-2 bg-accent/10 text-accent border border-accent/20 rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/20 transition-colors duration-300"
-        >
-          Return home
-        </Link>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <Link
+            to="/"
+            className="no-underline inline-flex items-center gap-2 bg-accent/10 text-accent border border-accent/20 rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/20 transition-colors duration-300"
+          >
+            Return home
+          </Link>
+          <Link
+            to="/explore"
+            className="no-underline inline-flex items-center gap-2 bg-bg-card border border-border-subtle text-text-secondary hover:text-text-primary rounded-full px-6 py-3 text-sm font-medium hover:bg-bg-card-hover transition-colors duration-300"
+          >
+            Explore everything
+          </Link>
+        </div>
 
         <div className="mt-16">
           <h2 className="font-display text-xl font-medium text-text-secondary mb-6">
