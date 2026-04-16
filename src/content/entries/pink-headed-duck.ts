@@ -46,9 +46,8 @@ What remains is a small number of skins in European museums, their pink faded to
     'IUCN Status': 'Critically Endangered, probably extinct',
   },
   connections: [
-    { slug: 'sundarbans-shrinking', relationship: 'Both are losses tied to the transformation of South Asian wetland ecosystems during the colonial and post-colonial periods' },
     { slug: 'bengal-quince', relationship: 'Both are species of the Bengal and Gangetic region whose decline is linked to the 19th and 20th century agricultural conversion of Indian landscapes' },
-    { slug: 'labrador-duck', relationship: 'Both are 19th–20th century duck extinctions with remarkably sparse scientific documentation and no living captive lineage' },
+    { slug: 'great-auk', relationship: 'Both are 19th–20th century waterbird extinctions with remarkably sparse scientific documentation and no living captive lineage' },
   ],
   sources: [
     { title: 'A High Price to Pay: New Light on the Extinction of the Pink-headed Duck', author: 'Julian P. Hume', year: 2018 },

@@ -44,8 +44,7 @@ The reef those corals built does not go away when they die. For a while, the ske
   },
   connections: [
     { slug: 'flamingo-tongue', relationship: 'Both are signature Caribbean reef organisms whose decline reflects the collapse of the reef ecosystem they lived in' },
-    { slug: 'maldives-sinking', relationship: 'Both are climate-driven losses of coastal ecosystems that provided irreplaceable physical protection against storm surge' },
-    { slug: 'sundarbans-shrinking', relationship: 'Both are named modern declarations of functional ecosystem loss caused by compounding climate and human pressures' },
+    { slug: 'aral-sea', relationship: 'Both are named, formally documented losses of an entire ecosystem within a single human generation' },
   ],
   sources: [
     {

@@ -43,7 +43,6 @@ The Maʿdan way of life — reed villages, water-buffalo dairying at scale, the 
   connections: [
     { slug: 'aral-sea', relationship: 'Both are 20th-century destructions of a vast inland water body by deliberate human engineering, with irreversible ecological and cultural consequences' },
     { slug: 'lake-texcoco', relationship: 'Both are cases of an enormous native wetland drained for political and economic reasons, with the destruction of the indigenous water-based culture that depended on it' },
-    { slug: 'sundarbans-shrinking', relationship: 'Both are major river-delta wetlands now losing ground to upstream water diversion, salinity intrusion, and climate stress' },
   ],
   sources: [
     {

@@ -280,3 +280,18 @@ A subagent compared all 64 new entries against the full 293-entry catalog. Read 
 - florida-acropora connections include sundarbans-shrinking and maldives-sinking
 - Both target slugs were removed in the original commit's cleanup; need to be fixed.
 
+## Phase 6: Connection Integrity
+
+Ran a script over all 293 entries, scanning the `connections` array for any reference to a slug that doesn't exist as an entry file.
+
+### Broken connections found and fixed
+- florida-acropora → maldives-sinking (target removed) → fixed: replaced with connection to aral-sea
+- florida-acropora → sundarbans-shrinking (target removed) → fixed: removed
+- mesopotamian-marshes → sundarbans-shrinking (target removed) → fixed: removed
+- pink-headed-duck → sundarbans-shrinking (target removed) → fixed: removed
+- pink-headed-duck → labrador-duck (no such entry exists) → fixed: replaced with connection to great-auk
+
+### Result
+- 5 broken connections found, 5 fixed (3 removed, 2 replaced with thematically appropriate live entries)
+- All 293 entries' connections now resolve
+
