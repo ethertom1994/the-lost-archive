@@ -94,6 +94,7 @@ export default function Header() {
               <NavLink to="/explore" className={navLinkClass} onClick={() => setMenuOpen(false)}>Explore</NavLink>
               <NavLink to="/trails" className={navLinkClass} onClick={() => setMenuOpen(false)}>Trails</NavLink>
               <NavLink to="/vanishing" className={navLinkClass} onClick={() => setMenuOpen(false)}>The Vanishing</NavLink>
+              <NavLink to="/in-your-lifetime" className={navLinkClass} onClick={() => setMenuOpen(false)}>In Your Lifetime</NavLink>
               <NavLink to="/stats" className={navLinkClass} onClick={() => setMenuOpen(false)}>Stats</NavLink>
               <NavLink to="/bookmarks" className={navLinkClass} onClick={() => setMenuOpen(false)}>Bookmarks</NavLink>
               <NavLink to="/about" className={navLinkClass} onClick={() => setMenuOpen(false)}>About</NavLink>

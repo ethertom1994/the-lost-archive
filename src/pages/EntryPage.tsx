@@ -159,6 +159,21 @@ export default function EntryPage() {
               </figure>
             )}
 
+            {/* Audio player (only when an audioUrl is provided) */}
+            {entry.audioUrl && (
+              <figure className="mb-8 bg-bg-card border border-border-subtle rounded-lg p-4">
+                <audio controls preload="none" className="w-full" src={entry.audioUrl}>
+                  Your browser does not support the audio element.
+                </audio>
+                {(entry.audioCaption || entry.audioCredit) && (
+                  <figcaption className="text-xs text-text-muted mt-2">
+                    {entry.audioCaption && <>Listen: {entry.audioCaption}. </>}
+                    {entry.audioCredit && <>Source: {entry.audioCredit}.</>}
+                  </figcaption>
+                )}
+              </figure>
+            )}
+
             {/* Quick Facts - mobile only, before body */}
             <div className="lg:hidden mb-8">
               <QuickFacts facts={entry.quickFacts} />

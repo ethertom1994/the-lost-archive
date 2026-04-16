@@ -13,6 +13,9 @@ export interface Entry {
   imageUrl?: string;
   imageCaption?: string;
   imageCredit?: string;
+  audioUrl?: string;
+  audioCaption?: string;
+  audioCredit?: string;
   body: string;
   quickFacts: Record<string, string>;
   connections: Connection[];

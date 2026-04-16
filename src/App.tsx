@@ -18,6 +18,7 @@ const BookmarksPage = lazy(() => import('./pages/BookmarksPage'));
 const VanishingPage = lazy(() => import('./pages/VanishingPage'));
 const StoryPage = lazy(() => import('./pages/StoryPage'));
 const SuggestPage = lazy(() => import('./pages/SuggestPage'));
+const InYourLifetimePage = lazy(() => import('./pages/InYourLifetimePage'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -64,6 +65,7 @@ export default function App() {
             <Route path="/vanishing" element={<VanishingPage />} />
             <Route path="/story" element={<StoryPage />} />
             <Route path="/suggest" element={<SuggestPage />} />
+            <Route path="/in-your-lifetime" element={<InYourLifetimePage />} />
             <Route path="/bookmarks" element={<BookmarksPage />} />
             <Route path="/stats" element={<StatsPage />} />
             <Route path="/about" element={<AboutPage />} />

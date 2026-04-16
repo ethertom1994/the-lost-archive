@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Home, Compass, Route, Flame, MoreHorizontal, BarChart3, Bookmark, Info, MessageSquarePlus, X } from 'lucide-react';
+import { Home, Compass, Route, Flame, MoreHorizontal, BarChart3, Bookmark, Info, MessageSquarePlus, Clock, X } from 'lucide-react';
 import WanderButton from '../shared/WanderButton';
 
 export default function MobileNav() {
@@ -41,6 +41,7 @@ export default function MobileNav() {
             </button>
           </div>
           <div className="grid grid-cols-2 gap-3">
+            <DrawerLink to="/in-your-lifetime" icon={Clock} label="In Your Lifetime" />
             <DrawerLink to="/stats" icon={BarChart3} label="Stats" />
             <DrawerLink to="/bookmarks" icon={Bookmark} label="Bookmarks" />
             <DrawerLink to="/about" icon={Info} label="About" />

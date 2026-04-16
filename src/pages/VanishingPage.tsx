@@ -77,6 +77,9 @@ type Phase = 'loading' | 'ready' | 'playing' | 'paused' | 'done';
 /* ───── Component ───── */
 
 export default function VanishingPage() {
+  const [yearInput, setYearInput] = useState('');
+  const [focusedYear, setFocusedYear] = useState<number | null>(null);
+
   const { timeline, yearMin, yearMax, chronoList } = useMemo(() => {
     const tl: Omit<MapEntry, 'state' | 'fadeStart' | 'px' | 'py'>[] = [];
     for (const e of entries) {
@@ -398,6 +401,20 @@ export default function VanishingPage() {
   const showControls = phase === 'playing' || phase === 'paused' || phase === 'done';
   const isDone = phase === 'done';
 
+  const yearSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const parsed = parseInt(yearInput, 10);
+    if (isNaN(parsed)) return;
+    const clamped = Math.max(yearMin, Math.min(yearMax, parsed));
+    setFocusedYear(clamped);
+    handleScrub(clamped);
+  };
+
+  const lossesInFocusedYear = useMemo(() => {
+    if (focusedYear === null) return [];
+    return chronoList.filter((c) => c.year === focusedYear);
+  }, [focusedYear, chronoList]);
+
   return (
     <>
       <MetaTags
@@ -532,6 +549,27 @@ export default function VanishingPage() {
                     </button>
                   ))}
                 </div>
+
+                {/* Year input — jump to a specific year */}
+                <form onSubmit={yearSubmit} className="flex items-center gap-1 bg-bg-card/80 border border-border-subtle rounded-full px-2 py-1">
+                  <label htmlFor="jump-year" className="sr-only">Jump to year</label>
+                  <input
+                    id="jump-year"
+                    type="number"
+                    inputMode="numeric"
+                    placeholder="Year"
+                    value={yearInput}
+                    onChange={(e) => setYearInput(e.target.value)}
+                    className="w-16 sm:w-20 bg-transparent border-0 text-text-primary text-xs tabular-nums focus:outline-none px-1 py-0.5 placeholder:text-text-muted"
+                    aria-label="Jump to a specific year"
+                  />
+                  <button
+                    type="submit"
+                    className="text-xs text-accent px-2 py-0.5 rounded-full hover:bg-accent/10 cursor-pointer"
+                  >
+                    Go
+                  </button>
+                </form>
               </div>
             </div>
           </div>
@@ -546,6 +584,49 @@ export default function VanishingPage() {
           </div>
         )}
       </section>
+
+      {/* ═══ FOCUSED-YEAR PANEL ═══ */}
+      {focusedYear !== null && (
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 pt-12">
+          <div className="bg-bg-card border border-border-subtle rounded-lg p-5 sm:p-6">
+            <div className="flex items-center justify-between gap-4 mb-4">
+              <div>
+                <p className="text-text-muted text-xs uppercase tracking-wider mb-1">Lost in</p>
+                <p className="font-display text-3xl text-accent tabular-nums">
+                  {formatYear(focusedYear)}
+                </p>
+              </div>
+              <button
+                onClick={() => { setFocusedYear(null); setYearInput(''); }}
+                className="text-text-tertiary text-xs hover:text-text-primary transition-colors cursor-pointer"
+                aria-label="Clear focused year"
+              >
+                Clear
+              </button>
+            </div>
+            {lossesInFocusedYear.length > 0 ? (
+              <ul className="flex flex-col gap-2">
+                {lossesInFocusedYear.map((item) => (
+                  <li key={item.slug}>
+                    <Link
+                      to={`/archive/${item.slug}`}
+                      className="no-underline flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-bg-card-hover transition-colors"
+                    >
+                      <span className="size-2 rounded-full shrink-0" style={{ backgroundColor: CAT_COLORS[item.category] }} />
+                      <span className="text-text-primary text-sm font-medium group-hover:text-accent">{item.name}</span>
+                      <span className="ml-auto text-text-muted text-xs">{CATEGORY_META[item.category].label}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-text-muted text-sm italic">
+                Nothing recorded lost this year. Zoom out?
+              </p>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* ═══ CHRONOLOGICAL LIST ═══ */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-16">
