@@ -12,7 +12,7 @@ export const quagga: Entry = {
   region: 'Africa / Europe (in captivity)',
   status: 'extinct',
   cause: 'Hunted for meat and hides by South African settlers, who also saw it as competition for livestock grazing',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Quagga_photo.jpg/400px-Quagga_photo.jpg',
+  imageUrl: '/images/entries/quagga.jpg',
   imageCaption: 'The only known photograph of a living quagga, a mare at London Zoo, 1870',
   imageCredit: 'Frederick York, Public domain, via Wikimedia Commons',
   keyDate: '08-12',

@@ -12,7 +12,7 @@ export const damascusSteel: Entry = {
   region: 'Middle East',
   status: 'extinct',
   cause: 'Depletion of specific Indian wootz steel ingots; loss of the smelting tradition that produced the raw material',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Watered_pattern_on_sword_blade1.Iran.JPG/400px-Watered_pattern_on_sword_blade1.Iran.JPG',
+  imageUrl: '/images/entries/damascus-steel.jpg',
   imageCaption: 'Characteristic watered pattern on a Damascus steel blade',
   imageCredit: 'Wikimedia Commons',
   body: `## The Blade That Made a Pattern

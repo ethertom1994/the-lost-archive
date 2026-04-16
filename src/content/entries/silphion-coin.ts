@@ -12,7 +12,7 @@ export const silphionCoin: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'The city-state of Cyrene declined under Roman rule; the plant depicted on the coin was harvested to extinction',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Silphium_coin.png/400px-Silphium_coin.png',
+  imageUrl: '/images/entries/silphion-coin.png',
   imageCaption: 'Silver coin from Cyrene depicting the silphium plant',
   imageCredit: 'Classical Numismatic Group, CC BY-SA 3.0',
   body: `## A Portrait of Extinction

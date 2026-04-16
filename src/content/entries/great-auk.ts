@@ -12,7 +12,7 @@ export const greatAuk: Entry = {
   region: 'North Atlantic',
   status: 'extinct',
   cause: 'Systematic hunting for feathers, meat, oil, and ultimately museum specimens. The rarer it became, the more valuable each specimen, accelerating its destruction.',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Alca_Impennis_by_John_Gould.jpg/400px-Alca_Impennis_by_John_Gould.jpg',
+  imageUrl: '/images/entries/great-auk.jpg',
   imageCaption: 'Great auk illustration from The Birds of Great Britain by John Gould, 1873',
   imageCredit: 'John Gould, Public domain, via Wikimedia Commons',
   keyDate: '06-03',

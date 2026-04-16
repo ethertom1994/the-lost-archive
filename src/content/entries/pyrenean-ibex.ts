@@ -12,7 +12,7 @@ export const pyreneanIbex: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Centuries of hunting reduced the population beyond recovery, compounded by disease and competition',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg/400px-Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg',
+  imageUrl: '/images/entries/pyrenean-ibex.jpg',
   imageCaption: 'Mounted specimen of the Pyrenean ibex (bucardo)',
   imageCredit: 'Gobierno de Aragon',
   keyDate: '01-06',

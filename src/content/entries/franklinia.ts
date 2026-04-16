@@ -12,7 +12,7 @@ export const franklinia: Entry = {
   region: 'North America',
   status: 'extinct_in_wild',
   cause: 'Unknown; possibly a combination of disease, habitat change, and an already tiny population',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Franklin_Tree_Franklinia_alatamaha_Flower_3008px.JPG/400px-Franklin_Tree_Franklinia_alatamaha_Flower_3008px.JPG',
+  imageUrl: '/images/entries/franklinia.jpg',
   imageCaption: 'Franklinia alatamaha flower',
   imageCredit: 'Wikimedia Commons',
   body: `## The Bartrams' Discovery

@@ -12,7 +12,7 @@ export const spixMacaw: Entry = {
   region: 'South America',
   status: 'extinct_in_wild',
   cause: 'Habitat destruction from overgrazing and dam construction, illegal trapping for the exotic pet trade, and invasion of Africanized bees competing for nest sites',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cyanopsitta_spixii_-Vogelpark_Walsrode%2C_Walsrode%2C_Germany-1980.jpg/400px-Cyanopsitta_spixii_-Vogelpark_Walsrode%2C_Walsrode%2C_Germany-1980.jpg',
+  imageUrl: '/images/entries/spix-macaw.jpg',
   imageCaption: 'Spix\'s macaw (Cyanopsitta spixii) at Vogelpark Walsrode, Germany, circa 1980',
   imageCredit: 'Rüdiger Stehn, CC BY-SA 2.0, via Wikimedia Commons',
   body: `## The Rarest Bird in the World

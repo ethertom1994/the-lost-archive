@@ -12,7 +12,7 @@ export const stellersSeaCow: Entry = {
   region: 'North Pacific',
   status: 'extinct',
   cause: 'Hunted to extinction by fur traders and sailors within 27 years of Western discovery',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Steller%27s_Sea_Cow.jpg/400px-Steller%27s_Sea_Cow.jpg',
+  imageUrl: '/images/entries/stellers-sea-cow.jpg',
   imageCaption: "Illustration of Steller's sea cow",
   imageCredit: 'After Georg Wilhelm Steller',
   body: `## Shipwrecked Among Giants

@@ -12,7 +12,7 @@ export const concorde: Entry = {
   region: 'Global',
   status: 'extinct',
   cause: 'Economic unsustainability after the 2000 crash, post-9/11 aviation downturn, and rising maintenance costs',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/400px-British_Airways_Concorde_G-BOAC_03.jpg',
+  imageUrl: '/images/entries/concorde.jpg',
   imageCaption: 'British Airways Concorde G-BOAC after takeoff, 1986',
   imageCredit: 'Eduard Marmet, CC BY-SA 3.0 GFDL, via Wikimedia Commons',
   keyDate: '11-26',

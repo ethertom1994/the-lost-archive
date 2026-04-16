@@ -12,7 +12,7 @@ export const areciboTelescope: Entry = {
   region: 'Caribbean',
   status: 'extinct',
   cause: 'Structural collapse of the Arecibo Observatory on December 1, 2020, after cable failures',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Arecibo_Observatory_Aerial_View.jpg/400px-Arecibo_Observatory_Aerial_View.jpg',
+  imageUrl: '/images/entries/arecibo-telescope.jpg',
   imageCaption: 'Aerial view of the Arecibo Observatory, showing the 305-meter radio telescope dish, 2012',
   imageCredit: 'NAIC - Arecibo Observatory, a facility of the NSF; courtesy of the NAIC, Public domain, via Wikimedia Commons',
   keyDate: '12-01',

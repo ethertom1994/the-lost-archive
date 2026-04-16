@@ -12,7 +12,7 @@ export const greekFire: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'Extreme secrecy restricted knowledge to a small group; the fall of the Byzantine state eliminated the last keepers',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Greekfire-madridskylitzes1.jpg/400px-Greekfire-madridskylitzes1.jpg',
+  imageUrl: '/images/entries/greek-fire.jpg',
   imageCaption: 'Byzantine warship deploying Greek fire against a rebel fleet, from the Madrid Skylitzes manuscript, 12th century',
   imageCredit: 'Unknown Byzantine artist, Public domain, via Wikimedia Commons',
   body: `## Fire on the Water

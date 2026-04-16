@@ -149,10 +149,11 @@ export default function EntryPage() {
                   className="w-full object-cover museum-img"
                   loading="lazy"
                 />
-                {entry.imageCaption && (
+                {(entry.imageCaption || entry.imageCredit) && (
                   <figcaption className="text-xs text-text-muted mt-2 px-1">
                     {entry.imageCaption}
-                    {entry.imageCredit && <> — {entry.imageCredit}</>}
+                    {entry.imageCaption && entry.imageCredit && ' — '}
+                    {entry.imageCredit}
                   </figcaption>
                 )}
               </figure>

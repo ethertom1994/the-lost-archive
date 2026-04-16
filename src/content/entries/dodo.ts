@@ -12,7 +12,7 @@ export const dodo: Entry = {
   region: 'Indian Ocean',
   status: 'extinct',
   cause: 'Hunting by sailors, predation by introduced rats, pigs, and monkeys on eggs and chicks',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edwards%27_Dodo.jpg/400px-Edwards%27_Dodo.jpg',
+  imageUrl: '/images/entries/dodo.jpg',
   imageCaption: 'Edwards\' Dodo, painted by Roelant Savery in 1626, the most famous depiction of the dodo',
   imageCredit: 'Roelant Savery, Public domain, via Wikimedia Commons',
   body: `## The Bird We Think We Know

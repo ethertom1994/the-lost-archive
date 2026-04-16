@@ -12,7 +12,7 @@ export const doggerland: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Sea level rise at the end of the last Ice Age, accelerated by the Storegga Slide tsunami (~6200 BCE)',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Doggerland.png/400px-Doggerland.png',
+  imageUrl: '/images/entries/doggerland.png',
   imageCaption: 'Map of Doggerland showing its extent circa 10,000 years ago and subsequent flooding',
   imageCredit: 'Max Naylor, Public domain, via Wikimedia Commons',
   body: `## The Country Under the Sea

@@ -12,7 +12,7 @@ export const haastsEagle: Entry = {
   region: 'Oceania',
   status: 'extinct',
   cause: 'Loss of prey species (moa) following Maori hunting, habitat destruction',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg/400px-Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg',
+  imageUrl: '/images/entries/haasts-eagle.jpg',
   imageCaption: 'Reconstruction of a Haast\'s eagle attacking New Zealand moa',
   imageCredit: 'John Megahan, CC BY 2.5, via Wikimedia Commons',
   body: `## The Apex of the Sky

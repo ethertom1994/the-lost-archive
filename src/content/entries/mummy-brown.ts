@@ -12,7 +12,7 @@ export const mummyBrown: Entry = {
   region: 'Europe',
   status: 'extinct',
   cause: 'Depletion of source material (Egyptian mummies) and growing ethical objections',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Tube_of_mummy_brown_in_a_coffin.JPG/400px-Tube_of_mummy_brown_in_a_coffin.JPG',
+  imageUrl: '/images/entries/mummy-brown.jpg',
   imageCaption: 'A tube of Mummy Brown pigment displayed in a miniature coffin',
   imageCredit: 'Hafton Collection at Harvard Art Museums, CC BY-SA 4.0, via Wikimedia Commons',
   body: `## The Color of the Dead

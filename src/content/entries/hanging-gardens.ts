@@ -12,7 +12,7 @@ export const hangingGardens: Entry = {
   region: 'Middle East',
   status: 'extinct',
   cause: 'Destruction through neglect, earthquake, or deliberate demolition, compounded by possible misidentification of location',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanging_Gardens_of_Babylon.jpg/400px-Hanging_Gardens_of_Babylon.jpg',
+  imageUrl: '/images/entries/hanging-gardens.jpg',
   imageCaption: 'Hand-coloured engraving of the Hanging Gardens of Babylon, 19th century',
   imageCredit: 'Public domain, via Wikimedia Commons',
   body: `## The Wonder Nobody Can Find

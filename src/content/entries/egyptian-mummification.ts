@@ -12,7 +12,7 @@ export const egyptianMummification: Entry = {
   region: 'North Africa',
   status: 'extinct',
   cause: 'Spread of Christianity in Roman Egypt eliminated the priestly class that held the knowledge; last known mummifications occurred around the 4th century CE',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Egyptian_mummies%2C_British_Museum.jpg/400px-Egyptian_mummies%2C_British_Museum.jpg',
+  imageUrl: '/images/entries/egyptian-mummification.jpg',
   imageCaption: 'Egyptian mummies on display at the British Museum, London',
   imageCredit: 'Bram Souffreau, CC BY-SA 2.0, via Wikimedia Commons',
   body: `## Seventy Days to Eternity

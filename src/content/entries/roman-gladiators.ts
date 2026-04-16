@@ -12,7 +12,7 @@ export const romanGladiators: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'Banned by Emperor Honorius in 404 CE following the martyrdom of the monk Telemachus; Christian opposition ended the institution',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Astyanax_vs_Kalendio_mosaic.jpg/400px-Astyanax_vs_Kalendio_mosaic.jpg',
+  imageUrl: '/images/entries/roman-gladiators.jpg',
   imageCaption: 'Roman mosaic depicting a combat between the retiarius Kalendio and the secutor Astyanax, from the National Archaeological Museum, Madrid',
   imageCredit: 'Public domain, via Wikimedia Commons',
   body: `## A Martial Art, Not a Massacre

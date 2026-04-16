@@ -1,0 +1,1714 @@
+{
+  "total": 234,
+  "toDownload": 33,
+  "downloaded": 33,
+  "failed": 0,
+  "skippedExisting": 0,
+  "skippedOther": 201,
+  "records": [
+    {
+      "slug": "aboriginal-songlines",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "aeolipile",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ainu-throat-singing",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "aksumite-obelisks",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "alala-song",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "amazonian-cities",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "american-chestnut",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ansault-pear",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "antikythera-cargo",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "araucaria-mirabilis",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "archaeomagnetism",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "atlas-bear",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ayapaneco",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "aztec-ballgame",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "aztec-chocolate",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "babylonian-calculus",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bachs-lituus",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bakelite",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "balds-eyesalve",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "balinese-subak",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bengal-quince",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "benin-bronzes",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "beothuk",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "beringia",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bison-cuisine",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "blue-lotus-ritual",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bois-dentelle",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bramble-cay-melomys",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "bubal-hartebeest",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "byzantine-silk-secrets",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cafe-marron",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "camembert-fungus",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "caribbean-monk-seal",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "carthage-destruction",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "caspian-tiger",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cathar-texts",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cedars-of-lebanon",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "centralia",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "claxton-peach",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cooksonia",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cornish-cauliflower",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "coventry-bells",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cremonese-violin-school",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cry-violet",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cyanea-superba",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "cypro-minoan",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "dalmatian-language",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "dorona-grape",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "dutch-golden-age-pigments",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "edo-firework-formulas",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "egyptian-blue",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "etruscan",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "eyak-language",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "falernian-wine",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "feast-of-fools",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "flamingo-tongue",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "foghorn-chorus",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "folium",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "garum",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "globe-acoustics",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "gong-farmer",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "great-hedge-india",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "greek-music-modes",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "greek-theatrical-masks",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "green-sahara",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "gros-michel-banana",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "gue-of-shetland",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "han-paper-variants",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "han-purple",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "helike",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "heron-automata",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "house-of-wisdom",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "houtouwan",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "hypogeum-oracle",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "inca-roads",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "indian-yellow",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "indus-valley-script",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "inuit-qaggiq",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ivory-billed-call",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "japanese-river-otter",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "javan-tiger",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "judean-date-palm",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "kauai-oo",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "kerala-calculus",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "khmer-hydraulics",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "kistler-aerogel",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "knattleikr",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "knocker-upper",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "kusunda",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "kyphi",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lake-pedder",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lake-peigneur",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lake-texcoco",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lamplighter",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "laughing-owl",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lop-nur",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lost-raphael-paintings",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "luparius",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "lycurgus-cup",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "malagousia-grape",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "maldives-sinking",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "mamo-bird",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "marshallese-navigation",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "mauritius-dodo-ecosystem",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "maya-blue",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "medieval-stained-glass",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "minoan-bull-leaping",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "mixtec-codices",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "moa-cuisine",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "mughal-garden-engineering",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "mummy-cheese",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "murasaki-dye",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "musica-universalis",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "mvsl",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "nalanda",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "nan-madol-knowledge",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "nepenthe",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "new-zealand-dawn-chorus",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "night-soil",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "norse-greenland-colony",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "nushu",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "okinawan-awamori",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "olmec-rubber",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "original-fish-chips",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "original-kabuki",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "original-ny-cheesecake",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "owens-lake",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "passenger-pigeon-pie",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "phillip-island-glory-pea",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "phonoautograph",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "pictish",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "polynesian-wayfinding",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "port-royal",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "pre-equal-temperament",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "pripyat",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "proto-elamite",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "prussian-taler",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ptolemaic-star-catalog",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "pulque-traditions",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "quipu",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "rai-stones",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "rapa-nui-palm",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "roman-garum-varieties",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "roman-hydraulics",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "roman-roads",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "roman-silphium-economy",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "roman-surgical-techniques",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "saint-helena-ebony",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "samian-ware",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "sea-silk",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "segato-petrification",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "shuadit",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "sidon-purple-district",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "silbo-gomero",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "silesian-linen-weaving",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "silphium-spice",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "silphium",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "sin-eater",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "skaldic-oral-tradition",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "slender-billed-curlew",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "song-celadon",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "song-movable-type",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "st-helena-olive",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "starlite",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "stonehenge-acoustics",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "stradivarius-sound",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "sumerian",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "sundarbans-shrinking",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "svalbard-syria",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "taliaferro-apple",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tanganyika",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tangut",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tasmanian-languages",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tecopa-pupfish",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tekhelet",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "teonimanu",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "terra-preta",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "terracotta-paint",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "timbuktu-scholars",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "toolache-wallaby",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "toromiro",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tosher",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tudor-subtleties",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "tyrian-purple",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ubykh",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "ulfberht-swords",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "venetian-glass-secrets",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "victorian-mourning",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "viking-sunstone",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "vinland-birdsong",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "vitrum-flexile",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "voyager-golden-record",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "warrah",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "woods-cycad",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "wootz-steel",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "xerces-blue",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "yahi",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "yangtze-softshell-turtle",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "zanzibar-leopard",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "zealandia",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "zhang-heng-seismoscope",
+      "sourceUrl": "",
+      "filename": null,
+      "localPath": null,
+      "status": "skipped-undefined"
+    },
+    {
+      "slug": "antikythera-mechanism",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/400px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg",
+      "filename": "NAMA_Machine_d'Anticythère_1.jpg",
+      "localPath": "/images/entries/antikythera-mechanism.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 199040
+    },
+    {
+      "slug": "aral-sea",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/AralSea1989_2014.jpg/400px-AralSea1989_2014.jpg",
+      "filename": "AralSea1989_2014.jpg",
+      "localPath": "/images/entries/aral-sea.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 152930
+    },
+    {
+      "slug": "arecibo-telescope",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Arecibo_Observatory_Aerial_View.jpg/400px-Arecibo_Observatory_Aerial_View.jpg",
+      "filename": "Arecibo_Observatory_Aerial_View.jpg",
+      "localPath": "/images/entries/arecibo-telescope.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 157987
+    },
+    {
+      "slug": "baiji",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Baiji-Lipotes-vexillifer.jpg/400px-Baiji-Lipotes-vexillifer.jpg",
+      "filename": "Baiji-Lipotes-vexillifer.jpg",
+      "localPath": "/images/entries/baiji.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 92857
+    },
+    {
+      "slug": "castrato-voice",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Alessandro_Moreschi.png/400px-Alessandro_Moreschi.png",
+      "filename": "Alessandro_Moreschi.png",
+      "localPath": "/images/entries/castrato-voice.png",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 787525
+    },
+    {
+      "slug": "colossus-of-rhodes",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Colossus_of_Rhodes_by_Ferdinand_Knab_%281886%29_cropped.png/400px-Colossus_of_Rhodes_by_Ferdinand_Knab_%281886%29_cropped.png",
+      "filename": "Colossus_of_Rhodes_by_Ferdinand_Knab_(1886)_cropped.png",
+      "localPath": "/images/entries/colossus-of-rhodes.png",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 504272
+    },
+    {
+      "slug": "concorde",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/400px-British_Airways_Concorde_G-BOAC_03.jpg",
+      "filename": "British_Airways_Concorde_G-BOAC_03.jpg",
+      "localPath": "/images/entries/concorde.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 60525
+    },
+    {
+      "slug": "damascus-steel",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Watered_pattern_on_sword_blade1.Iran.JPG/400px-Watered_pattern_on_sword_blade1.Iran.JPG",
+      "filename": "Watered_pattern_on_sword_blade1.Iran.JPG",
+      "localPath": "/images/entries/damascus-steel.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 133891
+    },
+    {
+      "slug": "dodo",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edwards%27_Dodo.jpg/400px-Edwards%27_Dodo.jpg",
+      "filename": "Edwards'_Dodo.jpg",
+      "localPath": "/images/entries/dodo.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 304077
+    },
+    {
+      "slug": "doggerland",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Doggerland.png/400px-Doggerland.png",
+      "filename": "Doggerland.png",
+      "localPath": "/images/entries/doggerland.png",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 1661715
+    },
+    {
+      "slug": "egyptian-mummification",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Egyptian_mummies%2C_British_Museum.jpg/400px-Egyptian_mummies%2C_British_Museum.jpg",
+      "filename": "Egyptian_mummies,_British_Museum.jpg",
+      "localPath": "/images/entries/egyptian-mummification.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 187191
+    },
+    {
+      "slug": "fordite",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Fordite_%28Dearborn%2C_Michigan%29_1.jpg/400px-Fordite_%28Dearborn%2C_Michigan%29_1.jpg",
+      "filename": "Fordite_(Dearborn,_Michigan)_1.jpg",
+      "localPath": "/images/entries/fordite.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 287820
+    },
+    {
+      "slug": "franklinia",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Franklin_Tree_Franklinia_alatamaha_Flower_3008px.JPG/400px-Franklin_Tree_Franklinia_alatamaha_Flower_3008px.JPG",
+      "filename": "Franklin_Tree_Franklinia_alatamaha_Flower_3008px.JPG",
+      "localPath": "/images/entries/franklinia.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 82058
+    },
+    {
+      "slug": "golden-toad",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bufo_periglenes2.jpg/400px-Bufo_periglenes2.jpg",
+      "filename": "Bufo_periglenes2.jpg",
+      "localPath": "/images/entries/golden-toad.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 153049
+    },
+    {
+      "slug": "great-auk",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Alca_Impennis_by_John_Gould.jpg/400px-Alca_Impennis_by_John_Gould.jpg",
+      "filename": "Alca_Impennis_by_John_Gould.jpg",
+      "localPath": "/images/entries/great-auk.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 121789
+    },
+    {
+      "slug": "greek-fire",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Greekfire-madridskylitzes1.jpg/400px-Greekfire-madridskylitzes1.jpg",
+      "filename": "Greekfire-madridskylitzes1.jpg",
+      "localPath": "/images/entries/greek-fire.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 229547
+    },
+    {
+      "slug": "haasts-eagle",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg/400px-Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg",
+      "filename": "Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg",
+      "localPath": "/images/entries/haasts-eagle.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 317510
+    },
+    {
+      "slug": "hanging-gardens",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanging_Gardens_of_Babylon.jpg/400px-Hanging_Gardens_of_Babylon.jpg",
+      "filename": "Hanging_Gardens_of_Babylon.jpg",
+      "localPath": "/images/entries/hanging-gardens.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 300704
+    },
+    {
+      "slug": "huia-call",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Huia_Buller.jpg/400px-Huia_Buller.jpg",
+      "filename": "Huia_Buller.jpg",
+      "localPath": "/images/entries/huia-call.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 513452
+    },
+    {
+      "slug": "kodachrome",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kodachrome_II_-_Film_for_colour_slides.jpg/400px-Kodachrome_II_-_Film_for_colour_slides.jpg",
+      "filename": "Kodachrome_II_-_Film_for_colour_slides.jpg",
+      "localPath": "/images/entries/kodachrome.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 265413
+    },
+    {
+      "slug": "library-of-alexandria",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/400px-Ancientlibraryalex.jpg",
+      "filename": "Ancientlibraryalex.jpg",
+      "localPath": "/images/entries/library-of-alexandria.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 464552
+    },
+    {
+      "slug": "lonesome-george",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Lonesome_George_in_profile.png/400px-Lonesome_George_in_profile.png",
+      "filename": "Lonesome_George_in_profile.png",
+      "localPath": "/images/entries/lonesome-george.png",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 1401216
+    },
+    {
+      "slug": "mummy-brown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Tube_of_mummy_brown_in_a_coffin.JPG/400px-Tube_of_mummy_brown_in_a_coffin.JPG",
+      "filename": "Tube_of_mummy_brown_in_a_coffin.JPG",
+      "localPath": "/images/entries/mummy-brown.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 91628
+    },
+    {
+      "slug": "passenger-pigeon",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Martha%2C_the_last_Passenger_Pigeon._Natural_History_Museum%2C_June%2C_2015._Digital_photo%2C_cropped_and_brightened.jpg/400px-Martha%2C_the_last_Passenger_Pigeon._Natural_History_Museum%2C_June%2C_2015._Digital_photo%2C_cropped_and_brightened.jpg",
+      "filename": "Martha,_the_last_Passenger_Pigeon._Natural_History_Museum,_June,_2015._Digital_photo,_cropped_and_brightened.jpg",
+      "localPath": "/images/entries/passenger-pigeon.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 277071
+    },
+    {
+      "slug": "pyrenean-ibex",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg/400px-Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg",
+      "filename": "Capra_pyrenaica_pyrenaica_MHNT_ART_39.jpg",
+      "localPath": "/images/entries/pyrenean-ibex.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 79565
+    },
+    {
+      "slug": "quagga",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Quagga_photo.jpg/400px-Quagga_photo.jpg",
+      "filename": "Quagga_photo.jpg",
+      "localPath": "/images/entries/quagga.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 186154
+    },
+    {
+      "slug": "roman-concrete",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pantheon_%28Rome%29_-_Dome_interior.jpg/400px-Pantheon_%28Rome%29_-_Dome_interior.jpg",
+      "filename": "Pantheon_(Rome)_-_Dome_interior.jpg",
+      "localPath": "/images/entries/roman-concrete.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 253399
+    },
+    {
+      "slug": "roman-gladiators",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Astyanax_vs_Kalendio_mosaic.jpg/400px-Astyanax_vs_Kalendio_mosaic.jpg",
+      "filename": "Astyanax_vs_Kalendio_mosaic.jpg",
+      "localPath": "/images/entries/roman-gladiators.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 193243
+    },
+    {
+      "slug": "silphion-coin",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Silphium_coin.png/400px-Silphium_coin.png",
+      "filename": "Silphium_coin.png",
+      "localPath": "/images/entries/silphion-coin.png",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 225090
+    },
+    {
+      "slug": "spix-macaw",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cyanopsitta_spixii_-Vogelpark_Walsrode%2C_Walsrode%2C_Germany-1980.jpg/400px-Cyanopsitta_spixii_-Vogelpark_Walsrode%2C_Walsrode%2C_Germany-1980.jpg",
+      "filename": "Cyanopsitta_spixii_-Vogelpark_Walsrode,_Walsrode,_Germany-1980.jpg",
+      "localPath": "/images/entries/spix-macaw.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 191886
+    },
+    {
+      "slug": "stellers-sea-cow",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Steller%27s_Sea_Cow.jpg/400px-Steller%27s_Sea_Cow.jpg",
+      "filename": "Steller's_Sea_Cow.jpg",
+      "localPath": "/images/entries/stellers-sea-cow.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 151048
+    },
+    {
+      "slug": "stradivarius-secret",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Stradivarius_violin_in_the_royal_palace_in_madrid.jpg/400px-Stradivarius_violin_in_the_royal_palace_in_madrid.jpg",
+      "filename": "Stradivarius_violin_in_the_royal_palace_in_madrid.jpg",
+      "localPath": "/images/entries/stradivarius-secret.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 117949
+    },
+    {
+      "slug": "thylacine",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Thylacinus.jpg/400px-Thylacinus.jpg",
+      "filename": "Thylacinus.jpg",
+      "localPath": "/images/entries/thylacine.jpg",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 57568
+    }
+  ]
+}

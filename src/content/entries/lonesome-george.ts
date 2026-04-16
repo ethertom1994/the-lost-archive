@@ -12,7 +12,7 @@ export const lonesomeGeorge: Entry = {
   region: 'South America',
   status: 'extinct',
   cause: 'Hunting by whalers and sailors, habitat destruction by introduced goats',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Lonesome_George_in_profile.png/400px-Lonesome_George_in_profile.png',
+  imageUrl: '/images/entries/lonesome-george.png',
   imageCaption: 'Lonesome George, the last Pinta Island tortoise, at the Charles Darwin Research Station, 2006',
   imageCredit: 'Puente Arturo, CC BY-SA 2.0, via Wikimedia Commons',
   body: `## The Last of Pinta

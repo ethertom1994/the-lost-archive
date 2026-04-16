@@ -12,7 +12,7 @@ export const antikytheraMechanism: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'The knowledge tradition that produced it was lost with the decline of the Hellenistic world',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/400px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg',
+  imageUrl: '/images/entries/antikythera-mechanism.jpg',
   imageCaption: 'The Antikythera mechanism, Fragment A, at the National Archaeological Museum, Athens',
   imageCredit: 'Marsyas/Wikimedia Commons, CC BY-SA 2.5',
   body: `## Raised from the Wreck

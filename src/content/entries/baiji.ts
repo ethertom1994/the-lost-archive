@@ -12,7 +12,7 @@ export const baiji: Entry = {
   region: 'East Asia',
   status: 'functionally_extinct',
   cause: 'Industrial pollution, ship traffic, dam construction, and bycatch in the Yangtze River',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Baiji-Lipotes-vexillifer.jpg/400px-Baiji-Lipotes-vexillifer.jpg',
+  imageUrl: '/images/entries/baiji.jpg',
   imageCaption: 'The baiji, or Yangtze River dolphin',
   imageCredit: 'Institute of Hydrobiology, Chinese Academy of Sciences',
   keyDate: '12-13',

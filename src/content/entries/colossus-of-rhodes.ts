@@ -12,7 +12,7 @@ export const colossusOfRhodes: Entry = {
   region: 'Mediterranean',
   status: 'extinct',
   cause: 'Toppled by an earthquake around 226 BCE after standing for just 54 years. The ruins lay in place for ~800 years until Arab forces reportedly sold the bronze for scrap around 653 CE.',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Colossus_of_Rhodes_by_Ferdinand_Knab_%281886%29_cropped.png/400px-Colossus_of_Rhodes_by_Ferdinand_Knab_%281886%29_cropped.png',
+  imageUrl: '/images/entries/colossus-of-rhodes.png',
   imageCaption: 'The Colossus of Rhodes, oil painting by Ferdinand Knab, 1886',
   imageCredit: 'Ferdinand Knab, Public domain, via Wikimedia Commons',
   body: `## Fifty-Four Years of Wonder
