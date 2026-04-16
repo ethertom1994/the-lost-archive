@@ -143,6 +143,30 @@ function generateOGImage(entry: EntryMeta, outputPath: string) {
   fs.writeFileSync(outputPath, buffer);
 }
 
+function generateStoryOG(outputPath: string) {
+  const width = 1200;
+  const height = 630;
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext('2d');
+
+  ctx.fillStyle = '#0A0A0A';
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.fillStyle = '#E8E0D4';
+  ctx.font = '700 52px Georgia, "Times New Roman", serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('Everything on this page', width / 2, height / 2 - 40);
+  ctx.fillText('once existed.', width / 2, height / 2 + 30);
+
+  ctx.fillStyle = '#5A5650';
+  ctx.font = '500 18px Georgia, "Times New Roman", serif';
+  ctx.textAlign = 'right';
+  ctx.fillText('The Lost Archive', width - 60, height - 40);
+  ctx.textAlign = 'left';
+
+  fs.writeFileSync(outputPath, canvas.toBuffer('image/png'));
+}
+
 function generateVanishingOG(outputPath: string) {
   const width = 1200;
   const height = 630;
@@ -215,7 +239,8 @@ async function main() {
 
   // Generate page-level OG images
   generateVanishingOG(path.join(outputDir, 'vanishing.png'));
-  console.log('Generated vanishing.png');
+  generateStoryOG(path.join(outputDir, 'story.png'));
+  console.log('Generated page OG images');
 
   const files = fs.readdirSync(entriesDir).filter(f => f.endsWith('.ts'));
   console.log(`Found ${files.length} entry files`);

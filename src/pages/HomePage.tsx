@@ -222,6 +222,18 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Story link */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-8">
+        <div className="text-center py-8 border-t border-border-subtle">
+          <Link
+            to="/story"
+            className="no-underline font-display text-lg sm:text-xl text-text-secondary italic hover:text-accent transition-colors duration-300"
+          >
+            Read the story of everything we&rsquo;ve lost &rarr;
+          </Link>
+        </div>
+      </section>
+
       {/* Recent Entries */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-20">
         <motion.div className="mb-8" {...fadeIn}>

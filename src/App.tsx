@@ -16,6 +16,7 @@ const TrailsPage = lazy(() => import('./pages/TrailsPage'));
 const TrailDetailPage = lazy(() => import('./pages/TrailDetailPage'));
 const BookmarksPage = lazy(() => import('./pages/BookmarksPage'));
 const VanishingPage = lazy(() => import('./pages/VanishingPage'));
+const StoryPage = lazy(() => import('./pages/StoryPage'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -36,6 +37,9 @@ function Loading() {
 }
 
 export default function App() {
+  const { pathname } = useLocation();
+  const isStoryPage = pathname === '/story';
+
   return (
     <>
       <a
@@ -46,9 +50,9 @@ export default function App() {
       </a>
 
       <ScrollToTop />
-      <Header />
+      {!isStoryPage && <Header />}
 
-      <main id="main-content" tabIndex={-1} className="pt-16 pb-20 md:pb-0 min-h-screen outline-none">
+      <main id="main-content" tabIndex={-1} className={isStoryPage ? 'min-h-screen outline-none' : 'pt-16 pb-20 md:pb-0 min-h-screen outline-none'}>
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -57,6 +61,7 @@ export default function App() {
             <Route path="/trails" element={<TrailsPage />} />
             <Route path="/trails/:slug" element={<TrailDetailPage />} />
             <Route path="/vanishing" element={<VanishingPage />} />
+            <Route path="/story" element={<StoryPage />} />
             <Route path="/bookmarks" element={<BookmarksPage />} />
             <Route path="/stats" element={<StatsPage />} />
             <Route path="/about" element={<AboutPage />} />
@@ -66,8 +71,8 @@ export default function App() {
         </Suspense>
       </main>
 
-      <Footer />
-      <MobileNav />
+      {!isStoryPage && <Footer />}
+      {!isStoryPage && <MobileNav />}
       <Analytics />
     </>
   );
