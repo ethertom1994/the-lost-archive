@@ -6,7 +6,7 @@ export const seaSilk: Entry = {
   tagline: 'A golden fabric woven from the anchor threads of giant clams — so fine that gloves could fit inside a walnut shell, so luminous they seemed to glow.',
   category: 'material',
   subcategory: 'Textile',
-  lastKnownYear: '~2000',
+  lastKnownYear: 2016,
   lastKnownLocation: 'Sant\'Antioco, Sardinia',
   coordinates: [39.07, 8.45],
   region: 'Europe',
@@ -33,11 +33,11 @@ The craft of sea silk weaving survived into the modern era in exactly one place:
 
 Vigo harvests byssus by diving to gather filaments that the pen shell has shed naturally, without killing the animal. The raw fiber requires weeks of processing: soaking in lemon juice, drying, carding, and spinning by hand into thread finer than human hair. The entire process is manual, with no possibility of mechanization.
 
-## Extinction of the Source
+## The Source Is Gone
 
-The craft's survival is now threatened at its biological root. Since 2016, Pinna nobilis populations across the Mediterranean have collapsed catastrophically, devastated by a parasite (Haplosporidium pinnae) that has killed an estimated 99% of individuals in affected areas. The species is now classified as critically endangered. Even if the weaving tradition survives its current practitioner, the raw material may not survive at all.
+Beginning in 2016, Pinna nobilis populations across the Mediterranean collapsed catastrophically, devastated by a parasite (Haplosporidium pinnae) that killed an estimated 99% of individuals in affected areas. The species is now classified as critically endangered, functionally extinct across most of its former range. The biological organism that produces byssus — the raw material of sea silk — is gone.
 
-Sea silk exists at the intersection of biology, craftsmanship, and time. The pen shell takes years to produce enough byssus for a single small garment. The weaver requires decades of training to work the fiber. The fabric itself endures for centuries. Every element of its creation operates on a timescale that industrial civilization cannot accommodate.`,
+This is not a crisis of craftsmanship but of biology. Even if the weaving tradition could be transmitted to a new generation, there is nothing left to weave. The pen shell took years to produce enough byssus for a single small garment. Now there are almost no pen shells. Sea silk existed at the intersection of biology, craftsmanship, and time — the organism grew slowly, the weaver trained for decades, the fabric endured for centuries. The 2016 mass mortality event severed the chain at its biological root. The tradition did not merely lose its last practitioner. It lost its source organism.`,
   quickFacts: {
     'Source Organism': 'Pinna nobilis (noble pen shell)',
     'Fiber Type': 'Byssus — protein anchor filaments',

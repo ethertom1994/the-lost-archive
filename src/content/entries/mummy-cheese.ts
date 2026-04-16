@@ -48,7 +48,7 @@ The cheese itself cannot be recreated. The specific microbial community, shaped 
     'Burial Context': 'Placed on necks and chests of mummies, likely ritual significance',
   },
   connections: [
-    { slug: 'camembert-fungus', relationship: 'Both reveal how fragile fermentation cultures are: one is collapsing now, the other vanished 3,600 years ago' },
+    { slug: 'falernian-wine', relationship: 'Both are ancient fermented products whose exact production methods are permanently lost' },
     { slug: 'garum', relationship: 'Both were fermented foods produced by microbial cultures that cannot be reconstructed from ancient descriptions alone' },
     { slug: 'aztec-chocolate', relationship: 'Both were foods with deep cultural and ritual significance whose original preparation methods are lost' },
   ],

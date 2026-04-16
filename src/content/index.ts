@@ -111,7 +111,7 @@ import { nalanda } from './entries/nalanda';
 import { ubykh } from './entries/ubykh';
 import { dalmatianLanguage } from './entries/dalmatian-language';
 import { yahi } from './entries/yahi';
-import { silboGomero } from './entries/silbo-gomero';
+// (silbo-gomero removed — 1000+ active practitioners, not permanently lost)
 import { kusunda } from './entries/kusunda';
 import { ayapaneco } from './entries/ayapaneco';
 
@@ -131,13 +131,12 @@ import { lycurgusCup } from './entries/lycurgus-cup';
 
 // New place (2)
 import { lakeTexcoco } from './entries/lake-texcoco';
-import { sundarbansShrinking } from './entries/sundarbans-shrinking';
+// (sundarbans-shrinking removed — ecosystem still exists)
 
 // New material (1)
 import { samianWare } from './entries/samian-ware';
 
-// Cross-category (1)
-import { voyagerGoldenRecord } from './entries/voyager-golden-record';
+// (voyager-golden-record removed — about future extinctions, not permanent loss)
 
 // ===== BATCH 3: 30 new entries =====
 
@@ -176,7 +175,7 @@ import { aeolipile } from './entries/aeolipile';
 import { incaRoads } from './entries/inca-roads';
 
 // Place (2)
-import { maldivesSinking } from './entries/maldives-sinking';
+// (maldives-sinking removed — about future loss, nation still exists)
 import { pripyat } from './entries/pripyat';
 
 // Culture (6)
@@ -195,7 +194,7 @@ import { archaeomagnetism } from './entries/archaeomagnetism';
 
 // Food & Fermentation (8)
 import { cornishCauliflower } from './entries/cornish-cauliflower';
-import { camembertFungus } from './entries/camembert-fungus';
+// (camembert-fungus removed — organism still actively exists)
 import { mummyCheese } from './entries/mummy-cheese';
 import { doronaGrape } from './entries/dorona-grape';
 import { falernianWine } from './entries/falernian-wine';
@@ -251,6 +250,78 @@ import { tosher } from './entries/tosher';
 import { luparius } from './entries/luparius';
 import { feastOfFools } from './entries/feast-of-fools';
 import { knattleikr } from './entries/knattleikr';
+
+// ===== BATCH 5: 11 new entries =====
+
+// Fauna (8)
+import { warrah } from './entries/warrah';
+import { haastsEagle } from './entries/haasts-eagle';
+import { lonesomeGeorge } from './entries/lonesome-george';
+import { bubalHartebeest } from './entries/bubal-hartebeest';
+import { laughingOwl } from './entries/laughing-owl';
+import { japaneseRiverOtter } from './entries/japanese-river-otter';
+import { mamoBird } from './entries/mamo-bird';
+import { atlasBear } from './entries/atlas-bear';
+
+// Flora (3)
+import { saintHelenaEbony } from './entries/saint-helena-ebony';
+import { cyaneaSuperba } from './entries/cyanea-superba';
+import { phillipIslandGloryPea } from './entries/phillip-island-glory-pea';
+
+// ===== BATCH 6: 10 new entries =====
+
+// Place (3)
+import { helike } from './entries/helike';
+import { portRoyal } from './entries/port-royal';
+import { nanMadolKnowledge } from './entries/nan-madol-knowledge';
+
+// Culture (5)
+import { romanGladiators } from './entries/roman-gladiators';
+import { egyptianMummification } from './entries/egyptian-mummification';
+import { aztecBallgame } from './entries/aztec-ballgame';
+import { aksumiteObelisks } from './entries/aksumite-obelisks';
+import { minoanBullLeaping } from './entries/minoan-bull-leaping';
+import { inuitQaggiq } from './entries/inuit-qaggiq';
+
+// Technology (1)
+import { khmerHydraulics } from './entries/khmer-hydraulics';
+
+// ===== BATCH 7: remaining new entries =====
+
+// Flora
+import { rapaNuiPalm } from './entries/rapa-nui-palm';
+
+// Food
+import { americanChestnut } from './entries/american-chestnut';
+import { tudorSubtleties } from './entries/tudor-subtleties';
+import { pulqueTraditions } from './entries/pulque-traditions';
+import { bisonCuisine } from './entries/bison-cuisine';
+
+// Sound
+import { coventryBells } from './entries/coventry-bells';
+import { ivoryBilledCall } from './entries/ivory-billed-call';
+import { newZealandDawnChorus } from './entries/new-zealand-dawn-chorus';
+
+// Language
+import { etruscan } from './entries/etruscan';
+import { beothuk } from './entries/beothuk';
+import { pictish } from './entries/pictish';
+import { tangut } from './entries/tangut';
+
+// Material
+import { vitrumFlexile } from './entries/vitrum-flexile';
+import { murasakiDye } from './entries/murasaki-dye';
+import { songCeladon } from './entries/song-celadon';
+
+// Technology
+import { heronAutomata } from './entries/heron-automata';
+import { vikingSunstone } from './entries/viking-sunstone';
+import { zhangHengSeismoscope } from './entries/zhang-heng-seismoscope';
+import { nepenthe } from './entries/nepenthe';
+
+// Place
+import { beringia } from './entries/beringia';
+import { greenSahara } from './entries/green-sahara';
 
 import { FEATURED_SLUG } from './featured';
 import type { Entry, Category } from '../types';
@@ -323,7 +394,6 @@ export const entries: Entry[] = [
   ubykh,
   dalmatianLanguage,
   yahi,
-  silboGomero,
   kusunda,
   ayapaneco,
   tasmanianLanguages,
@@ -362,8 +432,6 @@ export const entries: Entry[] = [
   lopNur,
   hangingGardens,
   lakeTexcoco,
-  sundarbansShrinking,
-  maldivesSinking,
   pripyat,
   // Culture
   tanganyika,
@@ -386,13 +454,11 @@ export const entries: Entry[] = [
   // Cross-category
   stradivariusSecret,
   silphionCoin,
-  voyagerGoldenRecord,
   svalbardSyria,
   archaeomagnetism,
   // ===== BATCH 4 =====
   // Food & Fermentation
   cornishCauliflower,
-  camembertFungus,
   mummyCheese,
   doronaGrape,
   falernianWine,
@@ -441,6 +507,63 @@ export const entries: Entry[] = [
   luparius,
   feastOfFools,
   knattleikr,
+  // ===== BATCH 5 =====
+  // Fauna
+  warrah,
+  haastsEagle,
+  lonesomeGeorge,
+  bubalHartebeest,
+  laughingOwl,
+  japaneseRiverOtter,
+  mamoBird,
+  atlasBear,
+  // Flora
+  saintHelenaEbony,
+  cyaneaSuperba,
+  phillipIslandGloryPea,
+  // ===== BATCH 6 =====
+  // Place
+  helike,
+  portRoyal,
+  nanMadolKnowledge,
+  // Culture
+  romanGladiators,
+  egyptianMummification,
+  aztecBallgame,
+  aksumiteObelisks,
+  minoanBullLeaping,
+  inuitQaggiq,
+  // Technology
+  khmerHydraulics,
+  // ===== BATCH 7 =====
+  // Flora
+  rapaNuiPalm,
+  // Food
+  americanChestnut,
+  tudorSubtleties,
+  pulqueTraditions,
+  bisonCuisine,
+  // Sound
+  coventryBells,
+  ivoryBilledCall,
+  newZealandDawnChorus,
+  // Language
+  etruscan,
+  beothuk,
+  pictish,
+  tangut,
+  // Material
+  vitrumFlexile,
+  murasakiDye,
+  songCeladon,
+  // Technology
+  heronAutomata,
+  vikingSunstone,
+  zhangHengSeismoscope,
+  nepenthe,
+  // Place
+  beringia,
+  greenSahara,
 ];
 
 export function getEntry(slug: string): Entry | undefined {

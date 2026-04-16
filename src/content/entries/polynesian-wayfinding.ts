@@ -6,7 +6,7 @@ export const polynesianWayfinding: Entry = {
   tagline: 'Polynesian navigators crossed thousands of miles of open ocean without instruments, reading stars, waves, birds, and clouds. By the mid-20th century, only a handful of masters remained.',
   category: 'culture',
   subcategory: 'Traditional Knowledge',
-  lastKnownYear: '~1970s',
+  lastKnownYear: '~1960',
   lastKnownLocation: 'Micronesia and Polynesia (Satawal, Tonga, Hawai\'i)',
   coordinates: [7.38, 147.04],
   region: 'Pacific Islands',
@@ -27,13 +27,13 @@ The central tool of Polynesian navigation was the star compass — a mental mode
 
 The knowledge was transmitted orally, through years of apprenticeship. A student navigator would begin learning as a child, memorizing star positions, practicing on short voyages, and gradually being entrusted with longer crossings. The full training could take decades. On the island of Satawal in the Caroline Islands (Micronesia), the master navigator Mau Piailug was one of the last to receive this complete traditional education.
 
-## Near Death and Partial Revival
+## The Breadth of What Was Lost
 
-By the mid-20th century, motorized boats and Western navigation had made traditional wayfinding unnecessary for practical purposes. Young islanders learned to use compasses and charts in mission schools. The elders who held the navigation knowledge were dying without passing it on. By the 1960s, the tradition was nearly extinct.
+By the mid-twentieth century, motorized boats and Western navigation had made traditional wayfinding unnecessary for practical purposes. Young islanders learned to use compasses and charts in mission schools. The elders who held the navigation knowledge were dying without passing it on. By the 1960s, the diverse traditions of dozens of Pacific cultures had been broken.
 
-In 1976, the Polynesian Voyaging Society launched Hōkūle'a, a replica of a traditional Hawaiian voyaging canoe, and invited Mau Piailug to navigate it from Hawai'i to Tahiti — 2,500 miles across open ocean — without instruments. He succeeded. The voyage sparked a cultural renaissance across Polynesia, inspiring a generation of Pacific Islanders to learn traditional navigation. Nainoa Thompson, who trained under Piailug, developed a modernized teaching method and navigated subsequent Hōkūle'a voyages.
+This was not one tradition but many. Tongan navigators read swells differently than Marshallese, who built stick charts to map wave refraction patterns around atolls. Tahitian star knowledge used different constellations than Carolinian. Hawaiian wayfinding had its own vocabulary, its own training lineages, its own relationship to local currents and winds. Each island culture had developed navigation techniques refined over centuries for their specific waters, their specific voyaging routes, their specific stars on their specific horizons.
 
-But what has been revived is a fraction of what existed. Dozens of island cultures across the Pacific each had their own navigation traditions, their own star names, their own swell-reading techniques. Most of that diversity is gone. What survives is precious, but it is the memory of a tradition, not the tradition in its full breadth.`,
+Mau Piailug of Satawal, one of the last navigators to receive a complete traditional education, carried the knowledge of one tradition — the Carolinian system. When he navigated the Hōkūle'a from Hawai'i to Tahiti in 1976, he demonstrated that traditional navigation still worked. But his was one system among dozens. The Tongan traditions, the Tahitian traditions, the Marquesan traditions, the navigational knowledge of countless smaller island cultures — these were not preserved. What the Hōkūle'a revival represents is one fragment of a shattered whole. The vast majority of Pacific wayfinding knowledge — the accumulated expertise of dozens of distinct seafaring cultures — is permanently gone.`,
   quickFacts: {
     'Navigation Area': '16 million km² of Pacific Ocean',
     'Colonization Period': '~1500 BCE - 1200 CE',
@@ -42,11 +42,10 @@ But what has been revived is a fraction of what existed. Dozens of island cultur
     'Key Master': 'Mau Piailug (Satawal, 1932-2010)',
     'Revival Voyage': 'Hōkūle\'a, Hawai\'i to Tahiti (1976)',
     'Revival Leader': 'Nainoa Thompson',
-    'Status': 'Partially revived but most traditions lost',
+    'Status': 'Most traditions permanently lost; one lineage partially preserved',
   },
   connections: [
-    { slug: 'voyager-golden-record', relationship: 'Both represent humanity\'s relationship with navigation across vast distances — one across the Pacific, the other across the cosmos' },
-    { slug: 'silbo-gomero', relationship: 'Both indigenous knowledge systems that were nearly lost and then partially revived through cultural preservation efforts' },
+    { slug: 'marshallese-navigation', relationship: 'Both Pacific navigation traditions that relied on reading natural signs rather than instruments' },
     { slug: 'foghorn-chorus', relationship: 'Both acoustic/sensory navigation systems made obsolete by electronic technology' },
   ],
   sources: [

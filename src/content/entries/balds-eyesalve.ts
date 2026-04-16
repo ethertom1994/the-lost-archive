@@ -6,7 +6,7 @@ export const baldsEyesalve: Entry = {
   tagline: 'A 1,000-year-old Anglo-Saxon infection remedy that kills MRSA better than modern antibiotics — and no one knows exactly why.',
   category: 'technology',
   subcategory: 'Medicine',
-  lastKnownYear: '~950',
+  lastKnownYear: '~1100',
   lastKnownLocation: 'Winchester, England',
   coordinates: [51.06, -1.31],
   region: 'Europe',
@@ -33,9 +33,11 @@ What makes the result genuinely remarkable is that no single ingredient works al
 
 This synergistic effect suggests something profound: the Anglo-Saxon practitioners who developed this remedy were not guessing. They were conducting systematic empirical experiments, testing combinations and refining protocols over generations. The nine-day waiting period, so easy to dismiss as ritual, appears to allow critical biochemical reactions to complete.
 
-## What We Lost
+## A Thousand Years of Silence
 
-Modern researchers are still working to identify the exact mechanism. Harrison's ongoing AncientBiotics project continues to investigate medieval remedies with laboratory precision. But the broader tradition that produced Bald's Eyesalve — a culture of careful observation and empirical testing centuries before the Scientific Revolution — was dismissed and forgotten. Hundreds of other recipes in the Leechbook and similar manuscripts remain untested, potential weapons against antibiotic resistance gathering dust in archives.`,
+The recipe text survived in a manuscript. The practical medical tradition that created it did not. By roughly 1100 CE, the Anglo-Saxon empirical medicine tradition — the living practice of preparing, testing, and refining these remedies — had been displaced by Norman conquest, monastic reorganization, and the adoption of continental Galenic medicine. The Leechbook became an artifact rather than a working manual. For nearly a thousand years, the recipe sat unread in a library, its practical knowledge dead.
+
+What was lost was not the text but the tradition: the generation-to-generation transmission of which ingredients to select, how to judge freshness and potency, how to recognize when the nine-day preparation was proceeding correctly, and how to apply the result. Harrison's 2015 experiment proved the recipe worked, but it took a modern microbiology lab to rediscover what Anglo-Saxon practitioners knew from practice. Hundreds of other recipes in the Leechbook and similar manuscripts remain untested — a thousand years of practical medical knowledge reduced to words on vellum that no living person knows how to properly execute.`,
   quickFacts: {
     'Source Text': "Bald's Leechbook, ~900 CE, British Library",
     'Key Ingredients': 'Garlic, onion/leek, wine, bovine bile, brass vessel',

@@ -6,7 +6,7 @@ export const ayapaneco: Entry = {
   tagline: 'A language whose survival once depended entirely on whether two stubborn old men in the same village could set aside a personal grudge.',
   category: 'language',
   subcategory: 'Mesoamerican Languages',
-  lastKnownYear: 'Present (critically endangered)',
+  lastKnownYear: 2011,
   lastKnownLocation: 'Ayapa, Tabasco, Mexico',
   coordinates: [18.26, -93.10],
   region: 'Central America',
@@ -27,11 +27,9 @@ Ayapaneco belongs to the Mixe-Zoquean language family, one of the oldest in Meso
 
 By the twentieth century, Spanish had become the sole language of commerce, education, and social life in Ayapa. Children grew up speaking Spanish; Ayapaneco became something grandparents muttered among themselves, then something only a few elders remembered, then something two men carried in their heads while refusing to share it with each other.
 
-## The Reconciliation Campaign
+## After 2011
 
-International media attention produced an unexpected result. A foundation called Vodafone funded a project to bring Segovia and Velazquez together and document the language. The two men were persuaded to participate in workshops, and while accounts differ on how warmly they reconciled, they did begin working with linguists and younger community members to record Ayapaneco vocabulary, phrases, and grammar. A small teaching program was established, with a handful of younger villagers learning basic Ayapaneco.
-
-The effort produced a dictionary and teaching materials, and several semi-speakers — people who could understand and produce limited Ayapaneco — emerged from the workshops. Whether this constitutes a revival or merely a well-documented death remains an open question. The number of people who can hold a natural conversation in Ayapaneco remains vanishingly small.
+International media attention produced documentation efforts — a dictionary, teaching materials, workshops. A handful of semi-speakers emerged, people who could understand and produce limited Ayapaneco. But semi-speakers are not fluent speakers. The ability to hold a natural, spontaneous conversation in Ayapaneco — to think in it, argue in it, tell jokes in it — died with the generation that chose not to use it. What was documented is a vocabulary list and a grammar sketch. What was lost is a living language.
 
 ## The Parable
 

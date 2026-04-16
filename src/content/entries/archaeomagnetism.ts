@@ -6,7 +6,7 @@ export const archaeomagnetism: Entry = {
   tagline: 'Ancient pottery preserves a record of Earth\'s magnetic field at the moment it was fired. Every kiln fire was a recording device. Every pot is a compass frozen in time. We are losing the records.',
   category: 'culture',
   subcategory: 'Archaeological Science',
-  lastKnownYear: 'ongoing',
+  lastKnownYear: 2020,
   lastKnownLocation: 'Archaeological sites worldwide',
   coordinates: [31.78, 35.23],
   region: 'Global',

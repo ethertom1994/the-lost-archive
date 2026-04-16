@@ -6,7 +6,7 @@ export const ainuThroatSinging: Entry = {
   tagline: 'A throat-singing tradition distinct from all others, lost alongside the language that gave it meaning.',
   category: 'sound',
   subcategory: 'Vocal Traditions',
-  lastKnownYear: '~mid-20th century',
+  lastKnownYear: '~1960',
   lastKnownLocation: 'Hokkaido, Japan',
   coordinates: [43.06, 141.35],
   region: 'East Asia',
@@ -33,9 +33,9 @@ Rekuhkara occupies a frustrating position in the ethnomusicological record. Enou
 
 Scholars have noted that rekuhkara was closely associated with the Ainu yukar, the long oral epics that constituted the core of Ainu literary tradition. The throat singing served as a form of rhythmic punctuation, a sonic scaffolding for narratives that could last hours. Without the yukar tradition, rekuhkara loses its functional context. Without rekuhkara, the yukar loses its sonic texture. Each loss amplifies the other.
 
-## Revival and Its Limits
+## The Irreversible Break
 
-Since the passage of Japan's 2019 Ainu Promotion Act, there have been efforts to revive Ainu cultural practices, including music. Some younger Ainu performers have studied the surviving recordings and attempted to learn rekuhkara. But revival from recordings is fundamentally different from transmission through practice. The tacit knowledge, the muscle memory, the breathing control, the contextual judgment of when and how to deploy specific techniques, these were never captured on tape. What can be recovered is an approximation. What was lost is the living tradition.`,
+The living transmission of rekuhkara was broken irreversibly by the mid-twentieth century. The last practitioners who learned through direct, embodied transmission — breathing with a teacher, performing within ceremony, absorbing the technique through years of communal practice — died without passing that knowledge on. A handful of fragmentary recordings survive, but learning a vocal technique from a recording is fundamentally different from learning it through practice. The tacit knowledge — the muscle memory, the breathing control, the contextual judgment of when and how to deploy specific techniques — was never captured on tape and cannot be reconstructed from it. Modern attempts to study these recordings are scholarship, not transmission. The tradition itself is gone.`,
   quickFacts: {
     'Tradition': 'Rekuhkara (Ainu throat singing)',
     'Region': 'Hokkaido, Sakhalin, Kuril Islands',
@@ -44,7 +44,7 @@ Since the passage of Japan's 2019 Ainu Promotion Act, there have been efforts to
     'Key Legislation': 'Hokkaido Former Aborigines Protection Act (1899)',
     'UNESCO Status': 'Ainu language: critically endangered',
     'Related Art Form': 'Yukar (oral epic narrative)',
-    'Revival Efforts': 'Post-2019 Ainu Promotion Act',
+    'Transmission': 'Irreversibly broken by ~1960',
   },
   connections: [
     { slug: 'castrato-voice', relationship: 'Both are vocal traditions that cannot be fully reconstructed because the technique was transmitted through embodied practice, not written instruction' },
