@@ -1,0 +1,293 @@
+aboriginal-songlines | culture/Oral Navigation | Fragmented Aboriginal Songlines | '1800s-1900s'
+aeolipile | technology/Steam Power | Heron | '~1st century CE'
+ainu-throat-singing | sound/Vocal Traditions | Ainu Rekuhkara | '~1960'
+aksumite-obelisks | culture/Lost Engineering | Aksumite Obelisk Construction | '~700 CE'
+alala-song | sound/Bird Vocalizations | The Alal\u0101 | 2002
+amazonian-cities | place/Vanished Civilizations | Pre-Columbian Amazonian Cities | '~1540'
+american-chestnut | food/Lost Staple Foods | American Chestnut | '~1950'
+an-lushan-libraries | culture/Lost Libraries | Tang Libraries of the An Lushan Rebellion | 763
+ansault-pear | food/Fruit Cultivars | The Ansault Pear | '~1900'
+antikythera-cargo | culture/Underwater Archaeology | The Antikythera Shipwreck Cargo | '~60 BCE'
+antikythera-mechanism | technology/Computing and Astronomy | The Antikythera Mechanism | '~60 BCE'
+aral-sea | place/Drained Water Bodies | The Aral Sea | 2014
+araucaria-mirabilis | flora/Prehistoric Trees | Araucaria mirabilis | '~160 million years ago'
+archaeomagnetism | culture/Archaeological Science | Earth | 2020
+arecibo-telescope | technology/Lost Scientific Infrastructure | Arecibo Telescope | 2020
+arioi-society | culture/Polynesian Religion | The Arioi of Tahiti | 1797
+aristotle-on-poets | culture/Lost Philosophical Works | Aristotle\ | 'c. 322 BCE'
+atlas-bear | fauna/Bears | The Atlas Bear | 1870
+atlit-yam | place/Submerged Prehistoric Settlements | Atlit Yam | -5000
+ayapaneco | language/Mesoamerican Languages | Ayapaneco | 2011
+aztec-ballgame | culture/Lost Sports | Mesoamerican Ballgame (Ullamaliztli) | 1521
+aztec-chocolate | food/Historical Beverages | Aztec Chocolate | '~1521'
+babylonian-calculus | technology/Mathematics | Babylonian Trapezoid Calculus | '~100 BCE'
+bachs-lituus | sound/Lost Instruments | Bach\ | '~1750'
+baiji | fauna/Marine Mammals | The Baiji | 2006
+bakelite | material/Lost Manufacturing Processes | The Bakelite Formula | 1945
+balds-eyesalve | technology/Medicine | Bald | '~1100'
+balinese-subak | technology/Agriculture | Balinese Subak | 2012
+bbc-wiped-tapes | culture/Broadcast Media | The BBC Wiped Tapes | 1978
+bengal-quince | food/Heritage Fruit Cultivars | Heritage Bengal Quince Cultivars | '~20th century'
+benin-bronzes | culture/Decontextualized Art | The Context of the Benin Bronzes | 1897
+beothuk | language/Extinct Language Families | Beothuk Language | 1829
+beringia | place/Submerged Landscapes | Beringia | '~11000 BCE'
+bison-cuisine | food/Lost Culinary Traditions | Great Plains Bison Cuisine | 1889
+blue-lotus-ritual | culture | Blue Lotus Ritual Ceremonies | '~4th century CE'
+bobbio-library | culture/Lost Libraries | The Bobbio Library | 1492
+bois-dentelle | flora/Extinct in Wild Trees | Bois Dentelle | '~1990'
+booming-ben | fauna/Extinct Birds | Booming Ben | 1932
+bramble-cay-melomys | fauna/Rodents | The Bramble Cay Melomys | 2009
+bubal-hartebeest | fauna/Antelope | The Bubal Hartebeest | 1923
+byzantine-silk-secrets | material/Lost Textile Techniques | Byzantine Silk Secrets | 1204
+cafe-marron | flora/Critically Endangered Plants | Cafe Marron | 1980
+caribbean-monk-seal | fauna/Extinct Marine Mammals | Caribbean Monk Seal | 1952
+carthage-destruction | place | The Destruction of Carthage | '146 BCE'
+caspian-tiger | fauna/Big Cats | The Caspian Tiger | 1970
+castrato-voice | sound/Musical Traditions | The Castrato Voice | 1922
+cathar-texts | culture/Destroyed Religious Traditions | Cathar Religious Texts | 1321
+cave-lion | fauna/Pleistocene Megafauna | Cave Lion | -11900
+cedars-of-lebanon | flora/Ancient Forests | The Cedars of Lebanon | '~1900'
+centralia | place/Abandoned Places | Centralia, Pennsylvania | 1981
+chimu-hydraulics | technology/Lost Engineering | Chimu Intervalley Hydraulics | 1470
+chinese-paddlefish | fauna/Extinct Fish | Chinese Paddlefish | 2003
+claxton-peach | food/Lost Cultivars | Claxton Seedling Peach | 1970
+cleopatra-1917 | technology/Lost Silent Films | Theda Bara\ | 1937
+cluny-library | culture/Lost Libraries | The Library of Cluny Abbey | 1500
+colossus-of-rhodes | culture/Ancient Monuments | The Colossus of Rhodes | '~653 CE'
+concorde | technology/Retired Technology | Concorde | 2003
+cooksonia | flora/Prehistoric Plants | Cooksonia | '430 million years ago'
+cornish-cauliflower | food/Heritage Vegetables | Old Cornish Cauliflower | '~1950'
+coventry-bells | sound/Destroyed Instruments | Medieval Bells of Coventry Cathedral | 1940
+cremonese-violin-school | technology/Instrument Making | The Cremonese Violin-Making School | 1750
+cry-violet | flora/Wildflowers | The Cry Violet | 1927
+crystal-palace | place/Demolished Landmarks | The Crystal Palace | 1936
+cyanea-superba | flora/Hawaiian Lobelioids | Cyanea superba | 2003
+cypro-minoan | language/Undeciphered Scripts | Cypro-Minoan Script | '~1050 BCE'
+dalmatian-language | language/Romance Languages | The Dalmatian Language | 1898
+damascus-steel | technology/Metallurgy | Damascus Steel | '~1750'
+democritus-mikros-diakosmos | culture/Lost Philosophical Works | Democritus\ | 'c. 370 BCE'
+denisovan-culture | culture/Archaic Human Cultures | Denisovan Culture | -48000
+dodo | fauna/Extinct Birds | Dodo | 1681
+doggerland | place/Submerged Landscapes | Doggerland | '~6500 BCE'
+dorona-grape | food/Heritage Grapes | Dorona di Venezia | 1966
+dura-language | language/Extinct Languages | Dura Language | 2008
+dutch-golden-age-pigments | material/Pigments | Dutch Golden Age Pigment Preparation | '~1700'
+edo-firework-formulas | technology/Pyrotechnics | Edo-Period Firework Formulas | '~1843'
+egyptian-blue | material/Pigment | Egyptian Blue | '~800'
+egyptian-mummification | culture/Lost Ritual Arts | Egyptian Mummification | '~400 CE'
+eleusinian-mysteries | culture/Lost Rituals | Eleusinian Mysteries | 392
+epicurus-on-nature | culture/Lost Philosophical Works | Epicurus\ | 'c. 270 BCE'
+etruscan | language/Ancient Languages | Etruscan Language | '~1st century BCE'
+eyak-language | language/Na-Dene Languages | The Eyak Language | 2008
+falernian-wine | food/Ancient Wines | Falernian Wine | '~500 CE'
+feast-of-fools | culture/Lost Traditions | The Feast of Fools | '~1530'
+flamingo-tongue | food/Ancient Delicacies | Apicius | '~5th century CE'
+florida-acropora | fauna/Functionally Extinct Corals | Florida\ | 2023
+foghorn-chorus | sound/Navigation Sounds | The Foghorn Chorus | 2013
+folium | material/Pigment | Folium | '~1500'
+fordite | material/Industrial Byproducts | Fordite | '~1990s'
+franklinia | flora/Flowering Trees | The Franklin Tree | 1803
+garum | food/Lost Condiments | Garum | 500
+globe-acoustics | sound/Architectural Acoustics | Original Globe Theatre Acoustics | 1613
+golden-toad | fauna/Extinct Amphibians | Golden Toad | 1989
+gong-farmer | culture/Extinct Professions | The Gong Farmer | '~1850s'
+great-auk | fauna/Birds | The Great Auk | 1844
+great-hedge-india | culture/Erased Structures | The Great Hedge of India | 1879
+great-zimbabwe-masonry | technology/Lost Crafts | Great Zimbabwe Dry-Stone Masonry | 1450
+greek-fire | technology/Military Technology | Greek Fire | '~13th century'
+greek-music-modes | sound/Musical Systems | Ancient Greek Musical Modes | '~4th century CE'
+greek-theatrical-masks | sound | Greek Theatrical Masks | '~5th century CE'
+green-sahara | place/Lost Ecosystems | The Green Sahara | '~3500 BCE'
+gros-michel-banana | food/Fruit Cultivars | The Gros Michel Banana | '~1965'
+guadalupe-caracara | fauna/Extinct Birds | Guadalupe Caracara | 1900
+gue-of-shetland | sound/Lost Instruments | The Gue of Shetland | '~1809'
+haasts-eagle | fauna/Raptors | Haast | 1400
+han-paper-variants | technology | Pre-Standardization Chinese Paper | '~105 CE'
+han-purple | material/Pigments | Han Purple | '~220 CE'
+hanging-gardens | place/Unverified Wonders | The Hanging Gardens of Babylon | '600 BCE'
+heian-gagaku-repertoire | sound/Lost Music | Heian Gagaku Solo Repertoire | 1185
+helike | place/Sunken Cities | Helike | '373 BCE'
+heraclitus-on-nature | culture/Lost Philosophical Works | Heraclitus\ | 'c. 480 BCE'
+heron-automata | technology/Mechanical Engineering | Heron | '~300 CE'
+house-of-wisdom | culture/Lost Knowledge Repositories | The House of Wisdom | 1258
+houtouwan | place/Abandoned Settlements | Houtouwan Village | '~2002'
+huia-call | sound/Bird Vocalizations | The Huia | 1907
+huron-feast-of-dead | culture/Indigenous Mortuary Tradition | Huron-Wendat Feast of the Dead | 1650
+hypogeum-oracle | sound/Acoustic Architecture | Hypogeum Oracle Room | '~2000 BCE'
+inca-roads | technology/Infrastructure | The Inca Road System | 1572
+indian-yellow | material/Pigments | Indian Yellow | '~1908'
+indus-valley-script | language | The Indus Valley Script | '~1900 BCE'
+inuit-qaggiq | culture/Lost Architecture | Inuit Qaggiq | '~1960'
+irish-elk | fauna/Pleistocene Megafauna | Irish Elk | -5700
+ivory-billed-call | sound/Bird Vocalizations | Ivory-Billed Woodpecker Call | 1944
+japanese-river-otter | fauna/Mustelids | The Japanese River Otter | 1979
+javan-tiger | fauna/Big Cats | The Javan Tiger | 1976
+judean-date-palm | flora/Ancient Cultivars | Judean Date Palm | '~500 CE'
+jussieu-herbarium | flora/Botanical Manuscripts and Specimens | Joseph de Jussieu\ | 1771
+kauai-oo | sound/Birdsong | The Kaua\u02BBi \u02BB\u014D\u02BB\u014D | 1987
+kerala-calculus | technology/Mathematics | Kerala School Calculus | '~1600'
+khmer-hydraulics | technology/Lost Infrastructure | Khmer Hydraulic Engineering | 1431
+kilwa-chronicle | culture/Lost Chronicles | The Kilwa Chronicle | 1505
+kistler-aerogel | material/Lost Processes | Aerogel of Kistler | 1940
+knattleikr | culture/Lost Sports | Knattleikr | '~1300'
+knocker-upper | culture/Extinct Professions | The Knocker-Upper | '~1970s'
+kodachrome | technology/Discontinued Processes | Kodachrome | 2010
+kusunda | language/Language Isolates | The Kusunda Language | 2012
+kyphi | material/Incense | Kyphi | '~400'
+lake-agassiz | place/Ice Age Lakes | Lake Agassiz | -6200
+lake-pedder | place/Drowned Ecosystems | Lake Pedder | 1972
+lake-peigneur | place/Transformed Landscapes | Lake Peigneur | 1980
+lake-texcoco | place/Drained Lakes | Lake Texcoco | '~17th century'
+lamplighter | culture/Extinct Professions | Full-Time Lamplighter | 1930
+laughing-owl | fauna/Owls | The Laughing Owl | 1914
+library-of-alexandria | culture/Lost Knowledge Repositories | The Library of Alexandria | '~642 CE'
+lomekwi-toolmakers | technology/Paleolithic Technology | Lomekwi Toolmakers | -3300000
+lonesome-george | fauna/Reptiles | Lonesome George | 2012
+lop-nur | place/Vanished Bodies of Water | Lop Nur | 1972
+lost-raphael-paintings | culture/Lost Art | The Lost Paintings of Raphael | 1945
+louvain-library | place/Destroyed Libraries | The Library of Louvain | 1914
+loves-labours-won | culture/Lost Literature | Love\ | 1603
+luparius | culture/Extinct Professions | The Luparius | '~1500'
+lycurgus-cup | technology/Ancient Nanotechnology | The Lycurgus Cup | '~4th century CE'
+malagousia-grape | food/Heritage Grapes | Malagousia Grape | '~1970'
+mamo-bird | fauna/Honeycreepers | The Hawaiian Mamo | 1898
+maragha-observatory | place/Lost Observatories | The Maragha Observatory | 1339
+marshallese-navigation | technology/Navigation | Marshallese Wave Piloting | '~1960'
+mauritius-dodo-ecosystem | flora/Ecological Cascades | The Dodo\ | 1681
+maya-blue | material/Pigment | Maya Blue | '~1580'
+maya-codex-burning | culture/Lost Writing | The Mani Codex Burning | 1562
+medieval-stained-glass | material/Lost Pigments and Formulas | Medieval Stained Glass Formulas | '~1300'
+megasthenes-indica | culture/Lost Literary Works | Megasthenes\ | 'c. 290 BCE'
+megatherium | fauna/Pleistocene Megafauna | Megatherium | -10600
+meroitic-language | language/Partially Deciphered Languages | Meroitic Language | 'c. 450 CE'
+merv-libraries | culture/Lost Libraries | The Libraries of Merv | 1221
+mesopotamian-marshes | place/Destroyed Wetlands | The Mesopotamian Marshes | 2003
+minoan-bull-leaping | culture/Lost Ritual Arts | Minoan Bull-Leaping | '~1450 BCE'
+mithraic-mysteries | culture/Lost Rituals | Mithraic Mysteries | 'c. 400 CE'
+mixtec-codices | culture/Destroyed Writing Systems | Mixtec Script | 1521
+moa-cuisine | food/Megafaunal Foods | Moa Cuisine | '~1400'
+mughal-garden-engineering | technology/Hydraulic Engineering | Mughal Garden Hydraulic Engineering | 1707
+mummy-brown | material/Pigments | Mummy Brown | '~1964'
+mummy-cheese | food/Ancient Foods | Xinjiang Mummy Cheese | -1600
+murasaki-dye | material/Dyes and Pigments | Murasaki | '~1890'
+musica-universalis | sound | Pythagorean Music of the Spheres | '~4th century BCE'
+mvsl | language/Sign Languages | Martha | 1952
+nalanda | culture/Destroyed Institutions | The Library of Nalanda | 1193
+nan-madol-knowledge | place/Lost Engineering | Nan Madol Construction Knowledge | '~1500'
+natchez-language | language/Indigenous Languages | Natchez Language | 1729
+nepenthe | technology/Pharmacology | Nepenthe | '~300 BCE'
+new-zealand-dawn-chorus | sound/Lost Soundscapes | Pre-Human New Zealand Dawn Chorus | '~1280'
+night-soil | culture/Extinct Professions | Night Soil Collectors | '~1950s'
+nok-culture | culture/Vanished Civilizations | Nok Culture | 'c. 400 CE'
+norse-greenland-colony | place/Vanished Settlements | Norse Greenland Colony | '~1450'
+nushu | language/Writing Systems | Nushu | 2004
+okinawan-awamori | food/Lost Spirits | Pre-War Okinawan Awamori | 1945
+olmec-rubber | technology/Materials Science | Olmec Rubber Vulcanization | '~16th century'
+original-fish-chips | food/Lost Fisheries | The Original Fish and Chips Fish | 1992
+original-kabuki | culture/Performing Arts | Early Kabuki Theater | 1652
+original-ny-cheesecake | food/Lost Recipes | Original New York Cheesecake | 1950
+owens-lake | place/Drained Lakes | Owens Lake | 1926
+passenger-pigeon-pie | food/Extinct Cuisines | Passenger Pigeon Pie | 1900
+passenger-pigeon | fauna/Birds | The Passenger Pigeon | 1914
+persepolis-archives | place/Destroyed Libraries | Persepolis Royal Archives | -330
+phillip-island-glory-pea | flora/Legumes | The Phillip Island Glory Pea | 1830
+phonoautograph | sound/Early Sound Recording | Phonautograph Recording of Au Clair de la Lune | 1860
+pictish | language/Ancient Languages | The Pictish Language | '~900 CE'
+pink-headed-duck | fauna/Extinct Birds | Pink-Headed Duck | 1935
+polynesian-wayfinding | culture/Traditional Knowledge | The Polynesian Wayfinding Tradition | '~1960'
+poouli | fauna/Extinct Birds | Poʻouli | 2004
+port-royal | place/Sunken Cities | Port Royal | 1692
+pratyabhijna-vivriti | culture/Lost Texts | Utpaladeva\ | 1400
+pre-equal-temperament | sound/Lost Tuning Systems | Pre-Equal Temperament Music | 1850
+pripyat | place/Abandoned Cities | Pripyat | 1986
+proto-elamite | language/Undeciphered Scripts | Proto-Elamite Script | '~2700 BCE'
+prussian-taler | culture/Extinct Currencies | The Taler | 1907
+ptolemaic-star-catalog | technology | Hipparchus\ | '~129 BCE'
+pulque-traditions | food/Lost Beverages | Pre-Colonial Pulque (Octli) | 1521
+pyrenean-ibex | fauna/Ungulates | The Pyrenean Ibex | 2000
+qin-book-burning | culture/Lost Literary Corpus | Qin Dynasty Book Burning | -213
+quagga | fauna/Extinct Equids | Quagga | 1883
+quipu | culture/Lost Recording Systems | The Quipu | '~16th century'
+rai-stones | culture/Lost Economic Systems | The Rai Stone Economy | 1929
+rapa-nui-palm | flora/Extinct Trees | Rapa Nui Palm | '~1650'
+red-dye-no-2 | material/Banned Food Colorings | FD&C Red No. 2 | 1976
+rocky-mountain-locust | fauna/Extinct Insects | Rocky Mountain Locust | 1902
+roman-concrete | material/Construction Materials | Roman Concrete | '~5th century CE'
+roman-garum-varieties | food | The Varieties of Roman Fish Sauce | '~5th century CE'
+roman-gladiators | culture/Lost Martial Arts | Roman Gladiatorial Combat | 404
+roman-hydraulics | technology/Roman Engineering | Roman Hydraulic Mining | '~5th century CE'
+roman-roads | technology/Superseded Techniques | Roman Road-Building Technique | 400
+roman-silphium-economy | culture/Economic History | The Silphium Economy of Cyrene | '~1st century CE'
+roman-surgical-techniques | technology | Roman Surgical Techniques | '~5th century CE'
+ryukyu-pigeon | fauna/Extinct Birds | Ryukyu Wood Pigeon | 1936
+saint-helena-ebony | flora/Endemic Island Trees | The Saint Helena Ebony | 1700
+samarqand-observatory | place/Lost Observatories | Ulugh Beg\ | 1449
+samian-ware | material/Lost Ceramics | Samian Ware | '~3rd century CE'
+sapi-ivory | material/African Ivory Sculpture | Sapi-Portuguese Ivory Carving | 1545
+sappho-nine-books | culture/Lost Literary Corpus | Sappho\ | 'c. 600 BCE'
+saturn-v-craft | technology/Industrial and Manufacturing | Saturn V Manufacturing Knowledge | 1970
+schomburgk-deer | fauna/Extinct Mammals | Schomburgk\ | 1938
+sea-silk | material/Textile | Sea Silk | 2016
+segato-petrification | technology/Preservation Science | Segato | 1836
+shuadit | language/Jewish Languages | Shuadit | 1977
+sidon-purple-district | place | Sidon\ | '~4th century CE'
+silesian-linen-weaving | material/Textiles | Silesian Fine Linen Weaving | '~1850'
+silphion-coin | culture/Numismatics | The Silphion Coin of Cyrene | '~1st century BCE'
+silphium-spice | food/Lost Flavors | The Flavor of Silphium | '~1st century CE'
+silphium | flora/Medicinal Plants | Silphium | '~1st century CE'
+sin-eater | culture/Extinct Professions | The Sin-Eater | '~1906'
+skaldic-oral-tradition | sound/Lost Performance Traditions | Skaldic Oral Performance Tradition | '~1300'
+slender-billed-curlew | sound/Unrecorded Birdsong | Slender-billed Curlew Call | 2001
+song-celadon | material/Ceramics | Song Dynasty Celadon Glaze | 1127
+song-movable-type | technology/Lost Manufacturing Techniques | Bi Sheng\ | '~1100'
+spix-macaw | fauna/Birds | Spix | 2000
+splendid-poison-frog | fauna/Extinct Amphibians | Splendid Poison Frog | 1992
+st-helena-olive | flora/Endemic Island Trees | The St. Helena Olive | 2003
+starlite | technology/Lost Inventions | Starlite | 2011
+stellers-sea-cow | fauna/Marine Mammals | Steller | 1768
+stonehenge-acoustics | sound/Architectural Acoustics | Stonehenge Acoustics | '~1600 BCE'
+stradivarius-secret | technology/Instrument Making | The Stradivarius Secret | 1737
+stradivarius-sound | sound/Musical Instruments | The Original Stradivarius Sound | 1737
+sumerian | language/Ancient Languages | Sumerian | '~100 CE'
+sundaland | place/Submerged Continental Shelf | Sundaland | -5000
+svalbard-syria | culture/Agricultural Heritage | Seeds of the Svalbard Vault (Syrian Collection) | 2015
+sybaris | place/Destroyed Cities | Sybaris | -510
+taino-cohoba | culture/Indigenous Caribbean Religion | Taíno Cohoba Ceremony | 1550
+taliaferro-apple | food/Fruit Cultivars | The Taliaferro Apple | '~1830s'
+tanganyika | culture/Dissolved Nations | Tanganyika | 1964
+tangut | language/Extinct Writing Systems | The Tangut Language | '~1600 CE'
+tasmanian-languages | language/Language Families | The Tasmanian Languages | 1905
+tecopa-pupfish | fauna/Freshwater Fish | The Tecopa Pupfish | 1970
+tekhelet | material/Lost Dyes | Murex-Dyed Tekhelet | 639
+teonimanu | place/Submerged Islands | Teonimanu Island | '~1568'
+terra-preta | technology/Agriculture | Terra Preta | '~1500'
+terracotta-paint | material/Unstable Pigments | Terracotta Army Pigments | '210 BCE'
+thylacine | fauna/Extinct Marsupials | Thylacine | 1936
+timbuktu-scholars | culture/Lost Knowledge Repositories | The Scholarly Tradition of Timbuktu | 1591
+timucua-language | language/Indigenous Languages | Timucua Language | 1767
+toolache-wallaby | fauna/Extinct Marsupials | Toolache Wallaby | 1939
+toromiro | flora/Trees | The Toromiro Tree | 1960
+tosher | culture/Extinct Professions | The Tosher | '~1900'
+trobairitz-melodies | sound/Lost Music | The Trobairitz Melodies | 1270
+tudor-subtleties | food/Lost Culinary Arts | Tudor Subtleties | '~1700'
+tyrian-purple | material/Dyes and Pigments | Tyrian Purple | 1453
+ubykh | language/Caucasian Languages | The Ubykh Language | 1992
+ulfberht-swords | technology/Lost Metallurgy | Ulfberht Swords | 1050
+uraniborg-instruments | technology/Scientific Instruments | Uraniborg\ | 1728
+venetian-glass-secrets | material/Lost Manufacturing Techniques | Venetian Glass Secrets of Murano | '~1800'
+victorian-mourning | culture/Social Customs | Victorian Mourning Culture | 1918
+viking-sunstone | technology/Navigation | Viking Sunstone Navigation | '~1200 CE'
+vinland-birdsong | sound/Extinct Soundscapes | Vinland Birdsong | '~1000 CE'
+vitrum-flexile | material/Lost Formulas | Vitrum Flexile | '~30 CE'
+vivaldi-lost-operas | sound/Lost Music | Vivaldi\ | 1741
+warrah | fauna/Canids | The Warrah | 1876
+woods-cycad | flora/Cycads | Wood | 1916
+woolly-rhinoceros | fauna/Pleistocene Megafauna | Woolly Rhinoceros | -11900
+wootz-steel | material/Metallurgy | Indian Wootz Steel | '~1800s'
+xerces-blue | fauna/Insects | The Xerces Blue Butterfly | 1941
+yahi | language/North American Languages | The Yahi Language | 1916
+yangtze-softshell-turtle | fauna/Critically Endangered Reptiles | The Yangtze Giant Softshell Turtle | 2019
+yuanmingyuan | place/Destroyed Imperial Sites | Yuanmingyuan, the Old Summer Palace | 1860
+zanzibar-leopard | fauna/Extinct Big Cats | The Zanzibar Leopard | '~1990s'
+zealandia | place/Submerged Continents | Zealandia | '23 million BCE'
+zhang-heng-seismoscope | technology/Scientific Instruments | Zhang Heng | '~200 CE'

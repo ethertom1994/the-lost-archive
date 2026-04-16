@@ -253,3 +253,30 @@
 ### Slugs flagged for human review
 None. No entry's existence depends on an unverifiable named entity. All entries retained adequate sourcing after corrections.
 
+## Phase 5: Duplicates
+
+A subagent compared all 64 new entries against the full 293-entry catalog. Read the most likely overlap candidates in full (libraries, observatories, submerged landmasses, lost philosophical works, Pleistocene megafauna, destroyed cities, lost music traditions, mystery cults, the silphium family).
+
+### Result
+- **0 genuine duplicates removed.** Every flagged candidate turned out to be a distinct subject.
+- 293 entries before, 293 entries after this phase.
+
+### Candidate clusters investigated (all confirmed distinct)
+- Libraries: an-lushan-libraries, bobbio-library, cluny-library, louvain-library, merv-libraries vs library-of-alexandria, nalanda, house-of-wisdom, timbuktu-scholars, persepolis-archives — different institutions, eras, events
+- Observatories: maragha-observatory (1259 Iran), samarqand-observatory (1424 Uzbekistan), uraniborg-instruments (1576 Denmark) — three distinct observatories
+- Submerged landmasses: sundaland, atlit-yam, doggerland, beringia, zealandia, helike, port-royal — different scales and contexts
+- Lost philosophical works: aristotle-on-poets, democritus-mikros-diakosmos, epicurus-on-nature, heraclitus-on-nature — four different authors
+- Pleistocene megafauna: cave-lion, irish-elk, megatherium, woolly-rhinoceros — four different species
+- Mystery cults: eleusinian-mysteries vs mithraic-mysteries — different deities, sites, periods
+- Silphium family: silphium / silphium-spice / silphion-coin / roman-silphium-economy — four facets, properly distinct
+- Lost music: vivaldi-lost-operas, trobairitz-melodies, heian-gagaku-repertoire — different cultures/eras
+- Extinct frogs: splendid-poison-frog (Panama 1992) vs golden-toad (Costa Rica 1989) — different species
+
+### Possible partial overlap flagged for human attention
+- **maya-codex-burning** ↔ **mixtec-codices**: Both describe Spanish destruction of Mesoamerican codices, and mixtec-codices already mentions Landa's 1562 Mani burning as "the most famous instance" — which is exactly the maya-codex-burning entry. Different scripts/peoples though (Mixtec pictographic Oaxaca vs Yucatec Maya logosyllabic). Keep both; consider adding a connection between them and resolving the slug/name inconsistency in maya-codex-burning.
+
+### Connection-integrity issue noticed (deferred to Phase 6)
+- mesopotamian-marshes connections include sundarbans-shrinking
+- florida-acropora connections include sundarbans-shrinking and maldives-sinking
+- Both target slugs were removed in the original commit's cleanup; need to be fixed.
+
