@@ -194,3 +194,62 @@
 - Library transfer histories prone to misdating (bobbio mixed up Borromeo 1606 with Vatican 1618)
 - Modern era is the most strict: red-dye-no-2 contained the only outright fabricated event-date in the audit
 
+## Phase 4: Named Entities
+
+7 parallel subagents verified every named individual (researchers, rulers, scholars, "discoverers") and every named work (treatises, papers, named specimens, films) across all 64 entries.
+
+### Aggregate counts
+- Named persons checked: ~250
+- Named works checked: ~80
+- Removed unverifiable name attributions: 9
+- Corrected wrong attributions (real person, wrong attribution): 4
+- Entries flagged for human removal review: 0
+
+### Specific changes
+
+**aristotle-on-poets.ts** — wrong author for source citation
+- Before: `author: 'G. E. L. Owen, ed.', year: 1965`
+- After: `author: 'G. E. R. Lloyd', year: 1968`
+- The book *Aristotle: The Growth and Structure of His Thought* is by Lloyd 1968, not Owen 1965.
+
+**an-lushan-libraries.ts** — fabricated work title
+- Removed unverifiable title "*Kaiyuan shumu*" for the Xuanzong-era 720s palace bibliography. (The actual Kaiyuan-era catalogue is "Qunshu sibu lu" under Yuan Xingchong; "Kaiyuan shumu" not attested.) Preserved the general claim and the 53,000-juan figure.
+
+**heian-gagaku-repertoire.ts** — two unverifiable specifics
+- Replaced fabricated treatise "*Rokudenshu*" with the documented thirteenth-century gagaku treatise *Kyokunsho* (1233, by Koma no Chikazane).
+- Removed "Ono" from the named hereditary lineages list (Toyohara and Oga are attested Heian-era families; Ono is not corroborated as a historic gagaku lineage).
+
+**arioi-society.ts** — invented mythological/historical specifics
+- Removed unverified mountain "Tamaiti on Raiatea" (standard myth places Oro's descent on Mount Pahia, Bora Bora).
+- Removed invented founder name "Urutaetae" as the first commissioned Arioi (Ellis/Oliver record the first chief as Hua-tua, not Urutaetae).
+
+**natchez-language.ts** — fabricated residence
+- Reworded the claim that Maturin Le Petit "lived among the Natchez in the 1720s." Le Petit was assigned to the Choctaw mission (1726) and wrote his 1730 letter on the Natchez from New Orleans based on reports, not from residence among them. Spelling corrected to standard "Maturin Le Petit" and his actual role clarified.
+
+**vivaldi-lost-operas.ts** — wrongly listed as lost
+- Removed *Tito Manlio* (RV 738) and *L'incoronazione di Dario* (RV 719) from the list of confirmed lost operas — both have full surviving autograph scores in the Turin Biblioteca Nazionale and have been recorded commercially.
+- Clarified that *Tieteberga* survives as a replacement aria and *Scanderbeg* as a few arias, rather than implying full loss.
+
+**pink-headed-duck.ts** — wrong co-author
+- Removed "Hein van Grouw" from the 2018 Forktail paper authorship; sole author is Julian Hume.
+
+**cleopatra-1917.ts** — minor descriptor fix
+- "film researcher James Fennell" → "film collector James Fennell" (sources describe him as a collector); clarified the projector as a 1920s toy film projector.
+
+**yuanmingyuan.ts** — fabricated quote, wrong nationality, unverifiable attribution
+- Rewrote the Captain Charles Gordon sentence: removed fabricated "absolutely overwhelming" quote and corrected nationality (Gordon was a British Royal Engineers officer, not French).
+- Removed specific attribution of "one million objects" estimate to Michael Sullivan (the figure is widely cited but not cleanly attributable to him); now phrased as Chinese authority estimates.
+- Softened "complete Siku Quanshu" to "a copy of" (Yuanmingyuan held one of several copies).
+
+**saturn-v-craft.ts** — unverified attributed quote
+- Removed sentence attributing a specific quote about F-1 records to "Propulsion Engineer Tom Mueller of SpaceX" (could not be verified). Kept the same factual claim phrased generally.
+
+### Patterns
+- Confident specific names get attached to general claims (Tom Mueller / Michael Sullivan / "Urutaetae" — real people / made-up name in the same shape)
+- Real people misattributed to wrong nationalities or roles (Charles Gordon as French; Le Petit as resident among the Natchez)
+- Real lost-corpus entries diluted by adding still-extant works to the "lost" list (Vivaldi *Tito Manlio* and *Dario* are not lost)
+- Treatise titles invented in transliterated Sanskrit/Chinese/Tahitian where Anglophone sources are scarce (Rokudenshu, Kaiyuan shumu)
+
+### Slugs flagged for human review
+None. No entry's existence depends on an unverifiable named entity. All entries retained adequate sourcing after corrections.
+

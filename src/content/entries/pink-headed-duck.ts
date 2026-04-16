@@ -51,7 +51,7 @@ What remains is a small number of skins in European museums, their pink faded to
     { slug: 'labrador-duck', relationship: 'Both are 19th–20th century duck extinctions with remarkably sparse scientific documentation and no living captive lineage' },
   ],
   sources: [
-    { title: 'A High Price to Pay: New Light on the Extinction of the Pink-headed Duck', author: 'Julian P. Hume and Hein van Grouw', year: 2018 },
+    { title: 'A High Price to Pay: New Light on the Extinction of the Pink-headed Duck', author: 'Julian P. Hume', year: 2018 },
     { title: 'Pink-Headed Duck', url: 'https://en.wikipedia.org/wiki/Pink-headed_duck' },
     { title: 'Pink-headed Duck Rhodonessa caryophyllacea Species Factsheet', url: 'https://datazone.birdlife.org/species/factsheet/pink-headed-duck-rhodonessa-caryophyllacea', author: 'BirdLife International' },
   ],

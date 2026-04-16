@@ -23,7 +23,7 @@ What was lost is something harder to archive. The F-1 engine — the largest sin
 
 The F-1 was not an assembly-line product. Every one of the 65 flown engines was effectively hand-built. Welds on the combustion chamber were inspected, re-done, and re-inspected. The injector plate — the disc that sprayed kerosene and liquid oxygen into the chamber — had a pattern of holes whose exact dimensions and angles were tuned empirically to suppress combustion instability. Early tests had seen the engine literally tear itself apart in less than a second from oscillations the engineers did not fully understand. The solution was found by detonating small explosive charges inside firing engines until the injector design stopped ringing. No theoretical model ever captured why the final pattern worked. The pattern was the knowledge.
 
-Engineers kept their own handwritten notes. Supervisors knew which welders could hold which tolerances. Procurement knew which foundry produced usable castings and which did not. None of this went into the formal documentation. Propulsion Engineer Tom Mueller of SpaceX has said publicly that when his team examined F-1 records in the 2000s, they found drawings but no instructions on how to actually make the components — the human chain that converted drawings to hardware was gone.
+Engineers kept their own handwritten notes. Supervisors knew which welders could hold which tolerances. Procurement knew which foundry produced usable castings and which did not. None of this went into the formal documentation. The human chain that converted drawings to hardware was gone.
 
 ## The 2013 Resurrection Attempt
 

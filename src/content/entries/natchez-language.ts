@@ -16,7 +16,7 @@ export const natchezLanguage: Entry = {
 
 When the first French colonists reached the Natchez Bluffs around 1682, they found a society that seemed older than any of their other North American encounters. The Natchez were ruled by the Great Sun, a hereditary sovereign whose body was carried on a litter, whose mound-top temple held a perpetual fire tended by priests, and whose wives and retainers were expected to follow him into death. Below the Great Sun was a hierarchy of Suns, Nobles, Honoured People, and commoners known as Stinkards, with complex marriage rules that forced each rank to marry down, producing a distinctive matrilineal system of rank inheritance.
 
-The French missionary Mathurin le Petit and the military officer Antoine-Simon Le Page du Pratz both lived among the Natchez in the 1720s and left detailed descriptions. Le Page du Pratz in particular produced one of the most extensive ethnographic accounts of any Mississippian-era people, documenting temple architecture, funerary practice, agricultural calendar, war rituals, and, in fragments, the language itself.
+The colonist and naturalist Antoine-Simon Le Page du Pratz lived near Fort Rosalie among the Natchez in the 1720s and produced one of the most extensive ethnographic accounts of any Mississippian-era people, documenting temple architecture, funerary practice, agricultural calendar, war rituals, and, in fragments, the language itself. The Jesuit superior Maturin Le Petit, writing from New Orleans in 1730, added an important further account of Natchez customs and of the 1729 massacre based on eyewitness reports.
 
 ## The Revolt of 1729
 

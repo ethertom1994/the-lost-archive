@@ -50,7 +50,7 @@ The loss of On Poets is a particular wound for the history of literary criticism
   ],
   sources: [
     { title: 'Lives of Eminent Philosophers, Book V: Aristotle', author: 'Diogenes Laertius', year: 230 },
-    { title: 'Aristotle: The Growth and Structure of His Thought', author: 'G. E. L. Owen, ed.', year: 1965 },
+    { title: 'Aristotle: The Growth and Structure of His Thought', author: 'G. E. R. Lloyd', year: 1968 },
     { title: 'Aristotle\'s Lost Works and the Dialogues That Vanished', url: 'https://spokenpast.com/articles/aristotles-lost-works-dialogues-vanished/' },
   ],
 };

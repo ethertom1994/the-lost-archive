@@ -30,7 +30,7 @@ For two decades afterward, it was assumed a few copies might survive elsewhere, 
 
 ## What Forty Seconds Will Tell You
 
-Until recently, all that survived of Cleopatra was the shooting script, production stills, promotional posters, and one brief fragment: a single short film-loop clip, probably a trailer teaser or news reel insert, of Bara reclining on a couch in a costume of strategically-placed beads. In 2023, the film researcher James Fennell bought a child's toy projector on eBay that turned out to contain an additional forty seconds of footage, an unexpected find that added perhaps five usable shots to the surviving record.
+Until recently, all that survived of Cleopatra was the shooting script, production stills, promotional posters, and one brief fragment: a single short film-loop clip, probably a trailer teaser or news reel insert, of Bara reclining on a couch in a costume of strategically-placed beads. In 2023, the film collector James Fennell bought a 1920s toy film projector on eBay that turned out to contain an additional roughly forty seconds of footage, an unexpected find that added perhaps five usable shots to the surviving record.
 
 That is the entire material basis for what was, by some measures, the most famous film of the 1910s. The costume work, the battle sequences, the sets, Bara's actual performance, all of it is gone. Still photographs can suggest what was filmed but cannot recover it. An estimated 75 percent of all American silent films are now considered lost, and Cleopatra is simply the most visible of those casualties. The studio archive that burned in 1937 also took Bara's The She Devil (1918), Salome (1918), Kathleen Mavourneen (1919), and dozens of other films for which no other copies existed.
 

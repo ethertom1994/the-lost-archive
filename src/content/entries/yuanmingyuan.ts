@@ -16,7 +16,7 @@ export const yuanmingyuan: Entry = {
 
 Yuanmingyuan, translated roughly as "Garden of Perfect Brightness," was the principal residence of the Qing emperors from the reign of the Yongzheng Emperor in the 1720s until 1860. It was not a palace in the Western sense but an imperial estate of 850 acres, composed of more than six hundred pavilions, halls, temples, bridges, and waterworks set among constructed hills, streams, and lakes. European Jesuit architects had built a section of marble buildings modeled on Versailles for the Qianlong Emperor. Chinese architects had built everything else in a dense anthology of regional garden traditions, from Suzhou scholar gardens to Tibetan lamaseries to reproductions of famous landscape paintings.
 
-The collections held inside were unlike any other single site in the world. Centuries of tribute, commissioned artworks, imperial portraits, Ming and Qing porcelain, rare manuscripts, clocks and automata from Europe, Buddhist statuary, and the complete Siku Quanshu reference library occupied the halls. The scholar Michael Sullivan later estimated that the complex held more than a million individual cultural objects at its peak.
+The collections held inside were unlike any other single site in the world. Centuries of tribute, commissioned artworks, imperial portraits, Ming and Qing porcelain, rare manuscripts, clocks and automata from Europe, Buddhist statuary, and a copy of the Siku Quanshu reference library occupied the halls. Later estimates by Chinese authorities have put the number of cultural objects held in the complex at more than a million.
 
 ## The Second Opium War
 
@@ -28,7 +28,7 @@ The casualty figures went underreported. An estimated three hundred eunuchs and 
 
 ## What Was Taken, What Was Burned
 
-The objects that left Yuanmingyuan in 1860 now occupy cases in the British Museum, the Louvre, the Musée Guimet, the Château de Fontainebleau, and hundreds of private collections around the world. Twelve bronze zodiac heads from the Haiyantang fountain became particular targets of later Chinese repatriation efforts; five remain formally missing. An 1861 letter from a French officer, Captain Charles Gordon, called the loot "absolutely overwhelming" and estimated that every officer had made off with the equivalent of several thousand pounds.
+The objects that left Yuanmingyuan in 1860 now occupy cases in the British Museum, the Louvre, the Musée Guimet, the Château de Fontainebleau, and hundreds of private collections around the world. Twelve bronze zodiac heads from the Haiyantang fountain became particular targets of later Chinese repatriation efforts; five remain formally missing. In letters home, the British officer Captain Charles Gordon of the Royal Engineers described the beauty of what was burned and the difficulty of plundering the site thoroughly in the time available.
 
 What could not be carried was burned. This included most of the timber architecture, the interiors of the European-style stone palaces, the gardens' irrigation machinery, the landscape features that depended on human maintenance, and the library's paper contents. Photographs taken by Ernst Ohlmer in 1873 show the stone arches of the Xiyang Lou section still standing in an otherwise erased landscape. Those arches were later pulled down in 1900 when the Eight-Nation Alliance sacked Beijing during the Boxer Rebellion.
 
