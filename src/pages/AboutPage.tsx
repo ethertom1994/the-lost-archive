@@ -62,6 +62,16 @@ export default function AboutPage() {
           </p>
 
           <h2 className="font-display text-2xl font-medium text-text-primary pt-4">
+            Contribute
+          </h2>
+
+          <p>
+            Know something the world has permanently lost? We welcome submissions from anyone.{' '}
+            <a href="/suggest" className="text-accent hover:underline">Suggest an entry</a> and
+            help us document what&rsquo;s gone.
+          </p>
+
+          <h2 className="font-display text-2xl font-medium text-text-primary pt-4">
             Technical Credits
           </h2>
 

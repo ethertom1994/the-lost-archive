@@ -31,6 +31,9 @@ export default function Footer() {
             <Link to="/about" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
               About
             </Link>
+            <Link to="/suggest" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
+              Suggest an Entry
+            </Link>
             <Link to="/privacy" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
               Privacy
             </Link>
