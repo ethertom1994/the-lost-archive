@@ -2,41 +2,32 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border-subtle bg-bg-void">
+    <footer className="border-t border-border-subtle bg-bg-void mb-20 md:mb-0">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="text-center sm:text-left">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
+          <div className="text-center sm:text-left w-full sm:w-auto">
             <p className="font-display text-lg font-medium">
               The <span className="text-accent">Lost</span> Archive
             </p>
-            <p className="text-text-tertiary text-sm mt-1">A catalog of what we've lost.</p>
+            <p className="text-text-tertiary text-sm mt-1">A catalog of what we&rsquo;ve lost.</p>
           </div>
 
-          <nav className="flex items-center gap-6" aria-label="Footer navigation">
-            <Link to="/explore" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              Explore
-            </Link>
-            <Link to="/trails" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              Trails
-            </Link>
-            <Link to="/vanishing" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              The Vanishing
-            </Link>
-            <Link to="/bookmarks" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              Bookmarks
-            </Link>
-            <Link to="/stats" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              Stats
-            </Link>
-            <Link to="/about" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              About
-            </Link>
-            <Link to="/suggest" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              Suggest an Entry
-            </Link>
-            <Link to="/privacy" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-300">
-              Privacy
-            </Link>
+          {/* Mobile: 2-column grid. Desktop: flex row */}
+          <nav className="w-full sm:w-auto" aria-label="Footer navigation">
+            <div className="grid grid-cols-2 gap-x-12 gap-y-3 sm:flex sm:items-center sm:gap-6">
+              <div className="flex flex-col gap-3 sm:contents">
+                <FooterLink to="/explore">Explore</FooterLink>
+                <FooterLink to="/trails">Trails</FooterLink>
+                <FooterLink to="/vanishing">The Vanishing</FooterLink>
+                <FooterLink to="/bookmarks">Bookmarks</FooterLink>
+              </div>
+              <div className="flex flex-col gap-3 sm:contents">
+                <FooterLink to="/stats">Stats</FooterLink>
+                <FooterLink to="/about">About</FooterLink>
+                <FooterLink to="/suggest">Suggest</FooterLink>
+                <FooterLink to="/privacy">Privacy</FooterLink>
+              </div>
+            </div>
           </nav>
         </div>
 
@@ -47,5 +38,16 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+  );
+}
+
+function FooterLink({ to, children }: { to: string; children: React.ReactNode }) {
+  return (
+    <Link
+      to={to}
+      className="text-sm text-text-secondary hover:text-text-primary active:text-accent transition-colors duration-200"
+    >
+      {children}
+    </Link>
   );
 }

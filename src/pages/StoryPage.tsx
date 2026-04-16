@@ -153,7 +153,7 @@ export default function StoryPage() {
         image="https://the-lost-archive.vercel.app/og/story.png"
       />
 
-      <div ref={containerRef} className="bg-bg-void text-text-primary">
+      <div ref={containerRef} className="bg-bg-void text-text-primary overflow-x-hidden">
         {/* ═══ OPENING ═══ */}
         <section className="min-h-[100dvh] flex flex-col items-center justify-center px-6 text-center relative">
           <div className="max-w-2xl mx-auto space-y-6">
@@ -280,7 +280,7 @@ function StoryCard({ item, size }: { item: StoryEntry; size: 'large' | 'compact'
           </div>
         )}
         <h3 className="font-display text-xl sm:text-2xl font-medium text-text-primary">{entry.name}</h3>
-        <p className="text-text-secondary text-sm sm:text-base leading-relaxed">{item.text}</p>
+        <p className="text-text-secondary text-base leading-relaxed">{item.text}</p>
         <Link
           to={`/archive/${entry.slug}`}
           className="no-underline text-accent text-sm hover:underline inline-flex items-center gap-1"

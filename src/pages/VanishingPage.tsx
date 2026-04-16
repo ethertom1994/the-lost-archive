@@ -226,7 +226,7 @@ export default function VanishingPage() {
     }
 
     // Dots
-    const dotR = w < 500 ? 2 : 3;
+    const dotR = w < 500 ? 3 : 3.5;
     let aliveCount = 0;
 
     for (const e of mapEntries.current) {
@@ -480,7 +480,7 @@ export default function VanishingPage() {
 
         {/* Controls */}
         {showControls && (
-          <div className="absolute bottom-4 sm:bottom-6 left-0 right-0 z-20 pb-16 md:pb-0">
+          <div className="absolute bottom-4 sm:bottom-6 left-0 right-0 z-20 pb-20 md:pb-0">
             <div className="max-w-3xl mx-auto px-4 sm:px-6 flex flex-col gap-3">
               {/* Year */}
               <div className="text-center">
@@ -496,9 +496,11 @@ export default function VanishingPage() {
                 max={yearMax}
                 value={year}
                 onChange={e => handleScrub(parseInt(e.target.value))}
-                className="w-full h-1 bg-border-subtle rounded-full appearance-none cursor-pointer
-                  [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-accent [&::-webkit-slider-thumb]:cursor-pointer
-                  [&::-moz-range-thumb]:border-none [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-accent [&::-moz-range-thumb]:cursor-pointer"
+                className="w-full h-1.5 bg-border-subtle rounded-full appearance-none cursor-pointer
+                  [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-accent [&::-webkit-slider-thumb]:cursor-pointer [&::-webkit-slider-thumb]:shadow-[0_0_0_4px_rgba(200,150,90,0.15)]
+                  sm:[&::-webkit-slider-thumb]:w-3.5 sm:[&::-webkit-slider-thumb]:h-3.5 sm:[&::-webkit-slider-thumb]:shadow-none
+                  [&::-moz-range-thumb]:border-none [&::-moz-range-thumb]:w-5 [&::-moz-range-thumb]:h-5 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-accent [&::-moz-range-thumb]:cursor-pointer
+                  sm:[&::-moz-range-thumb]:w-3.5 sm:[&::-moz-range-thumb]:h-3.5"
               />
 
               {/* Play/Pause + Speed */}
@@ -517,12 +519,12 @@ export default function VanishingPage() {
                   </button>
                 )}
 
-                <div className="flex items-center gap-1 bg-bg-card/80 border border-border-subtle rounded-full px-1 py-1">
+                <div className="flex items-center gap-1 bg-bg-card/80 border border-border-subtle rounded-full px-1.5 py-1.5 sm:px-1 sm:py-1">
                   {[1, 2, 4].map(s => (
                     <button
                       key={s}
                       onClick={() => { setSpeed(s); speedRef.current = s; }}
-                      className={`px-3 py-1 rounded-full text-xs font-medium transition-colors cursor-pointer ${
+                      className={`px-4 py-2 sm:px-3 sm:py-1 rounded-full text-xs font-medium transition-colors cursor-pointer active:opacity-80 ${
                         speed === s ? 'bg-accent/20 text-accent' : 'text-text-tertiary hover:text-text-secondary'
                       }`}
                     >
