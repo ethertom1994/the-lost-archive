@@ -33,7 +33,7 @@ Which makes the end of Atlit Yam particularly poignant. As global sea level cont
 
 ## A Tsunami, or the Ocean?
 
-In 2011 a research team led by Maria Pareschi and Stefano Tinti proposed that the end of Atlit Yam came not gradually but violently, in a tsunami triggered by the collapse of Mount Etna around 6,300 BCE. That hypothesis is contested. Other researchers argue that the site shows no clear tsunami signature and that a slow retreat as the coast moved inland is sufficient to explain what we see. Either way, within a few centuries of abandonment the village was under water. The sand that drowned it also saved it.
+In 2007 a research team led by Maria Pareschi proposed that the end of Atlit Yam came not gradually but violently, in a tsunami triggered by the collapse of Mount Etna around 6,300 BCE. That hypothesis is contested. Other researchers argue that the site shows no clear tsunami signature and that a slow retreat as the coast moved inland is sufficient to explain what we see. Either way, within a few centuries of abandonment the village was under water. The sand that drowned it also saved it.
 
 ## What It Preserves
 

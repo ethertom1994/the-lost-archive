@@ -21,7 +21,7 @@ Its defining feature was the rostrum: a long, flattened snout covered in electro
 
 ## The Wall Across the River
 
-In 1981, the Gezhouba Dam was completed across the Yangtze. It was the first major dam on the river's main stem, and it cut the paddlefish's spawning migration in half. The animals that needed to swim upstream to reproduce could no longer reach their breeding grounds. The Three Gorges Dam, completed in 2003, sealed the fragmentation. A 2019 peer-reviewed analysis by the Yangtze River Fisheries Research Institute concluded that the Chinese paddlefish had become functionally extinct by 1993 — meaning no viable breeding population remained — and that the species itself was extinct somewhere between 2005 and 2010.
+In 1981, the Gezhouba Dam was completed across the Yangtze. It was the first major dam on the river's main stem, and it cut the paddlefish's spawning migration in half. The animals that needed to swim upstream to reproduce could no longer reach their breeding grounds. The Three Gorges Dam, whose reservoir began filling in 2003 and whose main structure was completed in 2006, sealed the fragmentation. A 2019 peer-reviewed analysis by the Yangtze River Fisheries Research Institute concluded that the Chinese paddlefish had become functionally extinct by 1993 — meaning no viable breeding population remained — and that the species itself was extinct somewhere between 2005 and 2010.
 
 The last confirmed capture of a living Chinese paddlefish was on January 24, 2003, near Yibin in Sichuan. Researchers tagged the animal and released it. Its transmitter stopped pinging within a day. No individual has been confirmed since.
 

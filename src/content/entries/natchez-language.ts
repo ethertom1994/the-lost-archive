@@ -28,7 +28,7 @@ The remnant of the Natchez scattered. Some took refuge among the Chickasaw, othe
 
 Because the Natchez survived as a community within other nations, their language continued to be spoken long after the 1729 catastrophe, though with ever fewer speakers. In the 1930s the linguist Mary R. Haas worked with two elderly fluent speakers in Oklahoma, Watt Sam and Nancy Raven, recording wax cylinders and notebooks full of grammar, vocabulary, and traditional narrative.
 
-Watt Sam died in 1944. Nancy Raven, born around 1874 and a citizen of the Cherokee Nation, was the last person to speak Natchez from childhood. She died in 1957. With her death, an isolate language — one whose genealogical relationship to any other language on Earth has never been conclusively established — passed out of living use.
+Watt Sam died in 1944. Nancy Raven, born in the early 1870s and a citizen of the Cherokee Nation, was the last person to speak Natchez from childhood. She died in 1957. With her death, an isolate language — one whose genealogical relationship to any other language on Earth has never been conclusively established — passed out of living use.
 
 ## What Was Lost With the Speech
 

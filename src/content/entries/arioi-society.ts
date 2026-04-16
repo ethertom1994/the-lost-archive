@@ -32,7 +32,7 @@ The London Missionary Society arrived in Tahiti in 1797. For their first decade 
 
 ## The Remnant
 
-A short-lived splinter movement called the Mamaia, blending old Arioi themes with Christian imagery, appeared in the 1820s and was itself suppressed by 1833. After that, the Arioi as a living society is gone. Tahitian performance arts survived and were revived in the twentieth century, and names and pieces of the old liturgy are preserved in missionary ethnographies, but no-one has been initiated into the seven grades in two hundred years, and the specific cosmology that connected dance, tattoo, infanticide, Oro, and the Pleiades no longer organises anybody's life.`,
+A splinter movement called the Mamaia, blending old Arioi themes with Christian imagery, emerged in the mid-1820s and was largely suppressed by the early 1840s. After that, the Arioi as a living society is gone. Tahitian performance arts survived and were revived in the twentieth century, and names and pieces of the old liturgy are preserved in missionary ethnographies, but no-one has been initiated into the seven grades in two hundred years, and the specific cosmology that connected dance, tattoo, infanticide, Oro, and the Pleiades no longer organises anybody's life.`,
   quickFacts: {
     'Name': 'Arioi (Areoi)',
     'Principal Deity': 'Oro',

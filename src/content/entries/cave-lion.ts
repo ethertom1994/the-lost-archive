@@ -19,11 +19,11 @@ export const caveLion: Entry = {
 
 Despite the name, cave lions did not live in caves. The name comes from where their bones are found: denning bears dragged carcasses into caves, or lions perished there during hibernation attempts, and the caves preserved the bones. In life, *Panthera spelaea* ranged across the open mammoth steppe and was one of the apex predators of Pleistocene Eurasia, hunting reindeer, young mammoths, horses, and bison across a territory that stretched from the Iberian Peninsula to the Yukon.
 
-Two frozen cub carcasses pulled from the Siberian permafrost, Uyan and Dina in 2015 and Boris and Sparta in 2017, give us direct views of the animal. The fur is thick and pale, more like a cougar's gold than a modern lion's tawny, with a light undercoat. There is no evidence that males had manes; most cave paintings and mobiliary art from the European Upper Paleolithic show maneless lions with faint spotting, and genetic work on adult specimens is consistent with this.
+Frozen cub carcasses pulled from the Siberian permafrost, Uyan and Dina in 2015 and Boris and Sparta recovered in the late 2010s, give us direct views of the animal. The fur is thick and pale, more like a cougar's gold than a modern lion's tawny, with a light undercoat. There is no evidence that males had manes; most cave paintings and mobiliary art from the European Upper Paleolithic show maneless lions with faint spotting, and genetic work on adult specimens is consistent with this.
 
 ## A Famous Painting, A Silent Animal
 
-The most haunting human encounter with *Panthera spelaea* is at Chauvet Cave in France, where a panel dated to around 32,000 years ago depicts a pride of maneless lions advancing in hunting formation. The anatomy, posture, and social behavior caught on the stone are so precise that modern lion biologists recognize it as observed behavior. Whoever drew this had spent time watching lions hunt without being eaten by them, which is itself remarkable.
+The most haunting human encounter with *Panthera spelaea* is at Chauvet Cave in France, where a panel dated to roughly 36,000 years ago depicts a pride of maneless lions advancing in hunting formation. The anatomy, posture, and social behavior caught on the stone are so precise that modern lion biologists recognize it as observed behavior. Whoever drew this had spent time watching lions hunt without being eaten by them, which is itself remarkable.
 
 Other Paleolithic artists carved lion figures from mammoth ivory, including the 40,000-year-old Lowenmensch, or "Lion-man," of Hohlenstein-Stadel, a human body with a lion's head. The cave lion was not just a predator. It was a subject.
 
@@ -42,7 +42,7 @@ There is a strange completeness to the record of this animal. We have its DNA, i
     'Range': 'Spain to Yukon',
     'Split from modern lions': 'c. 1.9 million years ago',
     'Last Remains': 'c. 14,000 BP (Eurasia), 13,300 BP (Beringia)',
-    'Frozen Specimens': 'Four cubs recovered from Siberian permafrost (2015, 2017)',
+    'Frozen Specimens': 'Four cubs recovered from Siberian permafrost (2015 and the late 2010s)',
   },
   connections: [
     { slug: 'beringia', relationship: 'Cave lions crossed the land bridge and survived there slightly longer than anywhere in Eurasia' },

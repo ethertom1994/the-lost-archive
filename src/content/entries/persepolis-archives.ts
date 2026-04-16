@@ -3,7 +3,7 @@ import type { Entry } from '../../types';
 export const persepolisArchives: Entry = {
   slug: 'persepolis-archives',
   name: 'Persepolis Royal Archives',
-  tagline: 'When Alexander burned Persepolis in 330 BCE, he destroyed not just a palace but the central archive of the Achaemenid Empire. Zoroastrian tradition later claimed an entire Avesta, written in gold ink on ox-hides, was lost that night.',
+  tagline: 'When Alexander burned Persepolis in 330 BCE, he destroyed not just a palace but the central archive of the Achaemenid Empire. Zoroastrian tradition later claimed an entire Avesta, written in gold ink on ox-hides, was lost in that fire.',
   category: 'place',
   subcategory: 'Destroyed Libraries',
   lastKnownYear: -330,
@@ -14,7 +14,7 @@ export const persepolisArchives: Entry = {
   cause: 'Deliberate burning by Macedonian forces under Alexander the Great, allegedly in retaliation for the Persian burning of Athens in 480 BCE',
   body: `## The Night the Empire\'s Memory Burned
 
-In January 330 BCE, Alexander the Great entered Persepolis, the ceremonial capital of the Achaemenid Empire. The city had no walls; it was a sacred precinct of palaces, audience halls, and royal tombs built by Darius I and Xerxes two centuries earlier. Alexander\'s army looted the treasury — ancient sources report that moving the bullion required three thousand camels and many mules — and then, after months of occupation, burned the Apadana palace complex to the ground.
+In early 330 BCE, Alexander the Great entered Persepolis, the ceremonial capital of the Achaemenid Empire. The city had no walls; it was a sacred precinct of palaces, audience halls, and royal tombs built by Darius I and Xerxes two centuries earlier. Alexander\'s army looted the treasury — ancient sources report that moving the bullion required three thousand camels and many mules — and then, after months of occupation, burned the Apadana palace complex to the ground.
 
 Plutarch, Diodorus Siculus, and Arrian all describe the fire. The most famous version has the Athenian courtesan Thais proposing the burning during a drunken banquet, as revenge for the Persian destruction of the Athenian acropolis in 480 BCE. Modern scholars debate whether the burning was drunken impulse or deliberate political theater, the closing ceremony of the Achaemenid Empire. What is certain is that the fire was enormous and that the damage to the city\'s archival function was total.
 
@@ -35,7 +35,7 @@ They are a glimpse of the bureaucratic machinery of the empire at a single corne
 Greek sources wrote the history of the Achaemenid Empire from the outside. Our Persian Wars are told by Herodotus, our Cyrus is in Xenophon, our Darius is on a few rock inscriptions. The Achaemenids\' own voice, the internal records of the largest empire the ancient world had yet seen, went up in a single fire. What was lost was not just bullion or even manuscripts but an empire\'s ability to be remembered in its own language.`,
   quickFacts: {
     'Location': 'Persepolis (Takht-e Jamshid), Fars Province, Iran',
-    'Destruction': 'January 330 BCE',
+    'Destruction': '330 BCE',
     'Perpetrator': 'Alexander the Great',
     'Treasury Reported by Diodorus': '2,500 tons (reckoned in silver)',
     'Surviving Administrative Archive': '~30,000 Elamite Fortification Tablets',

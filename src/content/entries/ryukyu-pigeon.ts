@@ -20,7 +20,7 @@ The pigeon lived in the dense evergreen broadleaf forests of Okinawa, Zamami, Ke
 
 ## A Species Seen Twice in Two Places
 
-The Ryukyu wood pigeon was known to Western science almost entirely through specimens. Pierre Louis Jouy, an American naturalist, obtained the first specimens in 1887 and the species was formally described by Leonhard Stejneger in 1897. The bird was last recorded on the main island of Okinawa in 1904. After that, all subsequent records came from the Daitō Islands alone, especially North Daitō (Kita-daitō-jima) and South Daitō (Minami-daitō-jima), the remote volcanic pair that had been only lightly inhabited before Japanese settlement in 1900.
+The Ryukyu wood pigeon was known to Western science almost entirely through specimens. The species was formally described by Leonhard Stejneger in 1887 and named in honor of the American naturalist Pierre Louis Jouy. The bird was last recorded on the main island of Okinawa in 1904. After that, all subsequent records came from the Daitō Islands alone, especially North Daitō (Kita-daitō-jima) and South Daitō (Minami-daitō-jima), the remote volcanic pair that had been only lightly inhabited before Japanese settlement in 1900.
 
 Japanese settlement of the Daitō Islands began as a private colonization effort led by the entrepreneur Tamaoki Han'emon, who obtained rights to develop the uninhabited islands and began cutting the forest for sugarcane plantations in 1900. Within a generation, most of the original forest had been cleared. The species' last confirmed sighting was in 1936. By the 1940s, the forest was effectively gone and no pigeons were reported from any of its former range.
 
@@ -38,7 +38,7 @@ The extinction is a reminder that many 20th-century losses occurred not through 
   quickFacts: {
     'Species': 'Columba jouyi',
     'Range': 'Ryukyu Islands, southern Japan',
-    'Described': '1897 (Stejneger)',
+    'Described': '1887 (Stejneger)',
     'Last Okinawa Record': '1904',
     'Last Daitō Record': '1936',
     'Surviving Specimens': 'Fewer than 15 worldwide',

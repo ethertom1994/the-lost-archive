@@ -11,7 +11,7 @@ export const bobbioLibrary: Entry = {
   coordinates: [44.77, 9.39],
   region: 'Europe',
   status: 'extinct',
-  cause: 'Gradual dispersal by purchase (1461, 1618) and by auction following Napoleon\'s 1803 suppression of the monastery',
+  cause: 'Gradual dispersal by transfer (1606 to the Ambrosiana, 1618 to the Vatican) and by auction following Napoleon\'s 1803 suppression of the monastery',
   imageUrl: undefined,
   body: `## A Meeting Point of Two Traditions
 
@@ -23,7 +23,7 @@ The Bobbio collection became famous for its palimpsests. A palimpsest is a parch
 
 Bobbio's library was not destroyed in a single catastrophe. It was sold off over four hundred years, and the over-text layer of what was sold is often less interesting than what the parchment once held underneath.
 
-In 1461, Pope Pius II ordered a selection of the most important Bobbio manuscripts transferred to the new Vatican Library. In 1618, Cardinal Federico Borromeo took eighty-six volumes, including the *Bobbio Orosius*, the *Antiphonary of Bangor* (an Irish liturgical book of exceptional importance), and the Gothic Bible palimpsest, to the Biblioteca Ambrosiana in Milan. In 1792, on the eve of the Napoleonic suppression, a further set was moved to the Biblioteca Nazionale in Turin, where many of them burned in the catastrophic 1904 library fire. In 1803 the monastery was dissolved by Napoleonic decree, and the remaining books were sold at auction in 1803 to, among others, an Irish-born physician named Odoardo Raymond Butler.
+A 1461 inventory of the monastic library records the collection at Bobbio still substantially intact. In the early seventeenth century the major dispersals began: in 1606, Cardinal Federico Borromeo, the archbishop of Milan, obtained some seventy-seven manuscripts from Bobbio — including the *Bobbio Orosius*, the *Antiphonary of Bangor* (an Irish liturgical book of exceptional importance), and the Gothic Bible palimpsest — for his newly founded Biblioteca Ambrosiana. In 1618, at the request of Pope Paul V, the monastery transferred a further twenty-nine manuscripts to the Vatican Library. In 1803 the monastery was dissolved by Napoleonic decree, and the remaining books were sold at auction to, among others, an Irish-born physician named Odoardo Raymond Butler. After Butler\'s death many of those manuscripts entered the Biblioteca Nazionale Universitaria in Turin, where a number of them burned in the catastrophic 1904 library fire.
 
 Today the identifiable Bobbio manuscripts, those whose medieval history can be traced back to the abbey, are scattered across the Ambrosiana, the Vatican, Turin, the Austrian National Library, Paris, Naples, and various smaller collections. Many more are untraceable. Some were lost at Turin in 1904, some in the earlier fires and thefts, some into unknown private collections. The 1492 inventory, the most detailed medieval list of the collection's contents, references volumes that modern scholars cannot match to any surviving manuscript anywhere.
 
@@ -35,7 +35,7 @@ What was lost at Bobbio was not only the physical manuscripts but the particular
     'Ninth-Century Catalogue': '600+ volumes',
     '1492 Catalogue': 'Most detailed medieval list; many items not identifiable today',
     'Notable Palimpsests': 'Gothic Bible (Wulfila), Cicero orations, Fronto, Plautus',
-    'Major Dispersals': 'Vatican 1461, Ambrosiana 1618, Turin 1792, auction 1803',
+    'Major Dispersals': 'Ambrosiana 1606, Vatican 1618, auction 1803, Turin (post-auction)',
     'Lost in 1904 Turin Fire': 'Multiple Bobbio volumes, extent incompletely known',
   },
   connections: [

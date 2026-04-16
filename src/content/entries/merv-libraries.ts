@@ -11,7 +11,7 @@ export const mervLibraries: Entry = {
   coordinates: [37.66, 62.19],
   region: 'Central Asia',
   status: 'extinct',
-  cause: 'Mongol siege and sack in February 1221; libraries burned, scholars killed',
+  cause: 'Mongol siege and sack in 1221; libraries burned, scholars killed',
   imageUrl: undefined,
   body: `## A City of Books on the Silk Road
 
@@ -19,9 +19,9 @@ Before the Mongols arrived, Merv was one of the largest cities in the world. It 
 
 Merv's collections reflected the city's intellectual geography. Since the fifth century CE it had been a seat of the Nestorian (Church of the East) archbishopric, and Syriac Christian theology was studied alongside Zoroastrian texts, Manichaean writings, Buddhist treatises translated into Sogdian and Persian, and the Arabic scientific and philosophical literature that had poured eastward out of Abbasid Baghdad. Scholars travelled to Merv specifically for works they could not find elsewhere. The city had observatories, hospitals, and a madrasa culture deeply integrated into the eastern wing of the Islamic Golden Age.
 
-## February 1221
+## 1221
 
-In February 1221 Tolui, the youngest son of Genghis Khan, arrived at the walls with a Mongol army. After a brief siege Merv surrendered on promises of mercy. The promises were not kept. The Persian historian Ata-Malik Juvayni, writing a generation later from inside the Mongol administration itself, described the population being marched out onto the plain in groups and systematically killed. Contemporary Arabic and Persian sources put the death toll in figures that cannot be believed literally but that convey the scale: hundreds of thousands, perhaps more, over several days. The irrigation system that sustained the oasis was destroyed. The libraries were burned.
+In early 1221 Tolui, the youngest son of Genghis Khan, arrived at the walls with a Mongol army; the assault and sack followed in the spring. After a brief siege Merv surrendered on promises of mercy. The promises were not kept. The Persian historian Ata-Malik Juvayni, writing a generation later from inside the Mongol administration itself, described the population being marched out onto the plain in groups and systematically killed. Contemporary Arabic and Persian sources put the death toll in figures that cannot be believed literally but that convey the scale: hundreds of thousands, perhaps more, over several days. The irrigation system that sustained the oasis was destroyed. The libraries were burned.
 
 A handful of scholars escaped before the sack. A few manuscripts made it out with them. But no catalog survives of what was in Yaqut's twelve-thousand-volume mosque library, and no independent copies exist of the texts it uniquely held. Entire branches of learning that were documented in Merv, particularly the Syriac Christian literature of Central Asia and the Sogdian-language scholarship of the eastern Silk Road, are now known only through citations and fragments preserved in more fortunate libraries far away.
 
@@ -32,7 +32,7 @@ The destruction of Merv is often folded into the larger story of the Mongol conq
 The Mongol archaeological layer at Merv shows a thick horizon of ash. Later settlements rebuilt on a much smaller scale. Today the site is mostly empty mounds and the ruined outlines of walls. The city that for a few decades had been perhaps the largest and best-read in the world was, after 1221, a field.`,
   quickFacts: {
     'City': 'Merv (Marw), modern Turkmenistan',
-    'Destroyed': 'February 1221, by Tolui son of Genghis Khan',
+    'Destroyed': '1221, by Tolui son of Genghis Khan',
     'Libraries Reported': 'Ten major libraries, per Yaqut al-Hamawi',
     'Largest Collection': 'c. 12,000 volumes (congregational mosque)',
     'Languages Collected': 'Arabic, Persian, Syriac, Sogdian, Middle Persian',

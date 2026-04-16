@@ -114,3 +114,83 @@
 - Before: `earthobservatory.nasa.gov/world-of-change/Iraq`
 - After: `science.nasa.gov/earth/earth-observatory/world-of-change/mesopotamia-marshes`
 
+## Phase 3: Date Verification
+
+7 parallel subagents extracted every specific-date claim from `tagline`, `body`, `keyDate`, `keyDateLabel`, `lastKnownYear`, and `quickFacts`. Each was verified against encyclopedias, university dept pages, peer-reviewed sources. Wrong → corrected. Unverifiable → softened. Never fabricated a replacement specific.
+
+### Aggregate counts (across all batches; two agents crashed before final report but committed their edits)
+- Specific dates audited: ~150
+- Verified as-stated: ~135
+- Corrected to a documented different date: 11
+- Softened (could not verify pinpoint): 9
+- Patterns of overconfidence: see below
+
+### Specific changes
+
+**cave-lion.ts**
+- Body: Chauvet panel "around 32,000 years ago" → "roughly 36,000 years ago" (recalibrated radiocarbon now puts Chauvet at ~36-37 kya)
+- Body: "Boris and Sparta in 2017" → "Boris and Sparta recovered in the late 2010s" (cubs found in different years; Boris 2017, Sparta 2018)
+- quickFacts Frozen Specimens: "(2015, 2017)" → "(2015 and the late 2010s)"
+
+**atlit-yam.ts**
+- "In 2011 a research team led by Maria Pareschi and Stefano Tinti" → "In 2007 a research team led by Maria Pareschi" (the Pareschi et al. Etna-tsunami paper is GRL 2007)
+
+**persepolis-archives.ts**
+- Tagline: "lost that night" → "lost in that fire" (Alexander occupied for months; not a single night)
+- Body: "In January 330 BCE..." → "In early 330 BCE..." (Alexander arrived ~Jan 31 but burning was months later)
+- quickFacts Destruction: "January 330 BCE" → "330 BCE"
+
+**bobbio-library.ts** (largest correction set in this phase)
+- Removed unsupported "1461 Pope Pius II Vatican transfer" claim (the 1461 inventory was a catalogue at Bobbio itself, not a transfer)
+- Borromeo: "1618, 86 volumes" → "1606, ~77 manuscripts" (correct date+count per Ambrosiana records)
+- Removed unsupported "1792 Turin transfer" claim
+- Vatican transfer: corrected to "1618, at the request of Pope Paul V, 29 manuscripts"
+- Updated cause and quickFacts to match
+
+**cluny-library.ts**
+- "On 4 August 1790" → "In 1790" (specific date was a pattern-match against the famous Aug 4, 1789 Night of August 4; no source documents the Cluny sack on a specific August date)
+
+**kilwa-chronicle.ts**
+- "Mahdali dynasty from its arrival in the mid-fourteenth century" → "from its rise in the late thirteenth century" (founded c. 1277 by al-Hasan ibn Talut; mid-14th was its zenith)
+
+**maragha-observatory.ts**
+- "Hamdallah Mustawfi described it around 1339" → "Mustawfi described the site in the mid-fourteenth century" (couldn't pin specific 1339 to Maragha; his works span 1329-30 to ~1340)
+
+**merv-libraries.ts**
+- "Mongol siege and sack in February 1221" → "in 1221" (Tolui arrived Feb but the actual sack was 7-10 April 1221)
+- Body and quickFacts updated to match
+
+**arioi-society.ts**
+- Mamaia "appeared in the 1820s and was itself suppressed by 1833" → "emerged in the mid-1820s and was largely suppressed by the early 1840s" (1833 not corroborated)
+
+**natchez-language.ts**
+- Nancy Raven "born around 1874" → "born in the early 1870s" (specific 1874 not confidently sourced)
+
+**ryukyu-pigeon.ts**
+- "Pierre Louis Jouy ... obtained the first specimens in 1887 and the species was formally described by Stejneger in 1897" → "formally described by Stejneger in 1887 and named in honor of Jouy" (description year corrected; the 1897 was wrong)
+- quickFacts Described: "1897 (Stejneger)" → "1887 (Stejneger)"
+
+**uraniborg-instruments.ts**
+- Brahe globe "ordered from Augsburg in 1570 and worked on continuously for twenty-five years" → "commissioned at Augsburg around 1570 and refined over many years" (specific 1570/25 years not corroborated)
+
+**vivaldi-lost-operas.ts**
+- *Argippo* reconstruction "In 2012, ... Ondrej Macek found recopied arias from it in a collection in Regensburg" → "In 2006, ... Ondřej Macek found a substantial portion of the score in the Thurn und Taxis archive at Regensburg; his Hofmusici ensemble gave the first modern performance at Prague Castle in 2008" (correct year and adds known performance fact)
+
+**chinese-paddlefish.ts**
+- "Three Gorges Dam, completed in 2003" → "Three Gorges Dam, whose reservoir began filling in 2003 and whose main structure was completed in 2006" (conflated reservoir filling with full completion)
+
+**red-dye-no-2.ts** (most fabricated dates in a single entry — required largest rewrite)
+- Tagline: "banned it on February 12, 1976" → "announced the ban on January 19, 1976" (no Feb 12 event in the record; FDA announced Jan 19, Federal Register notices Feb 10/13)
+- Cause + body + quickFacts U.S. ban date + keyDate + keyDateLabel all updated to match
+- Body: Soviet study "In 1970, researchers at the Soviet Union's Institute of Nutrition in Moscow" → "In 1971, Soviet researchers" (specific institute attribution not verifiable; year corrected)
+- Body: 1971/1.2M-pounds figure → softened to "By the mid-1970s ... well over a million pounds a year" (specific 1971 figure unverified)
+- Body: "ten-year-old Paul Hethmon" → "University of Tennessee student Paul Hethmon — who had founded the Society as a freshman in 1982" (Hethmon was an 18-year-old UT freshman in 1982, not a ten-year-old; significant factual error)
+
+### Patterns of overconfidence
+- Specific months on ancient destructions ("January 330 BCE", "February 1221") tend to be conflations of "campaign began in X" with "the destruction itself"
+- Famous-date pattern-matching (Cluny "4 August 1790" echoing Night of August 4, 1789)
+- Conflating "describer" and "namer" of biological species, and confusing specimen-collection year with formal-description year (ryukyu-pigeon)
+- Conflating reservoir filling vs. dam completion (chinese-paddlefish)
+- Library transfer histories prone to misdating (bobbio mixed up Borromeo 1606 with Vatican 1618)
+- Modern era is the most strict: red-dye-no-2 contained the only outright fabricated event-date in the audit
+

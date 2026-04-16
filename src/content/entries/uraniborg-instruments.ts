@@ -28,7 +28,7 @@ Uraniborg and Stjerneborg did not survive his departure. Within a few years, bot
 
 Brahe eventually arrived at the court of Emperor Rudolf II in Prague, where he had the instruments he had saved from Hven shipped to him. He died there in 1601, still working on a replacement for the Ptolemaic cosmology. His son-in-law Franciscus Tengnagel and his heirs fought Kepler over custody of the instruments, and in the lawsuits that followed, most of the instruments were crated and stored.
 
-Then came the Bohemian phase of the Thirty Years' War. By 1619 the instruments that had remained in Prague were, with a single exception, destroyed. That one surviving piece was Brahe's great celestial globe, a brass-shelled sphere he had ordered from Augsburg in 1570 and worked on continuously for twenty-five years, engraving the positions of over a thousand stars onto its surface. The globe found its way back to the University of Copenhagen's observatory tower, the Rundetårn.
+Then came the Bohemian phase of the Thirty Years' War. By 1619 the instruments that had remained in Prague were, with a single exception, destroyed. That one surviving piece was Brahe's great celestial globe, a brass-shelled sphere he had commissioned at Augsburg around 1570 and refined over many years, engraving the positions of over a thousand stars onto its surface. The globe found its way back to the University of Copenhagen's observatory tower, the Rundetårn.
 
 On the night of 20 October 1728, a fire broke out in Copenhagen that destroyed some 1,600 houses and burned for days. The observatory tower was gutted, and every instrument and book it held was lost. The globe — the last physical trace of Brahe's twenty-one-year observing programme — was among them.
 
