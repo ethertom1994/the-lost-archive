@@ -157,7 +157,7 @@ export default function SearchBar({ onClose, expanded }: SearchBarProps) {
           >
             {results.length === 0 ? (
               <li className="px-4 py-3 text-sm text-text-tertiary">
-                No results for "{query}"
+                Nothing in the archive matches that. Try a broader term.
               </li>
             ) : (
               results.map((entry, i) => {
