@@ -328,3 +328,29 @@ Browser tools (Claude in Chrome / Preview) were unavailable in this session, so 
 
 3. **Header mobile hamburger + bottom MobileNav duplication** — the site has both a hamburger drawer and bottom-tab navigation. User preference memory says "Mobile: bottom tabs only, no hamburger menu or sidebar drawer." This is an existing design decision pre-dating the 62 new entries; out of scope for this audit but worth flagging for a separate cleanup pass.
 
+## Phase 8: Deploy & Verify
+
+- `git push origin main` ✓ (89ab4b6 → 7642c75, 7 audit commits)
+- `npx vercel --prod` ✓ (deployment `dpl_HkXozeu27GwAZZbji813qo8WwqSE`, readyState READY)
+- Canonical URL: https://the-lost-archive-chi.vercel.app/
+- Sitemap verified on prod contains red-dye-no-2, florida-acropora, vivaldi-lost-operas (entries with Phase 2/3/4 corrections)
+- Lighthouse scores: not collected — requires browser tool access which was unavailable this session
+
+## Final totals
+
+- New entries audited: 64 (the 62 in commit e9babcf plus 2 subsequent additions in same commit; 4 orphans from that commit were removed as part of the original session cleanup)
+- Sources: ~140 URLs checked — 135 OK, 2 URLs replaced (host redirect / wrong-article fix), 3 source metadata corrections (wrong author/year), 0 claims removed, 0 entries flagged for removal
+- Dates: ~150 specific dates checked — 135 verified, 11 corrected, 9 softened
+- Named entities: ~250 persons + ~80 works checked — 9 unverifiable specifics removed, 4 wrong attributions corrected, 0 entries flagged for human removal
+- Duplicates: 0 removed (293 before, 293 after). 1 partial-overlap pair flagged for human attention (maya-codex-burning / mixtec-codices)
+- Connections: 5 broken references (all to slugs removed in the original commit's cleanup), 5 fixed
+- Mobile: 2 touch-target issues fixed (Header buttons, ShareButton); 3 deferred issues documented
+- Final entry count: 293
+- Lighthouse scores: not collected (browser tool unavailable)
+
+## Deferred issues requiring human decision
+
+1. **maya-codex-burning / mixtec-codices partial overlap** — both describe Spanish destruction of Mesoamerican codices. Keep both, but resolve: (a) the maya-codex-burning slug vs its "Mani Codex Burning" display name; (b) add a cross-reference between them.
+2. **text-text-muted contrast ratio** — ~2.5:1 used in ~60 places for meta/labels. Either lighten the color globally to ~#6B6560 or audit each usage.
+3. **EntryPage img CLS** — add intrinsic width/height via build-time image-metadata pass, or CSS content-visibility hint.
+4. **Mobile nav duplication** — per user memory, bottom tabs only; remove the hamburger drawer in Header.
