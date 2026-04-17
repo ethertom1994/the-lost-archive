@@ -81,10 +81,14 @@ export default function VanishingPage() {
   const [focusedYear, setFocusedYear] = useState<number | null>(null);
 
   const { timeline, yearMin, yearMax, chronoList } = useMemo(() => {
+    // Vanishing timeline floor: entries older than the end-Pleistocene are
+    // excluded so the scrubber doesn't stretch across 3+ million years for a
+    // single deep-time outlier (e.g. Lomekwi toolmakers at 3.3 Ma).
+    const TIMELINE_FLOOR = -15000;
     const tl: Omit<MapEntry, 'state' | 'fadeStart' | 'px' | 'py'>[] = [];
     for (const e of entries) {
       const year = parseYear(e.lastKnownYear);
-      if (year === null || !e.coordinates) continue;
+      if (year === null || year < TIMELINE_FLOOR || !e.coordinates) continue;
       tl.push({
         slug: e.slug, name: e.name, year, category: e.category,
         lng: e.coordinates[1], lat: e.coordinates[0],
@@ -94,15 +98,18 @@ export default function VanishingPage() {
     const yMin = tl.length > 0 ? tl[0].year - 200 : -3000;
     const yMax = tl.length > 0 ? tl[tl.length - 1].year + 10 : 2025;
 
-    const cl = entries.map(e => ({
-      slug: e.slug, name: e.name, category: e.category,
-      year: parseYear(e.lastKnownYear),
-      yearDisplay: String(e.lastKnownYear),
-    })).sort((a, b) => {
-      if (a.year === null) return 1;
-      if (b.year === null) return -1;
-      return a.year - b.year;
-    });
+    const cl = entries
+      .map(e => ({
+        slug: e.slug, name: e.name, category: e.category,
+        year: parseYear(e.lastKnownYear),
+        yearDisplay: String(e.lastKnownYear),
+      }))
+      .filter(e => e.year === null || e.year >= TIMELINE_FLOOR)
+      .sort((a, b) => {
+        if (a.year === null) return 1;
+        if (b.year === null) return -1;
+        return a.year - b.year;
+      });
 
     return { timeline: tl, yearMin: yMin, yearMax: yMax, chronoList: cl };
   }, []);
