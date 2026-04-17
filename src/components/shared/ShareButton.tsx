@@ -33,7 +33,7 @@ export default function ShareButton({ title, text }: ShareButtonProps) {
   return (
     <button
       onClick={share}
-      className="inline-flex items-center gap-1.5 text-sm text-text-tertiary hover:text-text-primary bg-bg-card border border-border-subtle rounded-lg px-3 py-1.5 transition-colors duration-300 cursor-pointer"
+      className="inline-flex items-center gap-1.5 text-sm text-text-tertiary hover:text-text-primary bg-bg-card border border-border-subtle rounded-lg px-3 py-2.5 min-h-[44px] transition-colors duration-300 cursor-pointer"
       aria-label={copied ? 'Link copied' : 'Share this entry'}
     >
       {copied ? <Check size={14} className="text-accent" /> : <Share2 size={14} />}

@@ -295,3 +295,36 @@ Ran a script over all 293 entries, scanning the `connections` array for any refe
 - 5 broken connections found, 5 fixed (3 removed, 2 replaced with thematically appropriate live entries)
 - All 293 entries' connections now resolve
 
+## Phase 7: Mobile Breakpoint Pass
+
+Browser tools (Claude in Chrome / Preview) were unavailable in this session, so this phase is a static audit by reading component code and Tailwind classes. Subagent delegation for this phase was rate-limited, so the review was done directly against the highest-risk components (Header, ShareButton, WanderButton, MobileNav, EntryCard, EntryPage, StoryPage, VanishingPage, img tags site-wide).
+
+### Issues found and fixed
+
+**src/components/layout/Header.tsx:49, :56** — mobile header buttons
+- Before: `p-2` (8px padding) around 20px icon → 36×36px total, under 44×44px minimum touch target
+- After: `p-3` (12px padding) → 44×44px total, meets WCAG touch target minimum
+
+**src/components/shared/ShareButton.tsx:36** — share button height
+- Before: `py-1.5` (~28px total height)
+- After: `py-2.5 min-h-[44px]` (44px minimum height), preserves visual weight while meeting touch target minimum
+
+### Already verified as OK
+- Body: `overflow-x: hidden` set on root, prevents horizontal scroll
+- MobileNav tap targets: `min-w-[56px] py-2 px-3` → 56×44 → OK
+- WanderButton: `min-w-[64px] py-2 px-4` → OK
+- EntryCard images: fixed `h-40` container with `object-cover` — no layout shift
+- StoryPage images: `aspect-[16/10]` and `aspect-[16/9]` already applied
+- Home page scroll carousel: `min-w-[280px] max-w-[320px] snap-x snap-mandatory` — correct mobile pattern
+- Explorer tabs: `overflow-x-auto snap-x` — correct scroll pattern
+- Focus visible styles: `:focus-visible` outline defined in index.css
+- Color contrast for readable body text: `text-secondary` (#A09A92) on `bg-void` (#0A0A0A) is ~7.5:1 → passes WCAG AA
+
+### Deferred issues (require design decisions out of audit scope)
+
+1. **text-text-muted (#4A4540) contrast on #0A0A0A is ~2.5:1** — used ~60 places for meta labels, years, hints, captions. This fails WCAG AA for readable text but is intentionally muted in the museum aesthetic. Fixing would require lightening the color globally or restricting its use to decorative elements only. Recommendation: bump `--color-text-muted` to ~#6B6560 (~4.0:1) for a minor tweak, or audit each usage for readability criticality.
+
+2. **EntryPage img at src/pages/EntryPage.tsx:146** has no `aspect-ratio` or intrinsic width/height, causing CLS during image load. Entry images have varied aspect ratios so forcing a crop (e.g. `aspect-[4/3]`) would be destructive. Recommendation: generate width/height attributes during a build-time image-metadata pass, or add `content-visibility: auto; contain-intrinsic-size: 0 300px;` CSS.
+
+3. **Header mobile hamburger + bottom MobileNav duplication** — the site has both a hamburger drawer and bottom-tab navigation. User preference memory says "Mobile: bottom tabs only, no hamburger menu or sidebar drawer." This is an existing design decision pre-dating the 62 new entries; out of scope for this audit but worth flagging for a separate cleanup pass.
+

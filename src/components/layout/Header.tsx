@@ -46,14 +46,14 @@ export default function Header() {
         {/* Mobile search + menu buttons */}
         <div className="flex items-center gap-1 md:hidden">
           <button
-            className="p-2 text-text-secondary hover:text-text-primary transition-colors"
+            className="p-3 text-text-secondary hover:text-text-primary transition-colors"
             onClick={() => { setSearchOpen(!searchOpen); setMenuOpen(false); }}
             aria-label={searchOpen ? 'Close search' : 'Open search'}
           >
             {searchOpen ? <X size={20} /> : <Search size={20} />}
           </button>
           <button
-            className="-mr-2 p-2 text-text-secondary hover:text-text-primary transition-colors"
+            className="-mr-1 p-3 text-text-secondary hover:text-text-primary transition-colors"
             onClick={() => { setMenuOpen(!menuOpen); setSearchOpen(false); }}
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={menuOpen}
